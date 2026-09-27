@@ -1,5 +1,9 @@
 # FDDD · Fly-Driven Drug Development
 
+<p align="center">
+  <a href="https://flybrain.kr"><img src="docs/assets/fddd-showreel-15s.gif" alt="FDDD 15-second motion showreel — connectome, protein docking, fly swarm" width="100%"></a>
+</p>
+
 [한국어](README.md) | **English**
 
 **A browser-based research demo where fruit-fly neural models explore molecules and learn preferences from molecular docking scores.**

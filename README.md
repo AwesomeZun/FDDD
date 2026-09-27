@@ -1,5 +1,9 @@
 # FDDD · Fly-Driven Drug Development
 
+<p align="center">
+  <a href="https://flybrain.kr"><img src="docs/assets/fddd-showreel-15s.gif" alt="FDDD 15초 모션 쇼릴 — 커넥톰, 단백질 도킹, 초파리 군집" width="100%"></a>
+</p>
+
 **한국어** | [English](README.en.md)
 
 **초파리 신경망 모델이 분자들 사이를 탐색하며, 도킹 점수에 따른 선호를 학습하는 과정을 브라우저에서 관찰하는 연구 데모입니다.**
