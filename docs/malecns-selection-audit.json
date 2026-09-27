@@ -1,0 +1,18 @@
+{
+  "traced": 165122,
+  "selectedNullStatus": 2000,
+  "nullStatusLabels": {
+    "Out of scope": 1991,
+    "(missing)": 9
+  },
+  "outOfScopeClasses": {
+    "ol_sensory": 1982,
+    "ol_intrinsic": 9
+  },
+  "outOfScopeTypes": {
+    "R1-R6": 1982,
+    "(missing)": 7,
+    "L4": 1,
+    "Lai": 1
+  }
+}

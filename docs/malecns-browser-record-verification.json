@@ -1,0 +1,42 @@
+{
+  "dataset": "male-cns:v1.0",
+  "session": "colony-1789420700738-f5ueu4z0t6d",
+  "neurons": 167122,
+  "edges": 6241236,
+  "steps": 5184,
+  "segments": 6,
+  "allFramesVerified": true,
+  "newBrowserDownloads": [],
+  "files": [
+    {
+      "file": "neural-assay-1789420783749.zip",
+      "steps": 64,
+      "segment": 5
+    },
+    {
+      "file": "neural-assay-1789420783636.zip",
+      "steps": 1024,
+      "segment": 4
+    },
+    {
+      "file": "neural-assay-1789420783015.zip",
+      "steps": 1024,
+      "segment": 3
+    },
+    {
+      "file": "neural-assay-1789420782401.zip",
+      "steps": 1024,
+      "segment": 2
+    },
+    {
+      "file": "neural-assay-1789420781768.zip",
+      "steps": 1024,
+      "segment": 1
+    },
+    {
+      "file": "neural-assay-1789420781169.zip",
+      "steps": 1024,
+      "segment": 0
+    }
+  ]
+}

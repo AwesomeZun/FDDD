@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.vercel/
+.DS_Store
+# Large local-only data (see README): raw connectome source, backups, browser spike recordings, raw training spikes
+upstream/
+backups/
+public/data/records/
+public/data/learning/training-spikes.bin
+# FlyWire archive is CC BY-NC and no longer used at runtime; distributed separately
+public/data/flywire/
+scripts/docking/bin/
+*.log
+# Webina (durrantlab/webina, Apache-2.0) is cloned locally for offline docking; see docs/multi-target-docking.md
+.tools/

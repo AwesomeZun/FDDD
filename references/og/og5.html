@@ -1,0 +1,41 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&display=swap');
+html,body{margin:0;width:1200px;height:630px;overflow:hidden;position:relative;background:#070e13;font-family:'DM Sans',sans-serif;color:#dce8f4}
+.bg{position:absolute;inset:0;background:radial-gradient(ellipse 60% 70% at 72% 55%,#0f2a30 0,#0a1820 40%,#070e13 75%)}
+.grid{position:absolute;inset:0;background-image:linear-gradient(#17303a44 1px,transparent 1px),linear-gradient(90deg,#17303a44 1px,transparent 1px);background-size:60px 60px;transform:perspective(900px) rotateX(58deg) translateY(120px) scale(2.2);transform-origin:50% 100%;opacity:.45}
+#brain{position:absolute;left:0;top:0;width:1200px;height:630px}
+.fly{position:absolute;right:20px;top:30px;width:560px;height:340px;background:url(og-fly-crop.png) center/contain no-repeat;mix-blend-mode:screen;-webkit-mask-image:radial-gradient(ellipse 48% 46% at 50% 50%,#000 55%,transparent 100%);mask-image:radial-gradient(ellipse 48% 46% at 50% 50%,#000 55%,transparent 100%)}
+.wrap{position:absolute;left:72px;top:64px}
+.mark{font-size:132px;line-height:.86;font-weight:700;letter-spacing:-2px;margin:0 0 18px -4px;color:#f2f8f7;text-shadow:0 0 40px #0a2a2a}
+.expand{display:flex;gap:14px;font:500 15px 'IBM Plex Mono',monospace;letter-spacing:2.5px;color:#7fb1b3;margin:0 0 26px 2px}.expand b{color:#8be6d3;font-weight:500}
+.tag{font-size:21px;line-height:1.4;color:#c4d6d9;margin:0;max-width:470px;font-weight:400}
+.stats{position:absolute;left:72px;bottom:50px;display:flex;gap:26px;font:12px 'IBM Plex Mono',monospace;color:#7fa3a8}.stats b{color:#e4f3f1;font-weight:500}
+.url{position:absolute;right:72px;bottom:50px;font:14px 'IBM Plex Mono',monospace;letter-spacing:2px;color:#8be6d3}
+.live{position:absolute;right:72px;top:56px;display:inline-flex;align-items:center;gap:8px;border:1px solid #2f6a5c;color:#8be6d3;font:11px 'IBM Plex Mono',monospace;letter-spacing:2px;padding:6px 11px;border-radius:3px;background:#0a1a1acc}
+.live::before{content:'';width:6px;height:6px;border-radius:50%;background:#6fd3c6;box-shadow:0 0 10px #6fd3c6}
+</style></head><body><div class="bg"></div><div class="grid"></div><canvas id="brain"></canvas><div class="fly"></div><span class="live">LIVE · 20 BRAINS</span>
+<div class="wrap"><div class="mark">FDDD</div><p class="expand"><span><b>F</b>LY</span><span><b>D</b>RIVEN</span><span><b>D</b>RUG</span><span><b>D</b>EVELOPMENT</span></p><p class="tag">Fruit-fly brains computed live in your browser, learning a preference over real docking results.</p></div>
+<div class="stats"><span><b>167,122</b> neurons / fly</span><span><b>6.2M</b> connections</span><span><b>8</b> executed Vina complexes</span></div><span class="url">flybrain.kr</span>
+<script type="module">
+import * as T from './three.module.js';
+const REG=[[.30,.95,.85,['cb_sensory','cb_sensory_tbc','ol_sensory','vnc_sensory','vnc_sensory_tbc','sensory_ascending','sensory_ascending_tbc','sensory_descending']],[.55,.62,1,['cb_intrinsic','ol_intrinsic','visual_projection','visual_projection_tbc','visual_centrifugal','vnc_intrinsic']],[1,.72,.30,['descending_neuron','efferent_descending']],[1,.38,.42,['vnc_motor','cb_motor']],[.62,.66,.70,[]]];
+const d=await (await fetch('/data/malecns/display-points.json')).json();const pts=d.points;
+const n=pts.length,pos=new Float32Array(n*3),col=new Float32Array(n*3),size=new Float32Array(n);
+let mn=[1e9,1e9,1e9],mx=[-1e9,-1e9,-1e9];for(const p of pts)for(let k=0;k<3;k++){mn[k]=Math.min(mn[k],p.position[k]);mx[k]=Math.max(mx[k],p.position[k]);}
+const c=[0,1,2].map(k=>(mn[k]+mx[k])/2),span=Math.max(...[0,1,2].map(k=>mx[k]-mn[k]));
+const q=new URLSearchParams(location.search),P=(k,d)=>q.has(k)?Number(q.get(k)):d;let seed=7;const rnd=()=>(seed=(seed*16807)%2147483647)/2147483647;
+pts.forEach((p,i)=>{for(let k=0;k<3;k++)pos[i*3+k]=(p.position[k]-c[k])/span*2;let r=REG.findIndex(x=>x[3].includes(p.group));if(r<0)r=4;const [cr,cg,cb]=REG[r];const fire=rnd()<P('fire',.03);const l=fire?P('lf',.9):P('lb',.10)+rnd()*P('lv',.08);col[i*3]=cr*l+(fire?.25:0);col[i*3+1]=cg*l+(fire?.25:0);col[i*3+2]=cb*l+(fire?.25:0);size[i]=fire?P('sf',5):P('sb',1.6)+rnd()*.8;});
+const g=new T.BufferGeometry();g.setAttribute('position',new T.BufferAttribute(pos,3));g.setAttribute('color',new T.BufferAttribute(col,3));g.setAttribute('psize',new T.BufferAttribute(size,1));
+const cv=document.createElement('canvas');cv.width=cv.height=64;const cx=cv.getContext('2d');const gr=cx.createRadialGradient(32,32,0,32,32,32);gr.addColorStop(0,'rgba(255,255,255,1)');gr.addColorStop(.35,'rgba(255,255,255,.55)');gr.addColorStop(1,'rgba(255,255,255,0)');cx.fillStyle=gr;cx.fillRect(0,0,64,64);const tex=new T.CanvasTexture(cv);
+const mat=new T.ShaderMaterial({uniforms:{map:{value:tex}},vertexShader:`attribute float psize;varying vec3 vc;void main(){vc=color;vec4 mv=modelViewMatrix*vec4(position,1.);gl_PointSize=psize*2.;gl_Position=projectionMatrix*mv;}`,fragmentShader:`uniform sampler2D map;varying vec3 vc;void main(){vec4 t=texture2D(map,gl_PointCoord);gl_FragColor=vec4(vc,1.)*t;}`,vertexColors:true,transparent:true,depthWrite:false,blending:T.AdditiveBlending});
+const cloud=new T.Points(g,mat);const scene=new T.Scene();scene.add(cloud);
+// Orient: longest axis horizontal, brain end on the left, slight tilt like the fly.
+const ext=[0,1,2].map(k=>mx[k]-mn[k]);const longest=ext.indexOf(Math.max(...ext));
+// brain end = half with more points
+let lo=0;for(const p of pts)if(p.position[longest]<c[longest])lo++;const brainAtLow=lo>n/2;
+if(longest===2)cloud.rotation.y=Math.PI/2*(brainAtLow?-1:1);else if(longest===1)cloud.rotation.z=Math.PI/2*(brainAtLow?1:-1);else if(!brainAtLow)cloud.rotation.y=Math.PI;
+const wrap=new T.Group();wrap.add(cloud);wrap.rotation.set(P('rx',.35),P('ry',0),P('rz',.16));scene.add(wrap);console.log('ext',ext,'longest',longest,'brainAtLow',brainAtLow);
+const W=1200,H=630,cam=new T.OrthographicCamera(-W/H*1.02,W/H*1.02,1.02,-1.02,.1,10);cam.position.set(0,0,5);cam.lookAt(0,0,0);
+wrap.position.set(P('px',.62),P('py',-.30),0);wrap.scale.setScalar(P('sc',.72));
+const r=new T.WebGLRenderer({canvas:document.getElementById('brain'),alpha:true,antialias:true,preserveDrawingBuffer:true});r.setPixelRatio(2);r.setSize(W,H,false);r.setClearColor(0,0);r.render(scene,cam);document.body.dataset.ready='1';
+</script></body></html>

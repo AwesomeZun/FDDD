@@ -1,0 +1,67 @@
+{
+  "datasetSha256": "b82d68b092b2f1cde525c6d6647af75a989fdb2dd94f9bc906073daac008e566",
+  "sourceSubsetSha256": "5633e965794a3f3526890781011a5c5fb6f5c3bf3fad584cdcfbce1c1feba95a",
+  "clusterOverlapAcrossSplits": 0,
+  "duplicateConnectivity": 0,
+  "duplicateInchiKey": 0,
+  "sourceIdentityScoreJoinVerified": true,
+  "stats": {
+    "train": {
+      "n": 1600,
+      "clusters": 938,
+      "min": -15.3,
+      "max": -5.7,
+      "mean": -9.224437499999992,
+      "bins": [
+        160,
+        160,
+        160,
+        160,
+        160,
+        160,
+        160,
+        160,
+        160,
+        160
+      ]
+    },
+    "validation": {
+      "n": 400,
+      "clusters": 272,
+      "min": -12.7,
+      "max": -5.9,
+      "mean": -9.226749999999996,
+      "bins": [
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40
+      ]
+    },
+    "test": {
+      "n": 400,
+      "clusters": 400,
+      "min": -14.3,
+      "max": -5.6,
+      "mean": -9.211250000000005,
+      "bins": [
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40
+      ]
+    }
+  }
+}

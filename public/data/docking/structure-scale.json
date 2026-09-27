@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "fddd-shared-molecular-scale-v1",
+  "coordinateUnit": "angstrom",
+  "worldUnitsPerAngstrom": 0.03,
+  "targets": [
+    {
+      "targetId": "parp1-4r6e-chain-a",
+      "receptorUrl": "/data/docking/inputs/4R6E-A_receptor_parp-1.pdbqt",
+      "sha256": "573b53e7cff5fcd49bfcff94b0af2e0a640820abe4c6125af07eecb8190f9aff",
+      "atomCount": 3374,
+      "caCount": 350,
+      "chainCount": 1,
+      "centerAngstrom": [
+        -40.9325,
+        1.2249999999999996,
+        -9.0425
+      ],
+      "dimensionsAngstrom": [
+        61.425,
+        59.263999999999996,
+        50.933
+      ],
+      "dimensionsWorld": [
+        1.8427499999999999,
+        1.7779199999999997,
+        1.52799
+      ],
+      "radiusAngstrom": 38.592538404463625,
+      "radiusWorld": 1.1577761521339087,
+      "minYWorld": -0.8889599999999999,
+      "maxYWorld": 0.8889599999999999
+    },
+    {
+      "targetId": "factor-xa-2p16",
+      "receptorUrl": "/data/docking/inputs/2P16_receptor_factor-Xa.pdbqt",
+      "sha256": "468d654f0b0c0cda3f0cdbbb707579bdc21a527a6bd1c4bb7e26fc72f8782287",
+      "atomCount": 2768,
+      "caCount": 286,
+      "chainCount": 1,
+      "centerAngstrom": [
+        25.095499999999998,
+        49.3045,
+        63.63550000000001
+      ],
+      "dimensionsAngstrom": [
+        62.603,
+        50.629000000000005,
+        40.815000000000005
+      ],
+      "dimensionsWorld": [
+        1.87809,
+        1.5188700000000002,
+        1.22445
+      ],
+      "radiusAngstrom": 34.23630390024601,
+      "radiusWorld": 1.0270891170073801,
+      "minYWorld": -0.759435,
+      "maxYWorld": 0.7594350000000001
+    },
+    {
+      "targetId": "cox2-3ln1",
+      "receptorUrl": "/data/docking/inputs/cox2-3ln1-visual.pdbqt",
+      "sha256": "c649e917b308d7300438667f1b5ff47e4e474900b659e8476f35060d35d0ccfc",
+      "atomCount": 21900,
+      "caCount": 2208,
+      "chainCount": 4,
+      "centerAngstrom": [
+        48.0965,
+        -33.820499999999996,
+        27.745500000000003
+      ],
+      "dimensionsAngstrom": [
+        109.55499999999999,
+        90.167,
+        139.439
+      ],
+      "dimensionsWorld": [
+        3.28665,
+        2.70501,
+        4.18317
+      ],
+      "radiusAngstrom": 77.91068204521123,
+      "radiusWorld": 2.3373204613563368,
+      "minYWorld": -1.352505,
+      "maxYWorld": 1.3525049999999998
+    }
+  ],
+  "notes": [
+    "All receptor and ligand coordinates share one global uniform scale.",
+    "Dimensions describe prepared structures, including all retained chains; not full-length protein size when the source is a domain.",
+    "Spherical radii enclose source receptor atoms and can guide authored navigation; they are not molecular surfaces or physical contact measurements.",
+    "Fly bodies are navigation avatars, not rendered to molecular physical scale."
+  ]
+}

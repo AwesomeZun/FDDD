@@ -1,0 +1,284 @@
+{
+  "schemaVersion": "fddd-real-docking-v1",
+  "computed": true,
+  "computedAt": "2026-09-14T18:58:03.455Z",
+  "manifestGeneratedAt": "2026-09-14T18:58:03.471Z",
+  "target": {
+    "id": "parp1-4r6e-chain-a",
+    "name": "Human PARP1 catalytic domain",
+    "pdbId": "4R6E",
+    "chain": "A",
+    "sourceUrl": "https://www.rcsb.org/structure/4R6E",
+    "structurePath": "/data/docking/inputs/4R6E-A_receptor_parp-1.pdbqt",
+    "sourceStructurePath": "/data/docking/inputs/4R6E.pdb",
+    "receptorSha256": "573b53e7cff5fcd49bfcff94b0af2e0a640820abe4c6125af07eecb8190f9aff"
+  },
+  "method": {
+    "tool": "AutoDock Vina",
+    "version": "1.2.3",
+    "runtime": "Webina / MolModa WebAssembly build, executed locally in Node worker_threads",
+    "scoringFunction": "vina",
+    "units": "kcal/mol",
+    "seed": 20260914,
+    "exhaustiveness": 4,
+    "cpu": 1,
+    "numModes": 5,
+    "box": {
+      "center": [
+        -39,
+        5,
+        -8
+      ],
+      "size": [
+        15,
+        20,
+        14
+      ]
+    },
+    "boxSource": "Webina published 4R6E-A docking parameters around the niraparib co-crystal binding site",
+    "rankingDirection": "lower-is-better",
+    "experimentalAffinity": false
+  },
+  "compounds": [
+    {
+      "id": "15r",
+      "name": "PARP1 inhibitor 15R",
+      "file": "4HHY_ligand_benzo-de-1-7-naphthyridin-7-8H-one-derivative",
+      "pdbId": "4HHY",
+      "ccdId": "15R",
+      "role": "co-crystallized experimental PARP1 inhibitor",
+      "sourceUrl": "https://github.com/durrantlab/webina/blob/4230729e7dad197b4c77912dffe30c8bcdd492ba/docking_files/bio-examples/parp-1/4HHY_ligand_benzo-de-1-7-naphthyridin-7-8H-one-derivative.pdbqt",
+      "identityUrl": "https://www.rcsb.org/ligand/15R",
+      "score": -13.093,
+      "scoreKcalMol": -13.093,
+      "inputPath": "/data/docking/inputs/4HHY_ligand_benzo-de-1-7-naphthyridin-7-8H-one-derivative.pdbqt",
+      "posesPath": "/data/docking/poses/4HHY_ligand_benzo-de-1-7-naphthyridin-7-8H-one-derivative.pdbqt",
+      "logPath": "/data/docking/poses/4HHY_ligand_benzo-de-1-7-naphthyridin-7-8H-one-derivative.log",
+      "inputSha256": "04f725c440f3cac34ca8e9113f7d1ef47eeaf0eaf22982f7c35775ef7035cccc",
+      "posesSha256": "7da927bea45ac5474839e5c446a0ef20c76ab6ad7001cad4f7363e38df2bee8e",
+      "poses": [
+        {
+          "rank": 1,
+          "score": -13.093,
+          "rmsdLowerBoundFromBest": 0,
+          "rmsdUpperBoundFromBest": 0
+        },
+        {
+          "rank": 2,
+          "score": -12.935,
+          "rmsdLowerBoundFromBest": 1.423,
+          "rmsdUpperBoundFromBest": 1.935
+        },
+        {
+          "rank": 3,
+          "score": -12.214,
+          "rmsdLowerBoundFromBest": 2.525,
+          "rmsdUpperBoundFromBest": 9.981
+        },
+        {
+          "rank": 4,
+          "score": -11.81,
+          "rmsdLowerBoundFromBest": 2.697,
+          "rmsdUpperBoundFromBest": 9.185
+        },
+        {
+          "rank": 5,
+          "score": -11.011,
+          "rmsdLowerBoundFromBest": 2.524,
+          "rmsdUpperBoundFromBest": 3.808
+        }
+      ],
+      "cid": 78225401,
+      "formula": "C33H30FN5O4",
+      "molecularWeight": 579.621,
+      "smiles": "c1ccc2c(c1)C(=NNC2=O)Cc3ccc(c(c3)C(=O)N4CCC(CC4)C(=O)N5CCc6cccc7c6[C@@H]5CNC7=O)F",
+      "propertySourceUrl": "https://data.rcsb.org/rest/v1/core/chemcomp/15R",
+      "smilesKind": "RCSB stereo SMILES",
+      "structurePath": "/data/docking/depictions/15r.png",
+      "depictionSourceUrl": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/78225401/PNG?image_size=300x300"
+    },
+    {
+      "id": "pamiparib",
+      "name": "Pamiparib",
+      "file": "parp-1_ligand_pamiparib",
+      "role": "PARP inhibitor comparison",
+      "sourceUrl": "https://github.com/durrantlab/webina/blob/4230729e7dad197b4c77912dffe30c8bcdd492ba/docking_files/bio-examples/parp-1/parp-1_ligand_pamiparib.pdbqt",
+      "identityUrl": "https://pubchem.ncbi.nlm.nih.gov/#query=Pamiparib",
+      "score": -11.085,
+      "scoreKcalMol": -11.085,
+      "inputPath": "/data/docking/inputs/parp-1_ligand_pamiparib.pdbqt",
+      "posesPath": "/data/docking/poses/parp-1_ligand_pamiparib.pdbqt",
+      "logPath": "/data/docking/poses/parp-1_ligand_pamiparib.log",
+      "inputSha256": "e176980e50d9fe858ca11f0af2cd3c489ede3491d89c9586ffd24fe2b6cdd2c8",
+      "posesSha256": "5a2dd3d2dc7fa3f7d077ee108ca14e9e407687246ee789e4ffc8000558ab8333",
+      "poses": [
+        {
+          "rank": 1,
+          "score": -11.085,
+          "rmsdLowerBoundFromBest": 0,
+          "rmsdUpperBoundFromBest": 0
+        },
+        {
+          "rank": 2,
+          "score": -9.791,
+          "rmsdLowerBoundFromBest": 2.383,
+          "rmsdUpperBoundFromBest": 4.39
+        },
+        {
+          "rank": 3,
+          "score": -9.49,
+          "rmsdLowerBoundFromBest": 2.075,
+          "rmsdUpperBoundFromBest": 3.804
+        },
+        {
+          "rank": 4,
+          "score": -9.195,
+          "rmsdLowerBoundFromBest": 2.275,
+          "rmsdUpperBoundFromBest": 3.038
+        },
+        {
+          "rank": 5,
+          "score": -8.643,
+          "rmsdLowerBoundFromBest": 6.511,
+          "rmsdUpperBoundFromBest": 8.619
+        }
+      ],
+      "cid": 135565554,
+      "formula": "C16H15FN4O",
+      "molecularWeight": 298.31,
+      "smiles": "CC12CCCN1CC3=NNC(=O)C4=C5C3=C2NC5=CC(=C4)F",
+      "propertySourceUrl": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Pamiparib/property/MolecularFormula,MolecularWeight,CanonicalSMILES/JSON",
+      "smilesKind": "PubChem connectivity SMILES",
+      "structurePath": "/data/docking/depictions/pamiparib.png",
+      "depictionSourceUrl": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/135565554/PNG?image_size=300x300"
+    },
+    {
+      "id": "niraparib",
+      "name": "Niraparib",
+      "file": "4R6E_ligand_niraparib",
+      "pdbId": "4R6E",
+      "role": "co-crystal redocking control",
+      "sourceUrl": "https://github.com/durrantlab/webina/blob/4230729e7dad197b4c77912dffe30c8bcdd492ba/docking_files/bio-examples/parp-1/4R6E_ligand_niraparib.pdbqt",
+      "identityUrl": "https://www.rcsb.org/structure/4R6E",
+      "score": -10.178,
+      "scoreKcalMol": -10.178,
+      "inputPath": "/data/docking/inputs/4R6E_ligand_niraparib.pdbqt",
+      "posesPath": "/data/docking/poses/4R6E_ligand_niraparib.pdbqt",
+      "logPath": "/data/docking/poses/4R6E_ligand_niraparib.log",
+      "inputSha256": "a561742a0c8a99705ce18c2922e7912f578c3c2318b3294ee8e38b6b0390468a",
+      "posesSha256": "b90fc9d4872c3fc28683bc9f8408850e89197a571c4153d5636992ee3d1ac794",
+      "poses": [
+        {
+          "rank": 1,
+          "score": -10.178,
+          "rmsdLowerBoundFromBest": 0,
+          "rmsdUpperBoundFromBest": 0
+        },
+        {
+          "rank": 2,
+          "score": -9.916,
+          "rmsdLowerBoundFromBest": 4.295,
+          "rmsdUpperBoundFromBest": 5.666
+        },
+        {
+          "rank": 3,
+          "score": -9.541,
+          "rmsdLowerBoundFromBest": 5.263,
+          "rmsdUpperBoundFromBest": 6.116
+        },
+        {
+          "rank": 4,
+          "score": -9.19,
+          "rmsdLowerBoundFromBest": 1.582,
+          "rmsdUpperBoundFromBest": 2.655
+        },
+        {
+          "rank": 5,
+          "score": -9.06,
+          "rmsdLowerBoundFromBest": 6.065,
+          "rmsdUpperBoundFromBest": 8.43
+        }
+      ],
+      "cid": 24958200,
+      "formula": "C19H20N4O",
+      "molecularWeight": 320.4,
+      "smiles": "C1CC(CNC1)C2=CC=C(C=C2)N3C=C4C=CC=C(C4=N3)C(=O)N",
+      "propertySourceUrl": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Niraparib/property/MolecularFormula,MolecularWeight,CanonicalSMILES/JSON",
+      "smilesKind": "PubChem connectivity SMILES",
+      "structurePath": "/data/docking/depictions/niraparib.png",
+      "depictionSourceUrl": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/24958200/PNG?image_size=300x300"
+    },
+    {
+      "id": "rucaparib",
+      "name": "Rucaparib",
+      "file": "4RV6_ligand_rucaparib",
+      "pdbId": "4RV6",
+      "role": "PARP inhibitor comparison",
+      "sourceUrl": "https://github.com/durrantlab/webina/blob/4230729e7dad197b4c77912dffe30c8bcdd492ba/docking_files/bio-examples/parp-1/4RV6_ligand_rucaparib.pdbqt",
+      "identityUrl": "https://www.rcsb.org/structure/4RV6",
+      "score": -9.769,
+      "scoreKcalMol": -9.769,
+      "inputPath": "/data/docking/inputs/4RV6_ligand_rucaparib.pdbqt",
+      "posesPath": "/data/docking/poses/4RV6_ligand_rucaparib.pdbqt",
+      "logPath": "/data/docking/poses/4RV6_ligand_rucaparib.log",
+      "inputSha256": "5575d100ca236726e7162e93cfe7f7846d46e87193003d1de90a3b46443ed97a",
+      "posesSha256": "c61d82f8c110fe6db420f0a94132aba780446b47d99d6e6378bc61fbbe14c15f",
+      "poses": [
+        {
+          "rank": 1,
+          "score": -9.769,
+          "rmsdLowerBoundFromBest": 0,
+          "rmsdUpperBoundFromBest": 0
+        },
+        {
+          "rank": 2,
+          "score": -9.269,
+          "rmsdLowerBoundFromBest": 5.471,
+          "rmsdUpperBoundFromBest": 8.344
+        },
+        {
+          "rank": 3,
+          "score": -9.143,
+          "rmsdLowerBoundFromBest": 4.616,
+          "rmsdUpperBoundFromBest": 7.477
+        },
+        {
+          "rank": 4,
+          "score": -9.142,
+          "rmsdLowerBoundFromBest": 4.468,
+          "rmsdUpperBoundFromBest": 6.44
+        },
+        {
+          "rank": 5,
+          "score": -9.036,
+          "rmsdLowerBoundFromBest": 4.744,
+          "rmsdUpperBoundFromBest": 7.606
+        }
+      ],
+      "cid": 9931954,
+      "formula": "C19H18FN3O",
+      "molecularWeight": 323.4,
+      "smiles": "CNCC1=CC=C(C=C1)C2=C3CCNC(=O)C4=C3C(=CC(=C4)F)N2",
+      "propertySourceUrl": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Rucaparib/property/MolecularFormula,MolecularWeight,CanonicalSMILES/JSON",
+      "smilesKind": "PubChem connectivity SMILES",
+      "structurePath": "/data/docking/depictions/rucaparib.png",
+      "depictionSourceUrl": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/9931954/PNG?image_size=300x300"
+    }
+  ],
+  "provenance": {
+    "preparedInputRepository": "https://github.com/durrantlab/webina",
+    "preparedInputRevision": "4230729e7dad197b4c77912dffe30c8bcdd492ba",
+    "runtimeRepository": "https://github.com/durrantlab/molmoda",
+    "runtimeRevision": "5f32c54ef01e43a19d83c6671b4a6868f665eafb",
+    "runtimeWasmSha256": "702192bed93a6a254b8a06dc10c886d68bfc4079a2613853cbe1de39a6ac7d87"
+  },
+  "limitations": [
+    "Docking score is not measured Kd, Ki or IC50 and is not a calibrated binding free energy.",
+    "Rigid single receptor conformation; prepared PDBQT inputs reused from published Webina examples, not newly protonated locally.",
+    "Binding-site water, protonation/tautomer uncertainty, receptor flexibility and solvation are not comprehensively modeled.",
+    "Single seed and exhaustiveness4 provide exploratory screening, not converged affinity estimates.",
+    "Niraparib is the co-crystal redocking control; atom-mapped redocking RMSD has NOT been calculated. Pose RMSD columns are relative to each docking run best pose, not crystallographic RMSD.",
+    "Ligand size and chemistry can bias scores. Ranking is specific to this setup and does not establish efficacy/selectivity.",
+    "Fly neural activity is a separate engineered response to chemical-representation descriptors; docking scores are excluded from neural inputs."
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "factor-xa-2p16--apixaban",
+  "targetId": "factor-xa-2p16",
+  "compoundId": "apixaban",
+  "receptor": "2P16_receptor_factor-Xa.pdbqt",
+  "ligand": "2P16_ligand_apixaban.pdbqt",
+  "center": [
+    7.48497143,
+    43.97488571,
+    62.17711429
+  ],
+  "size": [
+    20,
+    20,
+    20
+  ]
+}

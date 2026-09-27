@@ -1,0 +1,17 @@
+{
+  "id": "cox2-3ln1--celecoxib",
+  "targetId": "cox2-3ln1",
+  "compoundId": "celecoxib",
+  "receptor": "3LN1_receptor_COX-2.pdbqt",
+  "ligand": "3LN1_liganbd_celecoxib.pdbqt",
+  "center": [
+    30.98857692,
+    -22.28361538,
+    -16.50723077
+  ],
+  "size": [
+    20,
+    20,
+    20
+  ]
+}

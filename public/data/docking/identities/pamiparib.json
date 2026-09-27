@@ -1,0 +1,13 @@
+{
+  "sourceUrl": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Pamiparib/property/MolecularFormula,MolecularWeight,CanonicalSMILES/JSON",
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 135565554,
+        "MolecularFormula": "C16H15FN4O",
+        "MolecularWeight": "298.31",
+        "ConnectivitySMILES": "CC12CCCN1CC3=NNC(=O)C4=C5C3=C2NC5=CC(=C4)F"
+      }
+    ]
+  }
+}

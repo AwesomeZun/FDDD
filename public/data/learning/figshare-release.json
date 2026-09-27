@@ -1,0 +1,696 @@
+{
+  "files": [
+    {
+      "id": 35948084,
+      "name": "ABL1.sdf.xz",
+      "size": 63046980,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/35948084",
+      "supplied_md5": "f81a5b64c09b82259fe32bbe54ef3130",
+      "computed_md5": "f81a5b64c09b82259fe32bbe54ef3130",
+      "mimetype": "application/x-xz"
+    },
+    {
+      "id": 35948087,
+      "name": "ACHE.sdf.xz",
+      "size": 62393196,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/35948087",
+      "supplied_md5": "edc3b91759d2bfffb81960b157c3dac2",
+      "computed_md5": "edc3b91759d2bfffb81960b157c3dac2",
+      "mimetype": "application/x-xz"
+    },
+    {
+      "id": 35948090,
+      "name": "ADAM17.sdf.xz",
+      "size": 62322556,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/35948090",
+      "supplied_md5": "fdf5300167a7bef0f1a03df3c527a660",
+      "computed_md5": "fdf5300167a7bef0f1a03df3c527a660",
+      "mimetype": "application/x-xz"
+    },
+    {
+      "id": 35948093,
+      "name": "ADORA2A.sdf.xz",
+      "size": 62275480,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/35948093",
+      "supplied_md5": "2f24eed4245e23b415a6acea757138f6",
+      "computed_md5": "2f24eed4245e23b415a6acea757138f6",
+      "mimetype": "application/x-xz"
+    },
+    {
+      "id": 35948096,
+      "name": "ADRB1.sdf.xz",
+      "size": 62442320,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/35948096",
+      "supplied_md5": "914ac7c3b100e731f04746476a6bf4ec",
+      "computed_md5": "914ac7c3b100e731f04746476a6bf4ec",
+      "mimetype": "application/x-xz"
+    },
+    {
+      "id": 35948099,
+      "name": "ADRB2.sdf.xz",
+      "size": 62465836,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/35948099",
+      "supplied_md5": "d93ab68c4bfd32c5c3c9359e7e96f239",
+      "computed_md5": "d93ab68c4bfd32c5c3c9359e7e96f239",
+      "mimetype": "application/x-xz"
+    },
+    {
+      "id": 35948102,
+      "name": "AKT1.sdf.xz",
+      "size": 62245232,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/35948102",
+      "supplied_md5": "d4a346ee8a4437fad56aad160a2eb6c7",
+      "computed_md5": "d4a346ee8a4437fad56aad160a2eb6c7",
+      "mimetype": "application/x-xz"
+    },
+    {
+      "id": 35948105,
+      "name": "AKT2.sdf.xz",
+      "size": 62883004,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/35948105",
+      "supplied_md5": "f133d88b998ab5e52263169c0d77347a",
+      "computed_md5": "f133d88b998ab5e52263169c0d77347a",
+      "mimetype": "application/x-xz"
+    },
+    {
+      "id": 35948108,
+      "name": "AR.sdf.xz",
+      "size": 63738596,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/35948108",
+      "supplied_md5": "6c782e184a2de5a762fa7385452d0c2c",
+      "computed_md5": "6c782e184a2de5a762fa7385452d0c2c",
+      "mimetype": "application/x-xz"
+    },
+    {
+      "id": 35948111,
+      "name": "BACE1.sdf.xz",
+      "size": 62522576,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/35948111",
+      "supplied_md5": "ffcf9cb324261afbcb39ed5a4f0cc85b",
+      "computed_md5": "ffcf9cb324261afbcb39ed5a4f0cc85b",
+      "mimetype": "application/x-xz"
+    },
+    {
+      "id": 35948114,
+      "name": "CA2.sdf.xz",
+      "size": 62994888,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/35948114",
+      "supplied_md5": "f472b1f7fab4ba4741abb0411bfb4a0d",
+      "computed_md5": "f472b1f7fab4ba4741abb0411bfb4a0d",
+      "mimetype": "application/x-xz"
+    },
+    {
+      "id": 35948117,
+      "name": "CASP3.sdf.xz",
+      "size": 62674272,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/35948117",
+      "supplied_md5": "a712452e2486e1a2ff8a4272ae5b626c",
+      "computed_md5": "a712452e2486e1a2ff8a4272ae5b626c",
+      "mimetype": "application/x-xz"
+    },
+    {
+      "id": 35948120,
+      "name": "CDK2.sdf.xz",
+      "size": 62562460,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/35948120",
+      "supplied_md5": "f1da7dd87714ee1abaa5ffa5507ab785",
+      "computed_md5": "f1da7dd87714ee1abaa5ffa5507ab785",
+      "mimetype": "application/x-xz"
+    },
+    {
+      "id": 35948123,
+      "name": "cluster_split.tsv",
+      "size": 25023533,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/35948123",
+      "supplied_md5": "46660336fbc138d5429c3137f081a423",
+      "computed_md5": "46660336fbc138d5429c3137f081a423",
+      "mimetype": "text/plain"
+    },
+    {
+      "id": 35948126,
+      "name": "CSF1R.sdf.xz",
+      "size": 62097600,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/35948126",
+      "supplied_md5": "fcb04ca8a3491324359d457218e7f3a4",
+      "computed_md5": "fcb04ca8a3491324359d457218e7f3a4",
+      "mimetype": "application/x-xz"
+    },
+    {
+      "id": 35948129,
+      "name": "CYP2C9.sdf.xz",
+      "size": 62263780,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/35948129",
+      "supplied_md5": "171494cec37f3ef2e2c61bc411e1f1ef",
+      "computed_md5": "171494cec37f3ef2e2c61bc411e1f1ef",
+      "mimetype": "application/x-xz"
+    },
+    {
+      "id": 35948132,
+      "name": "CYP3A4.sdf.xz",
+      "size": 62386076,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/35948132",
+      "supplied_md5": "f5c1e2e3d2156e6317b72b0f28d52cc2",
+      "computed_md5": "f5c1e2e3d2156e6317b72b0f28d52cc2",
+      "mimetype": "application/x-xz"
+    },
+    {
+      "id": 35948135,
+      "name": "DHFR.sdf.xz",
+      "size": 62190952,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/35948135",
+      "supplied_md5": "afaccae753c727a1f42943838bb09439",
+      "computed_md5": "afaccae753c727a1f42943838bb09439",
+      "mimetype": "application/x-xz"
+    },
+    {
+      "id": 35948138,
+      "name": "dockstring-dataset.tsv",
+      "size": 99384215,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/35948138",
+      "supplied_md5": "d0553abd8563bfbbe862eb1d7ec6be6d",
+      "computed_md5": "d0553abd8563bfbbe862eb1d7ec6be6d",
+      "mimetype": "text/plain"
+    },
+    {
+      "id": 35948141,
+      "name": "DPP4.sdf.xz",
+      "size": 62511616,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/35948141",
+      "supplied_md5": "cb00e587943f7ae4435ea419630404c6",
+      "computed_md5": "cb00e587943f7ae4435ea419630404c6",
+      "mimetype": "application/x-xz"
+    },
+    {
+      "id": 35948144,
+      "name": "DRD2.sdf.xz",
+      "size": 62374032,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/35948144",
+      "supplied_md5": "96712bd62173e274367b2bb150b670ac",
+      "computed_md5": "96712bd62173e274367b2bb150b670ac",
+      "mimetype": "application/x-xz"
+    },
+    {
+      "id": 35948147,
+      "name": "DRD3.sdf.xz",
+      "size": 62291188,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/35948147",
+      "supplied_md5": "34f6b26c1e6aa22edf569146250c291e",
+      "computed_md5": "34f6b26c1e6aa22edf569146250c291e",
+      "mimetype": "application/x-xz"
+    },
+    {
+      "id": 35948150,
+      "name": "EGFR.sdf.xz",
+      "size": 62175752,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/35948150",
+      "supplied_md5": "c2c06cd634e442163ad0b86f174b29f8",
+      "computed_md5": "c2c06cd634e442163ad0b86f174b29f8",
+      "mimetype": "application/x-xz"
+    },
+    {
+      "id": 35948153,
+      "name": "ESR1.sdf.xz",
+      "size": 62662360,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/35948153",
+      "supplied_md5": "340dd4d7316a67c33b18b7b0660213d8",
+      "computed_md5": "340dd4d7316a67c33b18b7b0660213d8",
+      "mimetype": "application/x-xz"
+    },
+    {
+      "id": 35948156,
+      "name": "ESR2.sdf.xz",
+      "size": 62960892,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/35948156",
+      "supplied_md5": "01956ad4e845715d8ac2be611dd4e644",
+      "computed_md5": "01956ad4e845715d8ac2be611dd4e644",
+      "mimetype": "application/x-xz"
+    },
+    {
+      "id": 35948159,
+      "name": "F2.sdf.xz",
+      "size": 62270556,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/35948159",
+      "supplied_md5": "709106e29628124de361effb449a48dd",
+      "computed_md5": "709106e29628124de361effb449a48dd",
+      "mimetype": "application/x-xz"
+    },
+    {
+      "id": 35948162,
+      "name": "F10.sdf.xz",
+      "size": 62375612,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/35948162",
+      "supplied_md5": "863da8a35bcf8990c2042a5ed808c102",
+      "computed_md5": "863da8a35bcf8990c2042a5ed808c102",
+      "mimetype": "application/x-xz"
+    },
+    {
+      "id": 35948165,
+      "name": "FGFR1.sdf.xz",
+      "size": 63427228,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/35948165",
+      "supplied_md5": "67f3065fe61a2312867b022899fa4eef",
+      "computed_md5": "67f3065fe61a2312867b022899fa4eef",
+      "mimetype": "application/x-xz"
+    },
+    {
+      "id": 35948168,
+      "name": "GBA.sdf.xz",
+      "size": 62279908,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/35948168",
+      "supplied_md5": "14c800429bb5ee1a26264a6359ba32e2",
+      "computed_md5": "14c800429bb5ee1a26264a6359ba32e2",
+      "mimetype": "application/x-xz"
+    },
+    {
+      "id": 35948171,
+      "name": "HMGCR.sdf.xz",
+      "size": 63627864,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/35948171",
+      "supplied_md5": "642f73f3ac6d0f396b009fa6905e885f",
+      "computed_md5": "642f73f3ac6d0f396b009fa6905e885f",
+      "mimetype": "application/x-xz"
+    },
+    {
+      "id": 35948174,
+      "name": "HSD11B1.sdf.xz",
+      "size": 62732088,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/35948174",
+      "supplied_md5": "4d42e701e5aaf8381a364a1d20c3ff7f",
+      "computed_md5": "4d42e701e5aaf8381a364a1d20c3ff7f",
+      "mimetype": "application/x-xz"
+    },
+    {
+      "id": 35948177,
+      "name": "HSP90AA1.sdf.xz",
+      "size": 62220236,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/35948177",
+      "supplied_md5": "0a177607ec6cc4d7db6e3d4ad28d5eba",
+      "computed_md5": "0a177607ec6cc4d7db6e3d4ad28d5eba",
+      "mimetype": "application/x-xz"
+    },
+    {
+      "id": 35948180,
+      "name": "IGF1R.sdf.xz",
+      "size": 62288760,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/35948180",
+      "supplied_md5": "f22313ccb5705aec07258e3e5610e846",
+      "computed_md5": "f22313ccb5705aec07258e3e5610e846",
+      "mimetype": "application/x-xz"
+    },
+    {
+      "id": 35948183,
+      "name": "JAK2.sdf.xz",
+      "size": 62341152,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/35948183",
+      "supplied_md5": "c14256dae87d54523670b48f64a71dd8",
+      "computed_md5": "c14256dae87d54523670b48f64a71dd8",
+      "mimetype": "application/x-xz"
+    },
+    {
+      "id": 35948195,
+      "name": "KDR.sdf.xz",
+      "size": 63162552,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/35948195",
+      "supplied_md5": "0159165b9996131f9f3fc5ce82bf70b6",
+      "computed_md5": "0159165b9996131f9f3fc5ce82bf70b6",
+      "mimetype": "application/x-xz"
+    },
+    {
+      "id": 35948213,
+      "name": "KIT.sdf.xz",
+      "size": 62120236,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/35948213",
+      "supplied_md5": "130ad763416923743ab1e9107f6ee943",
+      "computed_md5": "130ad763416923743ab1e9107f6ee943",
+      "mimetype": "application/x-xz"
+    },
+    {
+      "id": 35948216,
+      "name": "LCK.sdf.xz",
+      "size": 62103544,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/35948216",
+      "supplied_md5": "49229ce457f578763dfe7c9b58b6462b",
+      "computed_md5": "49229ce457f578763dfe7c9b58b6462b",
+      "mimetype": "application/x-xz"
+    },
+    {
+      "id": 35948219,
+      "name": "MAOB.sdf.xz",
+      "size": 62986668,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/35948219",
+      "supplied_md5": "b670b2aeffdd53a3499ad86d57f886af",
+      "computed_md5": "b670b2aeffdd53a3499ad86d57f886af",
+      "mimetype": "application/x-xz"
+    },
+    {
+      "id": 35948222,
+      "name": "MAP2K1.sdf.xz",
+      "size": 62116320,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/35948222",
+      "supplied_md5": "efc475477b4cd377bfbb6fd9b7b601e4",
+      "computed_md5": "efc475477b4cd377bfbb6fd9b7b601e4",
+      "mimetype": "application/x-xz"
+    },
+    {
+      "id": 35948225,
+      "name": "MAPK1.sdf.xz",
+      "size": 62765604,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/35948225",
+      "supplied_md5": "928dab75a1ed24a33a707932a013f3eb",
+      "computed_md5": "928dab75a1ed24a33a707932a013f3eb",
+      "mimetype": "application/x-xz"
+    },
+    {
+      "id": 35948228,
+      "name": "MAPK14.sdf.xz",
+      "size": 62096980,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/35948228",
+      "supplied_md5": "c7c5f75e96f1062c211e74a64ff769d5",
+      "computed_md5": "c7c5f75e96f1062c211e74a64ff769d5",
+      "mimetype": "application/x-xz"
+    },
+    {
+      "id": 35948231,
+      "name": "MAPKAPK2.sdf.xz",
+      "size": 62445940,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/35948231",
+      "supplied_md5": "22d2140bfd919f27fbc75c1fa2657d8f",
+      "computed_md5": "22d2140bfd919f27fbc75c1fa2657d8f",
+      "mimetype": "application/x-xz"
+    },
+    {
+      "id": 35948234,
+      "name": "MET.sdf.xz",
+      "size": 63340992,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/35948234",
+      "supplied_md5": "6b56fe14343379194b092b8e624b8091",
+      "computed_md5": "6b56fe14343379194b092b8e624b8091",
+      "mimetype": "application/x-xz"
+    },
+    {
+      "id": 35948237,
+      "name": "MMP13.sdf.xz",
+      "size": 62493812,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/35948237",
+      "supplied_md5": "454101b08cb1470ecc7c18617b2ad167",
+      "computed_md5": "454101b08cb1470ecc7c18617b2ad167",
+      "mimetype": "application/x-xz"
+    },
+    {
+      "id": 35948240,
+      "name": "NOS1.sdf.xz",
+      "size": 62304528,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/35948240",
+      "supplied_md5": "155cc7c92ad82b51832f139774215c47",
+      "computed_md5": "155cc7c92ad82b51832f139774215c47",
+      "mimetype": "application/x-xz"
+    },
+    {
+      "id": 35948243,
+      "name": "NR3C1.sdf.xz",
+      "size": 62606060,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/35948243",
+      "supplied_md5": "d5dfaa591ded3a5cf66c87fb9996ef81",
+      "computed_md5": "d5dfaa591ded3a5cf66c87fb9996ef81",
+      "mimetype": "application/x-xz"
+    },
+    {
+      "id": 35948246,
+      "name": "PARP1.sdf.xz",
+      "size": 62209972,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/35948246",
+      "supplied_md5": "243e908597bd67f04c4fa2ae9462e0e3",
+      "computed_md5": "243e908597bd67f04c4fa2ae9462e0e3",
+      "mimetype": "application/x-xz"
+    },
+    {
+      "id": 35948249,
+      "name": "PDE5A.sdf.xz",
+      "size": 62089504,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/35948249",
+      "supplied_md5": "a01799151592a376774886f722ce7044",
+      "computed_md5": "a01799151592a376774886f722ce7044",
+      "mimetype": "application/x-xz"
+    },
+    {
+      "id": 35948252,
+      "name": "PGR.sdf.xz",
+      "size": 63271132,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/35948252",
+      "supplied_md5": "f60319e37a41229674e2ae66584564b3",
+      "computed_md5": "f60319e37a41229674e2ae66584564b3",
+      "mimetype": "application/x-xz"
+    },
+    {
+      "id": 35948255,
+      "name": "PLK1.sdf.xz",
+      "size": 62443220,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/35948255",
+      "supplied_md5": "9b8aa7504deef653800aa3bb0a890d71",
+      "computed_md5": "9b8aa7504deef653800aa3bb0a890d71",
+      "mimetype": "application/x-xz"
+    },
+    {
+      "id": 35948258,
+      "name": "PPARA.sdf.xz",
+      "size": 62998172,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/35948258",
+      "supplied_md5": "9b01ff891f81628a87fd244f8e8fa93f",
+      "computed_md5": "9b01ff891f81628a87fd244f8e8fa93f",
+      "mimetype": "application/x-xz"
+    },
+    {
+      "id": 35948261,
+      "name": "PPARD.sdf.xz",
+      "size": 62703372,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/35948261",
+      "supplied_md5": "e71de4a79c46f84a44e0f1d41a947895",
+      "computed_md5": "e71de4a79c46f84a44e0f1d41a947895",
+      "mimetype": "application/x-xz"
+    },
+    {
+      "id": 35948264,
+      "name": "PPARG.sdf.xz",
+      "size": 62980952,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/35948264",
+      "supplied_md5": "9387b22bd0d0cced9cb528de530712c4",
+      "computed_md5": "9387b22bd0d0cced9cb528de530712c4",
+      "mimetype": "application/x-xz"
+    },
+    {
+      "id": 35948267,
+      "name": "PTGS2.sdf.xz",
+      "size": 63267500,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/35948267",
+      "supplied_md5": "c774ede532ce42643a2b65c39d456500",
+      "computed_md5": "c774ede532ce42643a2b65c39d456500",
+      "mimetype": "application/x-xz"
+    },
+    {
+      "id": 35948270,
+      "name": "PTK2.sdf.xz",
+      "size": 62518140,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/35948270",
+      "supplied_md5": "01a6e87737b416ab3ab3ce7d1a7d428c",
+      "computed_md5": "01a6e87737b416ab3ab3ce7d1a7d428c",
+      "mimetype": "application/x-xz"
+    },
+    {
+      "id": 35948273,
+      "name": "PTPN1.sdf.xz",
+      "size": 62803092,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/35948273",
+      "supplied_md5": "a062872e580ab29f8d26debcf2e13165",
+      "computed_md5": "a062872e580ab29f8d26debcf2e13165",
+      "mimetype": "application/x-xz"
+    },
+    {
+      "id": 35948276,
+      "name": "REN.sdf.xz",
+      "size": 62593072,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/35948276",
+      "supplied_md5": "85316815844f9a8b4ce01cf4689fdd7b",
+      "computed_md5": "85316815844f9a8b4ce01cf4689fdd7b",
+      "mimetype": "application/x-xz"
+    },
+    {
+      "id": 35948279,
+      "name": "ROCK1.sdf.xz",
+      "size": 62220520,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/35948279",
+      "supplied_md5": "472c6a35dc0b18544ae3522e4f7e3183",
+      "computed_md5": "472c6a35dc0b18544ae3522e4f7e3183",
+      "mimetype": "application/x-xz"
+    },
+    {
+      "id": 35948282,
+      "name": "SRC.sdf.xz",
+      "size": 62510432,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/35948282",
+      "supplied_md5": "f588d460a34c1bf0ed8f979d11f802d2",
+      "computed_md5": "f588d460a34c1bf0ed8f979d11f802d2",
+      "mimetype": "application/x-xz"
+    },
+    {
+      "id": 35948285,
+      "name": "THRB.sdf.xz",
+      "size": 63016648,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/35948285",
+      "supplied_md5": "bca34954f0c182824a8fe62459957b46",
+      "computed_md5": "bca34954f0c182824a8fe62459957b46",
+      "mimetype": "application/x-xz"
+    }
+  ],
+  "folder_structure": {},
+  "authors": [
+    {
+      "id": 11306871,
+      "full_name": "Miguel Garcia Ortegon",
+      "first_name": "Miguel",
+      "last_name": "Garcia Ortegon",
+      "is_active": true,
+      "url_name": "Miguel_Garcia_Ortegon",
+      "orcid_id": ""
+    },
+    {
+      "id": 11512042,
+      "full_name": "Austin Tripp",
+      "first_name": "Austin",
+      "last_name": "Tripp",
+      "is_active": true,
+      "url_name": "Austin_Tripp",
+      "orcid_id": "0000-0002-0138-7740"
+    }
+  ],
+  "custom_fields": [],
+  "figshare_url": "https://figshare.com/articles/dataset/dockstring_dataset/16511577",
+  "download_disabled": false,
+  "description": "<p>Code and dataset for DOCKSTRING paper. Information for downloading and processing the dataset can be found <a href=\"https://github.com/dockstring/dataset\" target=\"_blank\">here</a>.</p>\n<p>For more information, please visit the <a href=\"https://dockstring.github.io/\" target=\"_blank\">dockstring website</a>.</p>",
+  "funding": null,
+  "funding_list": [],
+  "version": 1,
+  "status": "public",
+  "size": 3754621760,
+  "created_date": "2022-06-19T16:32:41Z",
+  "modified_date": "2022-06-19T16:32:42Z",
+  "is_public": true,
+  "is_confidential": false,
+  "is_metadata_record": false,
+  "confidential_reason": "",
+  "metadata_reason": "",
+  "license": {
+    "value": 7,
+    "name": "Apache 2.0",
+    "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
+  },
+  "tags": [
+    "docking",
+    "machine learning",
+    "Cheminformatics"
+  ],
+  "keywords": [
+    "docking",
+    "machine learning",
+    "Cheminformatics"
+  ],
+  "categories": [
+    {
+      "id": 25186,
+      "title": "Cheminformatics and quantitative structure-activity relationships",
+      "parent_id": 25174,
+      "path": "/25066/25174/25186",
+      "source_id": "340404",
+      "taxonomy_id": 100
+    }
+  ],
+  "references": [],
+  "has_linked_file": false,
+  "citation": "Garcia Ortegon, Miguel; Tripp, Austin (2022). dockstring dataset. figshare. Dataset. https://doi.org/10.6084/m9.figshare.16511577.v1",
+  "related_materials": [],
+  "is_embargoed": false,
+  "embargo_date": null,
+  "embargo_type": "file",
+  "embargo_title": "",
+  "embargo_reason": "",
+  "embargo_options": [],
+  "id": 16511577,
+  "title": "dockstring dataset",
+  "doi": "10.6084/m9.figshare.16511577.v1",
+  "handle": "",
+  "url": "https://api.figshare.com/v2/articles/16511577",
+  "published_date": "2022-06-19T16:32:41Z",
+  "thumb": "",
+  "defined_type": 3,
+  "defined_type_name": "dataset",
+  "group_id": null,
+  "url_private_api": "https://api.figshare.com/v2/account/articles/16511577",
+  "url_public_api": "https://api.figshare.com/v2/articles/16511577",
+  "url_private_html": "https://figshare.com/account/articles/16511577",
+  "url_public_html": "https://figshare.com/articles/dataset/dockstring_dataset/16511577",
+  "timeline": {
+    "posted": "2022-06-19T16:32:41",
+    "firstOnline": "2022-06-19"
+  },
+  "resource_title": null,
+  "resource_doi": null
+}

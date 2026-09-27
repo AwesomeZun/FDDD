@@ -1,0 +1,23 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=DM+Sans:wght@400;500;600&display=swap');
+html,body{margin:0;width:1200px;height:630px;overflow:hidden;position:relative;background:#070e13;font-family:'DM Sans',sans-serif;color:#dce8f4}
+.grid{position:absolute;inset:0;background-image:linear-gradient(#17303a55 1px,transparent 1px),linear-gradient(90deg,#17303a55 1px,transparent 1px);background-size:60px 60px;transform:perspective(900px) rotateX(58deg) translateY(120px) scale(2.2);transform-origin:50% 100%;opacity:.55}
+.glow{position:absolute;right:10px;top:-20px;width:720px;height:720px;border-radius:50%;background:radial-gradient(circle,#1b5a5a66 0,#0b2a3022 45%,transparent 70%)}
+.fly{position:absolute;right:-50px;top:70px;width:780px;height:475px;background:url(og-fly-crop.png) center/contain no-repeat;mix-blend-mode:screen;-webkit-mask-image:radial-gradient(ellipse 48% 46% at 50% 50%,#000 55%,transparent 100%);mask-image:radial-gradient(ellipse 48% 46% at 50% 50%,#000 55%,transparent 100%)}
+.brain{position:absolute;right:250px;top:400px;width:150px;height:105px;border:1px solid #234a4a;border-radius:8px;background:#0a1a20 url(og-brain.png) center/cover;box-shadow:0 10px 30px #0009}
+.brain small{position:absolute;left:8px;bottom:6px;font:7px 'IBM Plex Mono',monospace;letter-spacing:1px;color:#6fd3c6}
+.wrap{position:absolute;inset:0;padding:60px 72px;display:flex;flex-direction:column;justify-content:space-between}
+.brand{display:flex;align-items:baseline;gap:18px}.brand b{font-size:42px;letter-spacing:8px;font-weight:600}.brand span{font:12px 'IBM Plex Mono',monospace;letter-spacing:3px;color:#7fb1b3}
+.eyebrow{font:12px 'IBM Plex Mono',monospace;letter-spacing:3px;color:#6fd3c6;margin-bottom:16px}
+h1{font-size:54px;line-height:1.08;font-weight:500;letter-spacing:-1.5px;margin:0 0 20px;max-width:560px}
+p{font-size:18px;line-height:1.5;color:#a9bfc4;margin:0;max-width:440px}
+.stats{display:flex;gap:30px;font:12.5px 'IBM Plex Mono',monospace;color:#8fb0b3}.stats b{color:#e4f3f1;font-weight:500}.stats i{color:#3f5d63;font-style:normal}
+.url{font:14px 'IBM Plex Mono',monospace;letter-spacing:2px;color:#6fd3c6}
+.live{display:inline-flex;align-items:center;gap:8px;border:1px solid #2f6a5c;color:#8be6d3;font:12px 'IBM Plex Mono',monospace;letter-spacing:2px;padding:7px 12px;border-radius:3px;background:#0a1a1a}
+.live::before{content:'';width:7px;height:7px;border-radius:50%;background:#6fd3c6;box-shadow:0 0 10px #6fd3c6}
+.tag{position:absolute;right:250px;top:512px;font:9px 'IBM Plex Mono',monospace;letter-spacing:2px;color:#4f7a80}
+</style></head><body><div class="grid"></div><div class="glow"></div><div class="fly"></div><div class="brain"><small>167,122 NEURONS · LIVE</small></div><span class="tag">DROSOPHILA · PROCEDURAL AVATAR</span><div class="wrap">
+<div style="display:flex;justify-content:space-between;align-items:center"><div class="brand"><b>FDDD</b><span>FLY-DRIVEN DRUG DEVELOPMENT</span></div><span class="live">LIVE · 20 BRAINS</span></div>
+<div><div class="eyebrow">CONTINUOUS CONNECTOME / MOLECULAR PREFERENCE</div><h1>A space to explore.<br>A preference to learn.</h1><p>Fruit-fly brains computed live in your browser, learning a preference over real docking results.</p></div>
+<div style="display:flex;justify-content:space-between;align-items:flex-end"><div class="stats"><span><b>167,122</b> neurons / fly <i>· MaleCNS</i></span><span><b>6.2M</b> connections</span><span><b>8</b> executed Vina complexes</span></div><span class="url">flybrain.kr</span></div>
+</div></body></html>

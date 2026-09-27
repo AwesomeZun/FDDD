@@ -1,0 +1,17 @@
+{
+  "id": "cox2-3ln1--niraparib",
+  "targetId": "cox2-3ln1",
+  "compoundId": "niraparib",
+  "receptor": "3LN1_receptor_COX-2.pdbqt",
+  "ligand": "4R6E_ligand_niraparib.pdbqt",
+  "center": [
+    30.98857692,
+    -22.28361538,
+    -16.50723077
+  ],
+  "size": [
+    20,
+    20,
+    20
+  ]
+}

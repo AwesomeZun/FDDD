@@ -1,0 +1,10 @@
+import {CNS} from '../src/lib/cnsDataset.ts';
+import test from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs/promises';import {Worker as NodeWorker} from 'node:worker_threads';import {FlightExperiment} from '../src/lib/flight.ts';import {colonySensory,createFly,SPIKE_BYTES,advanceFly} from '../src/lib/colonyPolicy.ts';
+test('four independent full brains continuously inspect past 100 with full bitsets',async()=>{
+ const oldFetch=globalThis.fetch,oldWorker=(globalThis as any).Worker;
+ class BrowserWorker{onmessage:any;onerror:any;w=new NodeWorker(new URL('./malecns-worker-harness.mjs',import.meta.url));constructor(){this.w.on('message',data=>this.onmessage?.({data}));this.w.on('error',e=>this.onerror?.(e));}postMessage(m:any){this.w.postMessage(m);}terminate(){void this.w.terminate();}}
+ (globalThis as any).Worker=BrowserWorker;globalThis.fetch=(async(url:any)=>new Response(await fs.readFile(new URL('../public'+String(url),import.meta.url)))) as typeof fetch;
+ const units=Array.from({length:4},(_,i)=>new FlightExperiment(2026+i*7919)),flies=units.map((_,i)=>createFly(i,4));let recorded=0;
+ try{await Promise.all(units.map(u=>u.init()));for(let t=0;t<105;t++){const frames=await Promise.all(units.map((u,i)=>u.inspectAsync(colonySensory({id:String(i),targetId:'target'+i,smiles:['CCCC','CCN','CCO','c1ccccc1'][i],position:[3,2,3]},flies[i],t%4),'baseline',true)));for(let i=0;i<4;i++){const f=frames[i];assert.equal(f.neuronCount,CNS.neuronCount);assert.equal(f.edgeCount,CNS.edgeCount);assert.equal(f.tick,t+1);assert.equal(f.spikeBits?.length,SPIKE_BYTES);let spikes=0;for(const byte of f.spikeBits!)for(let bit=0;bit<8;bit++)spikes+=(byte>>bit)&1;assert.equal(spikes,f.spikeCount);recorded++;advanceFly(flies[i],{id:String(i),targetId:'t',smiles:'CC',position:[3,2,3]},f.output,.05);}assert.notDeepEqual(frames[0].sensory,frames[1].sensory);}assert.equal(recorded,420);assert.notDeepEqual(flies[0].position,flies[1].position);
+ }finally{units.forEach(u=>u.dispose());globalThis.fetch=oldFetch;(globalThis as any).Worker=oldWorker;}
+});

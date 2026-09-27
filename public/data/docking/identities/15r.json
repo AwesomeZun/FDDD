@@ -1,0 +1,139 @@
+{
+  "chem_comp": {
+    "formula": "C33 H30 F N5 O4",
+    "formula_weight": 579.621,
+    "id": "15R",
+    "name": "(9aR)-1-[(1-{2-fluoro-5-[(4-oxo-3,4-dihydrophthalazin-1-yl)methyl]benzoyl}piperidin-4-yl)carbonyl]-1,2,3,8,9,9a-hexahydro-7H-benzo[de][1,7]naphthyridin-7-one",
+    "pdbx_ambiguous_flag": "N",
+    "pdbx_formal_charge": 0,
+    "pdbx_initial_date": "2012-10-16T00:00:00.000+00:00",
+    "pdbx_modified_date": "2013-03-22T00:00:00.000+00:00",
+    "pdbx_processing_site": "RCSB",
+    "pdbx_release_status": "REL",
+    "three_letter_code": "15R",
+    "type": "non-polymer"
+  },
+  "pdbx_chem_comp_audit": [
+    {
+      "action_type": "Create component",
+      "comp_id": "15R",
+      "date": "2012-10-16T00:00:00.000+00:00",
+      "ordinal": 1
+    },
+    {
+      "action_type": "Initial release",
+      "comp_id": "15R",
+      "date": "2013-03-27T00:00:00.000+00:00",
+      "ordinal": 2
+    }
+  ],
+  "pdbx_chem_comp_descriptor": [
+    {
+      "comp_id": "15R",
+      "descriptor": "O=C7c1cccc6c1C(N(C(=O)C5CCN(C(=O)c2c(F)ccc(c2)CC4=NNC(=O)c3c4cccc3)CC5)CC6)CN7",
+      "program": "ACDLabs",
+      "program_version": "12.01",
+      "type": "SMILES"
+    },
+    {
+      "comp_id": "15R",
+      "descriptor": "InChI=1S/C33H30FN5O4/c34-26-9-8-19(17-27-22-5-1-2-6-23(22)31(41)37-36-27)16-25(26)33(43)38-13-10-21(11-14-38)32(42)39-15-12-20-4-3-7-24-29(20)28(39)18-35-30(24)40/h1-9,16,21,28H,10-15,17-18H2,(H,35,40)(H,37,41)/t28-/m0/s1",
+      "program": "InChI",
+      "program_version": "1.03",
+      "type": "InChI"
+    },
+    {
+      "comp_id": "15R",
+      "descriptor": "CSCBNPVHZXDTDS-NDEPHWFRSA-N",
+      "program": "InChI",
+      "program_version": "1.03",
+      "type": "InChIKey"
+    },
+    {
+      "comp_id": "15R",
+      "descriptor": "Fc1ccc(CC2=NNC(=O)c3ccccc23)cc1C(=O)N4CCC(CC4)C(=O)N5CCc6cccc7C(=O)NC[C@H]5c67",
+      "program": "CACTVS",
+      "program_version": "3.370",
+      "type": "SMILES_CANONICAL"
+    },
+    {
+      "comp_id": "15R",
+      "descriptor": "Fc1ccc(CC2=NNC(=O)c3ccccc23)cc1C(=O)N4CCC(CC4)C(=O)N5CCc6cccc7C(=O)NC[CH]5c67",
+      "program": "CACTVS",
+      "program_version": "3.370",
+      "type": "SMILES"
+    },
+    {
+      "comp_id": "15R",
+      "descriptor": "c1ccc2c(c1)C(=NNC2=O)Cc3ccc(c(c3)C(=O)N4CCC(CC4)C(=O)N5CCc6cccc7c6[C@@H]5CNC7=O)F",
+      "program": "OpenEye OEToolkits",
+      "program_version": "1.7.6",
+      "type": "SMILES_CANONICAL"
+    },
+    {
+      "comp_id": "15R",
+      "descriptor": "c1ccc2c(c1)C(=NNC2=O)Cc3ccc(c(c3)C(=O)N4CCC(CC4)C(=O)N5CCc6cccc7c6C5CNC7=O)F",
+      "program": "OpenEye OEToolkits",
+      "program_version": "1.7.6",
+      "type": "SMILES"
+    }
+  ],
+  "pdbx_chem_comp_identifier": [
+    {
+      "comp_id": "15R",
+      "identifier": "(9aR)-1-[(1-{2-fluoro-5-[(4-oxo-3,4-dihydrophthalazin-1-yl)methyl]benzoyl}piperidin-4-yl)carbonyl]-1,2,3,8,9,9a-hexahydro-7H-benzo[de][1,7]naphthyridin-7-one",
+      "program": "ACDLabs",
+      "program_version": "12.01",
+      "type": "SYSTEMATIC NAME"
+    }
+  ],
+  "rcsb_chem_comp_container_identifiers": {
+    "comp_id": "15R",
+    "rcsb_id": "15R"
+  },
+  "rcsb_chem_comp_descriptor": {
+    "InChI": "InChI=1S/C33H30FN5O4/c34-26-9-8-19(17-27-22-5-1-2-6-23(22)31(41)37-36-27)16-25(26)33(43)38-13-10-21(11-14-38)32(42)39-15-12-20-4-3-7-24-29(20)28(39)18-35-30(24)40/h1-9,16,21,28H,10-15,17-18H2,(H,35,40)(H,37,41)/t28-/m0/s1",
+    "InChIKey": "CSCBNPVHZXDTDS-NDEPHWFRSA-N",
+    "SMILES": "c1ccc2c(c1)C(=NNC2=O)Cc3ccc(c(c3)C(=O)N4CCC(CC4)C(=O)N5CCc6cccc7c6C5CNC7=O)F",
+    "SMILES_stereo": "c1ccc2c(c1)C(=NNC2=O)Cc3ccc(c(c3)C(=O)N4CCC(CC4)C(=O)N5CCc6cccc7c6[C@@H]5CNC7=O)F",
+    "comp_id": "15R"
+  },
+  "rcsb_chem_comp_info": {
+    "atom_count": 73,
+    "atom_count_chiral": 1,
+    "atom_count_heavy": 43,
+    "bond_count": 79,
+    "bond_count_aromatic": 18,
+    "comp_id": "15R",
+    "initial_deposition_date": "2012-10-16T00:00:00.000+00:00",
+    "initial_release_date": "2013-03-27T00:00:00.000+00:00",
+    "release_status": "REL",
+    "revision_date": "2013-03-27T00:00:00.000+00:00"
+  },
+  "rcsb_chem_comp_related": [
+    {
+      "comp_id": "15R",
+      "ordinal": 1,
+      "related_mapping_method": "matching InChIKey in PubChem",
+      "resource_accession_code": "78225401",
+      "resource_name": "PubChem"
+    }
+  ],
+  "rcsb_chem_comp_synonyms": [
+    {
+      "comp_id": "15R",
+      "name": "(9aR)-1-[(1-{2-fluoro-5-[(4-oxo-3,4-dihydrophthalazin-1-yl)methyl]benzoyl}piperidin-4-yl)carbonyl]-1,2,3,8,9,9a-hexahydro-7H-benzo[de][1,7]naphthyridin-7-one",
+      "ordinal": 1,
+      "provenance_source": "PDB Reference Data",
+      "type": "Preferred Name"
+    },
+    {
+      "comp_id": "15R",
+      "name": "(9aR)-1-[(1-{2-fluoro-5-[(4-oxo-3,4-dihydrophthalazin-1-yl)methyl]benzoyl}piperidin-4-yl)carbonyl]-1,2,3,8,9,9a-hexahydro-7H-benzo[de][1,7]naphthyridin-7-one",
+      "ordinal": 2,
+      "provenance_source": "ACDLabs",
+      "type": "Systematic Name"
+    }
+  ],
+  "rcsb_id": "15R"
+}

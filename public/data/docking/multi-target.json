@@ -1,0 +1,574 @@
+{
+  "schemaVersion": "fddd-multi-target-docking-v1",
+  "computed": true,
+  "generatedAt": "2026-09-14T19:57:35.667Z",
+  "targets": [
+    {
+      "id": "parp1-4r6e-chain-a",
+      "name": "Human PARP1 catalytic domain",
+      "pdbId": "4R6E",
+      "organism": "Homo sapiens",
+      "receptorPdbqt": "/data/docking/inputs/4R6E-A_receptor_parp-1.pdbqt",
+      "receptorPdb": "/data/docking/inputs/4R6E.pdb",
+      "sourceUrl": "https://github.com/durrantlab/webina/blob/4230729e7dad197b4c77912dffe30c8bcdd492ba/docking_files/bio-examples/parp-1/4R6E-A_receptor_parp-1.pdbqt",
+      "structureSourceUrl": "https://www.rcsb.org/structure/4R6E",
+      "receptorSha256": "573b53e7cff5fcd49bfcff94b0af2e0a640820abe4c6125af07eecb8190f9aff",
+      "protocolId": "vina-parp1-4r6e-chain-a"
+    },
+    {
+      "id": "factor-xa-2p16",
+      "name": "Human coagulation factor Xa",
+      "pdbId": "2P16",
+      "organism": "Homo sapiens",
+      "receptorPdbqt": "/data/docking/inputs/2P16_receptor_factor-Xa.pdbqt",
+      "receptorPdb": "/data/docking/inputs/2P16.pdb",
+      "sourceUrl": "https://github.com/durrantlab/webina/blob/4230729e7dad197b4c77912dffe30c8bcdd492ba/docking_files/benchmarks/2P16_receptor_factor-Xa.pdbqt",
+      "structureSourceUrl": "https://www.rcsb.org/structure/2P16",
+      "receptorSha256": "468d654f0b0c0cda3f0cdbbb707579bdc21a527a6bd1c4bb7e26fc72f8782287",
+      "protocolId": "vina-factor-xa-2p16"
+    },
+    {
+      "id": "cox2-3ln1",
+      "name": "Mouse cyclooxygenase-2 (COX-2)",
+      "pdbId": "3LN1",
+      "organism": "Mus musculus",
+      "receptorPdbqt": "/data/docking/inputs/3LN1_receptor_COX-2.pdbqt",
+      "receptorPdb": "/data/docking/inputs/3LN1.pdb",
+      "sourceUrl": "https://github.com/durrantlab/webina/blob/4230729e7dad197b4c77912dffe30c8bcdd492ba/docking_files/benchmarks/3LN1_receptor_COX-2.pdbqt",
+      "structureSourceUrl": "https://www.rcsb.org/structure/3LN1",
+      "receptorSha256": "8212fe20f7c9276d260df8ee2b13a01ca232b8c475d8ef2b234db60f7ad5b08f",
+      "protocolId": "vina-cox2-3ln1",
+      "displayReceptorPdbqt": "/data/docking/inputs/cox2-3ln1-visual.pdbqt",
+      "displayNote": "Original prepared atom coordinates preserved exactly; chain labels of coordinate-matched atoms restored from raw experimental PDB for visualization."
+    }
+  ],
+  "combinations": [
+    {
+      "id": "parp1-4r6e-chain-a--15r",
+      "targetId": "parp1-4r6e-chain-a",
+      "compoundId": "15r",
+      "name": "PARP1 inhibitor 15R",
+      "smiles": "c1ccc2c(c1)C(=NNC2=O)Cc3ccc(c(c3)C(=O)N4CCC(CC4)C(=O)N5CCc6cccc7c6[C@@H]5CNC7=O)F",
+      "smilesKind": "RCSB stereo SMILES",
+      "protocolId": "vina-parp1-4r6e-chain-a",
+      "sourceUrl": "https://github.com/durrantlab/webina/blob/4230729e7dad197b4c77912dffe30c8bcdd492ba/docking_files/bio-examples/parp-1/4HHY_ligand_benzo-de-1-7-naphthyridin-7-8H-one-derivative.pdbqt",
+      "identitySourceUrl": "https://data.rcsb.org/rest/v1/core/chemcomp/15R",
+      "inputUrl": "/data/docking/inputs/4HHY_ligand_benzo-de-1-7-naphthyridin-7-8H-one-derivative.pdbqt",
+      "inputSha256": "04f725c440f3cac34ca8e9113f7d1ef47eeaf0eaf22982f7c35775ef7035cccc",
+      "role": "co-crystallized experimental PARP1 inhibitor",
+      "score": -13.093,
+      "scoreKcalMol": -13.093,
+      "poseUrl": "/data/docking/poses/4HHY_ligand_benzo-de-1-7-naphthyridin-7-8H-one-derivative.pdbqt",
+      "logUrl": "/data/docking/poses/4HHY_ligand_benzo-de-1-7-naphthyridin-7-8H-one-derivative.log",
+      "posesSha256": "7da927bea45ac5474839e5c446a0ef20c76ab6ad7001cad4f7363e38df2bee8e",
+      "logSha256": "bb1c3501b2b60cfdc215ace1b710f45dccc4902542b9b3ac282fd06fe4a20a3a",
+      "poses": [
+        {
+          "rank": 1,
+          "score": -13.093,
+          "rmsdLowerBoundFromBest": 0,
+          "rmsdUpperBoundFromBest": 0
+        },
+        {
+          "rank": 2,
+          "score": -12.935,
+          "rmsdLowerBoundFromBest": 1.423,
+          "rmsdUpperBoundFromBest": 1.935
+        },
+        {
+          "rank": 3,
+          "score": -12.214,
+          "rmsdLowerBoundFromBest": 2.525,
+          "rmsdUpperBoundFromBest": 9.981
+        },
+        {
+          "rank": 4,
+          "score": -11.81,
+          "rmsdLowerBoundFromBest": 2.697,
+          "rmsdUpperBoundFromBest": 9.185
+        },
+        {
+          "rank": 5,
+          "score": -11.011,
+          "rmsdLowerBoundFromBest": 2.524,
+          "rmsdUpperBoundFromBest": 3.808
+        }
+      ],
+      "computed": true,
+      "computedAt": "2026-09-14T18:58:03.455Z"
+    },
+    {
+      "id": "parp1-4r6e-chain-a--pamiparib",
+      "targetId": "parp1-4r6e-chain-a",
+      "compoundId": "pamiparib",
+      "name": "Pamiparib",
+      "smiles": "CC12CCCN1CC3=NNC(=O)C4=C5C3=C2NC5=CC(=C4)F",
+      "smilesKind": "PubChem connectivity SMILES",
+      "protocolId": "vina-parp1-4r6e-chain-a",
+      "sourceUrl": "https://github.com/durrantlab/webina/blob/4230729e7dad197b4c77912dffe30c8bcdd492ba/docking_files/bio-examples/parp-1/parp-1_ligand_pamiparib.pdbqt",
+      "identitySourceUrl": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Pamiparib/property/MolecularFormula,MolecularWeight,CanonicalSMILES/JSON",
+      "inputUrl": "/data/docking/inputs/parp-1_ligand_pamiparib.pdbqt",
+      "inputSha256": "e176980e50d9fe858ca11f0af2cd3c489ede3491d89c9586ffd24fe2b6cdd2c8",
+      "role": "PARP inhibitor comparison",
+      "score": -11.085,
+      "scoreKcalMol": -11.085,
+      "poseUrl": "/data/docking/poses/parp-1_ligand_pamiparib.pdbqt",
+      "logUrl": "/data/docking/poses/parp-1_ligand_pamiparib.log",
+      "posesSha256": "5a2dd3d2dc7fa3f7d077ee108ca14e9e407687246ee789e4ffc8000558ab8333",
+      "logSha256": "77600108b1f868d2c6101df57ed80b36b6d3cb2e46ec5b20841d01a7d2e9ffc3",
+      "poses": [
+        {
+          "rank": 1,
+          "score": -11.085,
+          "rmsdLowerBoundFromBest": 0,
+          "rmsdUpperBoundFromBest": 0
+        },
+        {
+          "rank": 2,
+          "score": -9.791,
+          "rmsdLowerBoundFromBest": 2.383,
+          "rmsdUpperBoundFromBest": 4.39
+        },
+        {
+          "rank": 3,
+          "score": -9.49,
+          "rmsdLowerBoundFromBest": 2.075,
+          "rmsdUpperBoundFromBest": 3.804
+        },
+        {
+          "rank": 4,
+          "score": -9.195,
+          "rmsdLowerBoundFromBest": 2.275,
+          "rmsdUpperBoundFromBest": 3.038
+        },
+        {
+          "rank": 5,
+          "score": -8.643,
+          "rmsdLowerBoundFromBest": 6.511,
+          "rmsdUpperBoundFromBest": 8.619
+        }
+      ],
+      "computed": true,
+      "computedAt": "2026-09-14T18:57:30.991Z"
+    },
+    {
+      "id": "parp1-4r6e-chain-a--niraparib",
+      "targetId": "parp1-4r6e-chain-a",
+      "compoundId": "niraparib",
+      "name": "Niraparib",
+      "smiles": "C1CC(CNC1)C2=CC=C(C=C2)N3C=C4C=CC=C(C4=N3)C(=O)N",
+      "smilesKind": "PubChem connectivity SMILES",
+      "protocolId": "vina-parp1-4r6e-chain-a",
+      "sourceUrl": "https://github.com/durrantlab/webina/blob/4230729e7dad197b4c77912dffe30c8bcdd492ba/docking_files/bio-examples/parp-1/4R6E_ligand_niraparib.pdbqt",
+      "identitySourceUrl": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Niraparib/property/MolecularFormula,MolecularWeight,CanonicalSMILES/JSON",
+      "inputUrl": "/data/docking/inputs/4R6E_ligand_niraparib.pdbqt",
+      "inputSha256": "a561742a0c8a99705ce18c2922e7912f578c3c2318b3294ee8e38b6b0390468a",
+      "role": "co-crystal redocking control",
+      "score": -10.178,
+      "scoreKcalMol": -10.178,
+      "poseUrl": "/data/docking/poses/4R6E_ligand_niraparib.pdbqt",
+      "logUrl": "/data/docking/poses/4R6E_ligand_niraparib.log",
+      "posesSha256": "b90fc9d4872c3fc28683bc9f8408850e89197a571c4153d5636992ee3d1ac794",
+      "logSha256": "3fe4e8bb90aaf7c05e148760e714186b27c2815a1c43e18fdcf9ed4b541ff7be",
+      "poses": [
+        {
+          "rank": 1,
+          "score": -10.178,
+          "rmsdLowerBoundFromBest": 0,
+          "rmsdUpperBoundFromBest": 0
+        },
+        {
+          "rank": 2,
+          "score": -9.916,
+          "rmsdLowerBoundFromBest": 4.295,
+          "rmsdUpperBoundFromBest": 5.666
+        },
+        {
+          "rank": 3,
+          "score": -9.541,
+          "rmsdLowerBoundFromBest": 5.263,
+          "rmsdUpperBoundFromBest": 6.116
+        },
+        {
+          "rank": 4,
+          "score": -9.19,
+          "rmsdLowerBoundFromBest": 1.582,
+          "rmsdUpperBoundFromBest": 2.655
+        },
+        {
+          "rank": 5,
+          "score": -9.06,
+          "rmsdLowerBoundFromBest": 6.065,
+          "rmsdUpperBoundFromBest": 8.43
+        }
+      ],
+      "computed": true,
+      "computedAt": "2026-09-14T18:57:21.792Z"
+    },
+    {
+      "id": "parp1-4r6e-chain-a--rucaparib",
+      "targetId": "parp1-4r6e-chain-a",
+      "compoundId": "rucaparib",
+      "name": "Rucaparib",
+      "smiles": "CNCC1=CC=C(C=C1)C2=C3CCNC(=O)C4=C3C(=CC(=C4)F)N2",
+      "smilesKind": "PubChem connectivity SMILES",
+      "protocolId": "vina-parp1-4r6e-chain-a",
+      "sourceUrl": "https://github.com/durrantlab/webina/blob/4230729e7dad197b4c77912dffe30c8bcdd492ba/docking_files/bio-examples/parp-1/4RV6_ligand_rucaparib.pdbqt",
+      "identitySourceUrl": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Rucaparib/property/MolecularFormula,MolecularWeight,CanonicalSMILES/JSON",
+      "inputUrl": "/data/docking/inputs/4RV6_ligand_rucaparib.pdbqt",
+      "inputSha256": "5575d100ca236726e7162e93cfe7f7846d46e87193003d1de90a3b46443ed97a",
+      "role": "PARP inhibitor comparison",
+      "score": -9.769,
+      "scoreKcalMol": -9.769,
+      "poseUrl": "/data/docking/poses/4RV6_ligand_rucaparib.pdbqt",
+      "logUrl": "/data/docking/poses/4RV6_ligand_rucaparib.log",
+      "posesSha256": "c61d82f8c110fe6db420f0a94132aba780446b47d99d6e6378bc61fbbe14c15f",
+      "logSha256": "470adf3db2f373474ece8137b6b2e46e51b9a17ce482e721acbf2a0210ac8061",
+      "poses": [
+        {
+          "rank": 1,
+          "score": -9.769,
+          "rmsdLowerBoundFromBest": 0,
+          "rmsdUpperBoundFromBest": 0
+        },
+        {
+          "rank": 2,
+          "score": -9.269,
+          "rmsdLowerBoundFromBest": 5.471,
+          "rmsdUpperBoundFromBest": 8.344
+        },
+        {
+          "rank": 3,
+          "score": -9.143,
+          "rmsdLowerBoundFromBest": 4.616,
+          "rmsdUpperBoundFromBest": 7.477
+        },
+        {
+          "rank": 4,
+          "score": -9.142,
+          "rmsdLowerBoundFromBest": 4.468,
+          "rmsdUpperBoundFromBest": 6.44
+        },
+        {
+          "rank": 5,
+          "score": -9.036,
+          "rmsdLowerBoundFromBest": 4.744,
+          "rmsdUpperBoundFromBest": 7.606
+        }
+      ],
+      "computed": true,
+      "computedAt": "2026-09-14T18:57:27.807Z"
+    },
+    {
+      "id": "cox2-3ln1--celecoxib",
+      "targetId": "cox2-3ln1",
+      "compoundId": "celecoxib",
+      "name": "Celecoxib",
+      "smiles": "CC1=CC=C(C=C1)C2=CC(=NN2C3=CC=C(C=C3)S(=O)(=O)N)C(F)(F)F",
+      "smilesKind": "PubChem connectivity SMILES; prepared PDBQT is the executed 3D input",
+      "protocolId": "vina-cox2-3ln1",
+      "sourceUrl": "https://github.com/durrantlab/webina/blob/4230729e7dad197b4c77912dffe30c8bcdd492ba/docking_files/benchmarks/3LN1_liganbd_celecoxib.pdbqt",
+      "identitySourceUrl": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/2662/property/MolecularFormula,MolecularWeight,CanonicalSMILES/JSON",
+      "inputUrl": "/data/docking/inputs/3LN1_liganbd_celecoxib.pdbqt",
+      "inputSha256": "1254435f93533c8da3fc29e86cda91b6db7bde32a4c5c839bd4f3011b7f04962",
+      "role": "Co-crystal ligand redocking control; crystal RMSD not calculated",
+      "score": -11.88,
+      "scoreKcalMol": -11.88,
+      "poseUrl": "/data/docking/poses/cox2-3ln1--celecoxib.pdbqt",
+      "logUrl": "/data/docking/poses/cox2-3ln1--celecoxib.log",
+      "posesSha256": "26d70a0a4a0fd5781b56ced89896dc155c8975a9f04fec7abd0d7a87cd3c86e5",
+      "logSha256": "c43b29c9505fdd441932dfb0d49489af49081ef44e7eb0be9f535664318365b8",
+      "poses": [
+        {
+          "rank": 1,
+          "score": -11.88,
+          "rmsdLowerBoundFromBest": 0,
+          "rmsdUpperBoundFromBest": 0
+        },
+        {
+          "rank": 2,
+          "score": -10.531,
+          "rmsdLowerBoundFromBest": 5.026,
+          "rmsdUpperBoundFromBest": 6.394
+        },
+        {
+          "rank": 3,
+          "score": -10.036,
+          "rmsdLowerBoundFromBest": 4.931,
+          "rmsdUpperBoundFromBest": 7.118
+        },
+        {
+          "rank": 4,
+          "score": -9.287,
+          "rmsdLowerBoundFromBest": 3.748,
+          "rmsdUpperBoundFromBest": 5.63
+        }
+      ],
+      "computed": true,
+      "computedAt": "2026-09-14T19:56:13.458Z"
+    },
+    {
+      "id": "cox2-3ln1--niraparib",
+      "targetId": "cox2-3ln1",
+      "compoundId": "niraparib",
+      "name": "Niraparib",
+      "smiles": "C1CC(CNC1)C2=CC=C(C=C2)N3C=C4C=CC=C(C4=N3)C(=O)N",
+      "smilesKind": "PubChem connectivity SMILES; prepared PDBQT is the executed 3D input",
+      "protocolId": "vina-cox2-3ln1",
+      "sourceUrl": "https://github.com/durrantlab/webina/blob/4230729e7dad197b4c77912dffe30c8bcdd492ba/docking_files/bio-examples/parp-1/4R6E_ligand_niraparib.pdbqt",
+      "identitySourceUrl": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Niraparib/property/MolecularFormula,MolecularWeight,CanonicalSMILES/JSON",
+      "inputUrl": "/data/docking/inputs/4R6E_ligand_niraparib.pdbqt",
+      "inputSha256": "a561742a0c8a99705ce18c2922e7912f578c3c2318b3294ee8e38b6b0390468a",
+      "role": "Exploratory cross-docking; no claim of validated binding",
+      "score": -6.605,
+      "scoreKcalMol": -6.605,
+      "poseUrl": "/data/docking/poses/cox2-3ln1--niraparib.pdbqt",
+      "logUrl": "/data/docking/poses/cox2-3ln1--niraparib.log",
+      "posesSha256": "c6d0197da27716a7c8d9537a000c82461e9000acdaab7b33866a1ac13b55ee82",
+      "logSha256": "7582cf9bc8e18cedc22d1a39cb8813469cceaceb6af10da4530841e8dbfad5c5",
+      "poses": [
+        {
+          "rank": 1,
+          "score": -6.605,
+          "rmsdLowerBoundFromBest": 0,
+          "rmsdUpperBoundFromBest": 0
+        },
+        {
+          "rank": 2,
+          "score": -5.858,
+          "rmsdLowerBoundFromBest": 2.655,
+          "rmsdUpperBoundFromBest": 8.225
+        },
+        {
+          "rank": 3,
+          "score": -5.807,
+          "rmsdLowerBoundFromBest": 4.569,
+          "rmsdUpperBoundFromBest": 6.483
+        },
+        {
+          "rank": 4,
+          "score": -5.573,
+          "rmsdLowerBoundFromBest": 4.218,
+          "rmsdUpperBoundFromBest": 5.663
+        },
+        {
+          "rank": 5,
+          "score": -5.462,
+          "rmsdLowerBoundFromBest": 3.223,
+          "rmsdUpperBoundFromBest": 4.867
+        }
+      ],
+      "computed": true,
+      "computedAt": "2026-09-14T19:56:10.827Z"
+    },
+    {
+      "id": "factor-xa-2p16--apixaban",
+      "targetId": "factor-xa-2p16",
+      "compoundId": "apixaban",
+      "name": "Apixaban",
+      "smiles": "COC1=CC=C(C=C1)N2C3=C(CCN(C3=O)C4=CC=C(C=C4)N5CCCCC5=O)C(=N2)C(=O)N",
+      "smilesKind": "PubChem connectivity SMILES; prepared PDBQT is the executed 3D input",
+      "protocolId": "vina-factor-xa-2p16",
+      "sourceUrl": "https://github.com/durrantlab/webina/blob/4230729e7dad197b4c77912dffe30c8bcdd492ba/docking_files/benchmarks/2P16_ligand_apixaban.pdbqt",
+      "identitySourceUrl": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/10182969/property/MolecularFormula,MolecularWeight,CanonicalSMILES/JSON",
+      "inputUrl": "/data/docking/inputs/2P16_ligand_apixaban.pdbqt",
+      "inputSha256": "4db2f8d56560369507bb01e526a244107760c1852d1a681c25eefe758866f862",
+      "role": "Co-crystal ligand redocking control; crystal RMSD not calculated",
+      "score": -10.248,
+      "scoreKcalMol": -10.248,
+      "poseUrl": "/data/docking/poses/factor-xa-2p16--apixaban.pdbqt",
+      "logUrl": "/data/docking/poses/factor-xa-2p16--apixaban.log",
+      "posesSha256": "6b8b070d7c0311869e72540686436c8022d0c67b802d5144863396009bfac4b5",
+      "logSha256": "161a68c9358daaea7574f827f00c0c1e127d27cffe50e16cc5ed1cb305b3425a",
+      "poses": [
+        {
+          "rank": 1,
+          "score": -10.248,
+          "rmsdLowerBoundFromBest": 0,
+          "rmsdUpperBoundFromBest": 0
+        },
+        {
+          "rank": 2,
+          "score": -8.437,
+          "rmsdLowerBoundFromBest": 4.136,
+          "rmsdUpperBoundFromBest": 6.924
+        },
+        {
+          "rank": 3,
+          "score": -7.616,
+          "rmsdLowerBoundFromBest": 4.897,
+          "rmsdUpperBoundFromBest": 8.651
+        },
+        {
+          "rank": 4,
+          "score": -7.406,
+          "rmsdLowerBoundFromBest": 2.935,
+          "rmsdUpperBoundFromBest": 11.165
+        }
+      ],
+      "computed": true,
+      "computedAt": "2026-09-14T19:56:17.897Z"
+    },
+    {
+      "id": "factor-xa-2p16--niraparib",
+      "targetId": "factor-xa-2p16",
+      "compoundId": "niraparib",
+      "name": "Niraparib",
+      "smiles": "C1CC(CNC1)C2=CC=C(C=C2)N3C=C4C=CC=C(C4=N3)C(=O)N",
+      "smilesKind": "PubChem connectivity SMILES; prepared PDBQT is the executed 3D input",
+      "protocolId": "vina-factor-xa-2p16",
+      "sourceUrl": "https://github.com/durrantlab/webina/blob/4230729e7dad197b4c77912dffe30c8bcdd492ba/docking_files/bio-examples/parp-1/4R6E_ligand_niraparib.pdbqt",
+      "identitySourceUrl": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Niraparib/property/MolecularFormula,MolecularWeight,CanonicalSMILES/JSON",
+      "inputUrl": "/data/docking/inputs/4R6E_ligand_niraparib.pdbqt",
+      "inputSha256": "a561742a0c8a99705ce18c2922e7912f578c3c2318b3294ee8e38b6b0390468a",
+      "role": "Exploratory cross-docking; no claim of validated binding",
+      "score": -7.967,
+      "scoreKcalMol": -7.967,
+      "poseUrl": "/data/docking/poses/factor-xa-2p16--niraparib.pdbqt",
+      "logUrl": "/data/docking/poses/factor-xa-2p16--niraparib.log",
+      "posesSha256": "ccbd2e6d20b48b44c25bee1a090241a422dc0baa796b3cbc78542d41f65b6953",
+      "logSha256": "e3970b3cf97bc8ac6d7859465d9c0ec769051a7e1773a4ccba88de6b127b4294",
+      "poses": [
+        {
+          "rank": 1,
+          "score": -7.967,
+          "rmsdLowerBoundFromBest": 0,
+          "rmsdUpperBoundFromBest": 0
+        },
+        {
+          "rank": 2,
+          "score": -7.735,
+          "rmsdLowerBoundFromBest": 3.134,
+          "rmsdUpperBoundFromBest": 4.48
+        },
+        {
+          "rank": 3,
+          "score": -7.624,
+          "rmsdLowerBoundFromBest": 1.828,
+          "rmsdUpperBoundFromBest": 2.716
+        },
+        {
+          "rank": 4,
+          "score": -7.045,
+          "rmsdLowerBoundFromBest": 4.427,
+          "rmsdUpperBoundFromBest": 5.058
+        },
+        {
+          "rank": 5,
+          "score": -6.658,
+          "rmsdLowerBoundFromBest": 2.573,
+          "rmsdUpperBoundFromBest": 3.329
+        }
+      ],
+      "computed": true,
+      "computedAt": "2026-09-14T19:56:11.024Z"
+    }
+  ],
+  "protocols": [
+    {
+      "id": "vina-parp1-4r6e-chain-a",
+      "targetId": "parp1-4r6e-chain-a",
+      "tool": "AutoDock Vina",
+      "version": "1.2.3",
+      "runtime": "Webina/MolModa WASM in Node worker_threads",
+      "scoringFunction": "vina",
+      "units": "kcal/mol",
+      "seed": 20260914,
+      "exhaustiveness": 4,
+      "cpu": 1,
+      "numModes": 5,
+      "box": {
+        "center": [
+          -39,
+          5,
+          -8
+        ],
+        "size": [
+          15,
+          20,
+          14
+        ]
+      },
+      "boxSourceUrl": "https://github.com/durrantlab/webina/blob/4230729e7dad197b4c77912dffe30c8bcdd492ba/docking_files/bio-examples/parp-1/4R6E-A_docking_params.txt",
+      "boxInputUrl": "/data/docking/inputs/4R6E-A_docking_params.txt",
+      "parameterNote": "Published box reused; seed=20260914 and exhaustiveness=4 deliberately override example settings."
+    },
+    {
+      "id": "vina-factor-xa-2p16",
+      "targetId": "factor-xa-2p16",
+      "tool": "AutoDock Vina",
+      "version": "1.2.3",
+      "runtime": "Webina/MolModa WASM in Node worker_threads",
+      "scoringFunction": "vina",
+      "units": "kcal/mol",
+      "seed": 20260914,
+      "exhaustiveness": 4,
+      "cpu": 1,
+      "numModes": 5,
+      "box": {
+        "center": [
+          7.48497143,
+          43.97488571,
+          62.17711429
+        ],
+        "size": [
+          20,
+          20,
+          20
+        ]
+      },
+      "boxSourceUrl": "https://github.com/durrantlab/webina/blob/4230729e7dad197b4c77912dffe30c8bcdd492ba/docking_files/benchmarks/2P16_docking_params.txt",
+      "boxInputUrl": "/data/docking/inputs/2P16_docking_params.txt",
+      "parameterNote": "Published box reused; seed=20260914 and exhaustiveness=4 deliberately override example settings."
+    },
+    {
+      "id": "vina-cox2-3ln1",
+      "targetId": "cox2-3ln1",
+      "tool": "AutoDock Vina",
+      "version": "1.2.3",
+      "runtime": "Webina/MolModa WASM in Node worker_threads",
+      "scoringFunction": "vina",
+      "units": "kcal/mol",
+      "seed": 20260914,
+      "exhaustiveness": 4,
+      "cpu": 1,
+      "numModes": 5,
+      "box": {
+        "center": [
+          30.98857692,
+          -22.28361538,
+          -16.50723077
+        ],
+        "size": [
+          20,
+          20,
+          20
+        ]
+      },
+      "boxSourceUrl": "https://github.com/durrantlab/webina/blob/4230729e7dad197b4c77912dffe30c8bcdd492ba/docking_files/benchmarks/3LN1_docking_params.txt",
+      "boxInputUrl": "/data/docking/inputs/3LN1_docking_params.txt",
+      "parameterNote": "Published box reused; seed=20260914 and exhaustiveness=4 deliberately override example settings."
+    }
+  ],
+  "provenance": {
+    "preparedInputRepository": "https://github.com/durrantlab/webina",
+    "preparedInputRevision": "4230729e7dad197b4c77912dffe30c8bcdd492ba",
+    "runtimeRepository": "https://github.com/durrantlab/molmoda",
+    "runtimeRevision": "5f32c54ef01e43a19d83c6671b4a6868f665eafb",
+    "runtimeWasmSha256": "702192bed93a6a254b8a06dc10c886d68bfc4079a2613853cbe1de39a6ac7d87",
+    "legacyResultsUrl": "/data/docking/results.json",
+    "legacyResultsSha256": "b4c8e3900fe902b9280c0a7f10a3d66fa26791e6c75df694f051cb21de699e86",
+    "manifestBuilder": "scripts/docking/build-multi-target.mjs",
+    "runner": "scripts/docking/run-target.mjs"
+  },
+  "notes": [
+    "These are three DIFFERENT proteins, not three PARP1 structures. COX-2 structure 3LN1 is mouse, not human.",
+    "Raw Vina scores from different targets are NOT calibrated cross-target affinities. Do not globally rank targets or infer selectivity, Kd, Ki, IC50, efficacy, or fly response.",
+    "Niraparib on factor Xa and COX-2 is exploratory computational cross-docking, not evidence of experimentally confirmed binding.",
+    "Rigid published prepared receptors and ligands reused without local protonation changes. Single seed, exhaustiveness 4, no uncertainty/convergence analysis.",
+    "SMILES are molecular identity metadata, not the executed input. Connectivity SMILES can omit stereochemistry; preserved prepared PDBQT files define the exact executed structures.",
+    "Pose RMSD columns compare poses within each run, NOT to crystallographic ligand poses.",
+    "Use receptorPdbqt for the exact docking receptor; receptorPdb is the full original experimental entry and may contain additional chains, waters and co-crystal ligands.",
+    "All receptor/pose coordinates remain in their original Angstrom coordinate frame. A scene must apply the same translation/rotation to each target receptor and its associated poses."
+  ]
+}

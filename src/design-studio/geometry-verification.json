@@ -1,0 +1,204 @@
+{
+  "passed": true,
+  "revision": "Drosophila proportion correction",
+  "candidates": [
+    {
+      "name": "ONYX",
+      "meshes": 60,
+      "vertices": 7364,
+      "size": [
+        2.5023571501587005,
+        0.7138950756921262,
+        1.697999997138977
+      ],
+      "wings": 2,
+      "parts": {
+        "thorax": 1,
+        "abdomen": 1,
+        "abdominal-band": 4,
+        "head": 1,
+        "compound-eye": 2,
+        "short-mouthparts": 1,
+        "leg": 6,
+        "antenna": 2,
+        "haltere": 2,
+        "wing": 2
+      },
+      "anatomy": {
+        "family": "Drosophilidae-inspired",
+        "abdomenLength": 0.76,
+        "thoraxWidth": 0.67,
+        "headWidth": 0.53,
+        "maxLegLateral": 0.538,
+        "antennaProjection": 0.078,
+        "wingLength": 1.055,
+        "wingWidth": 0.82
+      }
+    },
+    {
+      "name": "MICA",
+      "meshes": 54,
+      "vertices": 7352,
+      "size": [
+        2.399120307066986,
+        0.7138950756921262,
+        1.697999997138977
+      ],
+      "wings": 2,
+      "parts": {
+        "thorax": 1,
+        "abdomen": 1,
+        "abdominal-band": 4,
+        "head": 1,
+        "compound-eye": 2,
+        "short-mouthparts": 1,
+        "leg": 6,
+        "antenna": 2,
+        "haltere": 2,
+        "wing": 2
+      },
+      "anatomy": {
+        "family": "Drosophilidae-inspired",
+        "abdomenLength": 0.76,
+        "thoraxWidth": 0.6499,
+        "headWidth": 0.53,
+        "maxLegLateral": 0.538,
+        "antennaProjection": 0.078,
+        "wingLength": 1,
+        "wingWidth": 0.82
+      }
+    },
+    {
+      "name": "PRISM",
+      "meshes": 54,
+      "vertices": 4832,
+      "size": [
+        2.5018934752320376,
+        0.7138950756921262,
+        1.697999997138977
+      ],
+      "wings": 2,
+      "parts": {
+        "thorax": 1,
+        "abdomen": 1,
+        "abdominal-band": 4,
+        "head": 1,
+        "compound-eye": 2,
+        "short-mouthparts": 1,
+        "leg": 6,
+        "antenna": 2,
+        "haltere": 2,
+        "wing": 2
+      },
+      "anatomy": {
+        "family": "Drosophilidae-inspired",
+        "abdomenLength": 0.76,
+        "thoraxWidth": 0.67,
+        "headWidth": 0.53,
+        "maxLegLateral": 0.538,
+        "antennaProjection": 0.078,
+        "wingLength": 1.055,
+        "wingWidth": 0.82
+      }
+    },
+    {
+      "name": "VEIL",
+      "meshes": 61,
+      "vertices": 7789,
+      "size": [
+        2.5868238609930048,
+        0.7138950756921262,
+        1.697999997138977
+      ],
+      "wings": 2,
+      "parts": {
+        "thorax": 1,
+        "abdomen": 1,
+        "abdominal-band": 4,
+        "head": 1,
+        "internal-soft-volume": 1,
+        "compound-eye": 2,
+        "short-mouthparts": 1,
+        "leg": 6,
+        "antenna": 2,
+        "haltere": 2,
+        "wing": 2
+      },
+      "anatomy": {
+        "family": "Drosophilidae-inspired",
+        "abdomenLength": 0.76,
+        "thoraxWidth": 0.67,
+        "headWidth": 0.53,
+        "maxLegLateral": 0.538,
+        "antennaProjection": 0.078,
+        "wingLength": 1.1,
+        "wingWidth": 0.82
+      }
+    },
+    {
+      "name": "VECTOR",
+      "meshes": 62,
+      "vertices": 4502,
+      "size": [
+        2.502353356860456,
+        0.7000000178813934,
+        1.6980000138282776
+      ],
+      "wings": 2,
+      "parts": {
+        "abdominal-band": 6,
+        "head": 1,
+        "compound-eye": 2,
+        "short-mouthparts": 1,
+        "leg": 6,
+        "antenna": 2,
+        "haltere": 2,
+        "wing": 2
+      },
+      "anatomy": {
+        "family": "Drosophilidae-inspired",
+        "abdomenLength": 0.76,
+        "thoraxWidth": 0.67,
+        "headWidth": 0.53,
+        "maxLegLateral": 0.538,
+        "antennaProjection": 0.078,
+        "wingLength": 1.055,
+        "wingWidth": 0.82
+      }
+    },
+    {
+      "name": "IVORY",
+      "meshes": 56,
+      "vertices": 8202,
+      "size": [
+        2.5020127019105667,
+        0.7138950756921262,
+        1.697999997138977
+      ],
+      "wings": 2,
+      "parts": {
+        "thorax": 1,
+        "abdomen": 1,
+        "abdominal-band": 4,
+        "head": 1,
+        "compound-eye": 2,
+        "short-mouthparts": 1,
+        "leg": 6,
+        "antenna": 2,
+        "haltere": 2,
+        "wing": 2
+      },
+      "anatomy": {
+        "family": "Drosophilidae-inspired",
+        "abdomenLength": 0.76,
+        "thoraxWidth": 0.69345,
+        "headWidth": 0.53,
+        "maxLegLateral": 0.538,
+        "antennaProjection": 0.078,
+        "wingLength": 1.055,
+        "wingWidth": 0.88
+      }
+    }
+  ],
+  "environments": 3
+}

@@ -1,0 +1,4672 @@
+{
+  "entity_poly": {
+    "nstd_linkage": "no",
+    "nstd_monomer": "no",
+    "pdbx_seq_one_letter_code": "IVGGQECKDGECPWQALLINEENEGFCGGTILSEFYILTAAHCLYQAKRFKVRVGDRNTEQEEGGEAVHEVEVVIKHNRFTKETYDFDIAVLRLKTPITFRMNVAPACLPERDWAESTLMTQKTGIVSGFGRTHEKGRQSTRLKMLEVPYVDRNSCKLSSSFIITQNMFCAGYDTKQEDACQGDSGGPHVTRFKDTYFVTGIVSWGEGCARKGKYGIYTKVTAFLKWIDRSMKT",
+    "pdbx_seq_one_letter_code_can": "IVGGQECKDGECPWQALLINEENEGFCGGTILSEFYILTAAHCLYQAKRFKVRVGDRNTEQEEGGEAVHEVEVVIKHNRFTKETYDFDIAVLRLKTPITFRMNVAPACLPERDWAESTLMTQKTGIVSGFGRTHEKGRQSTRLKMLEVPYVDRNSCKLSSSFIITQNMFCAGYDTKQEDACQGDSGGPHVTRFKDTYFVTGIVSWGEGCARKGKYGIYTKVTAFLKWIDRSMKT",
+    "pdbx_strand_id": "A",
+    "rcsb_artifact_monomer_count": 0,
+    "rcsb_conflict_count": 0,
+    "rcsb_deletion_count": 0,
+    "rcsb_entity_polymer_type": "Protein",
+    "rcsb_insertion_count": 0,
+    "rcsb_mutation_count": 0,
+    "rcsb_non_std_monomer_count": 0,
+    "rcsb_sample_sequence_length": 234,
+    "type": "polypeptide(L)"
+  },
+  "entity_src_nat": [
+    {
+      "common_name": "human",
+      "genus": "Homo",
+      "pdbx_alt_source_flag": "sample",
+      "pdbx_ncbi_taxonomy_id": "9606",
+      "pdbx_organism_scientific": "Homo sapiens",
+      "pdbx_src_id": 1
+    }
+  ],
+  "rcsb_entity_source_organism": [
+    {
+      "ncbi_common_names": [
+        "human"
+      ],
+      "ncbi_parent_scientific_name": "Eukaryota",
+      "ncbi_scientific_name": "Homo sapiens",
+      "ncbi_taxonomy_id": 9606,
+      "pdbx_src_id": 1,
+      "provenance_source": "Primary Data",
+      "scientific_name": "Homo sapiens",
+      "source_type": "natural",
+      "taxonomy_lineage": [
+        {
+          "depth": 1,
+          "id": "131567",
+          "name": "cellular organisms"
+        },
+        {
+          "depth": 1,
+          "id": "131567",
+          "name": "biota"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eukaryota"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eucarya"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eucaryotae"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eukarya"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "Eukaryotae"
+        },
+        {
+          "depth": 2,
+          "id": "2759",
+          "name": "eukaryotes"
+        },
+        {
+          "depth": 3,
+          "id": "33154",
+          "name": "Opisthokonta"
+        },
+        {
+          "depth": 3,
+          "id": "33154",
+          "name": "Fungi/Metazoa group"
+        },
+        {
+          "depth": 3,
+          "id": "33154",
+          "name": "opisthokonts"
+        },
+        {
+          "depth": 4,
+          "id": "33208",
+          "name": "Metazoa"
+        },
+        {
+          "depth": 4,
+          "id": "33208",
+          "name": "Animalia"
+        },
+        {
+          "depth": 4,
+          "id": "33208",
+          "name": "animals"
+        },
+        {
+          "depth": 4,
+          "id": "33208",
+          "name": "metazoans"
+        },
+        {
+          "depth": 4,
+          "id": "33208",
+          "name": "multicellular animals"
+        },
+        {
+          "depth": 5,
+          "id": "6072",
+          "name": "Eumetazoa"
+        },
+        {
+          "depth": 6,
+          "id": "33213",
+          "name": "Bilateria"
+        },
+        {
+          "depth": 7,
+          "id": "33511",
+          "name": "Deuterostomia"
+        },
+        {
+          "depth": 7,
+          "id": "33511",
+          "name": "deuterostomes"
+        },
+        {
+          "depth": 8,
+          "id": "7711",
+          "name": "Chordata"
+        },
+        {
+          "depth": 8,
+          "id": "7711",
+          "name": "chordates"
+        },
+        {
+          "depth": 9,
+          "id": "89593",
+          "name": "Craniata"
+        },
+        {
+          "depth": 10,
+          "id": "7742",
+          "name": "Vertebrata"
+        },
+        {
+          "depth": 10,
+          "id": "7742",
+          "name": "vertebrates"
+        },
+        {
+          "depth": 11,
+          "id": "7776",
+          "name": "Gnathostomata"
+        },
+        {
+          "depth": 11,
+          "id": "7776",
+          "name": "jawed vertebrates"
+        },
+        {
+          "depth": 12,
+          "id": "117570",
+          "name": "Teleostomi"
+        },
+        {
+          "depth": 13,
+          "id": "117571",
+          "name": "Euteleostomi"
+        },
+        {
+          "depth": 13,
+          "id": "117571",
+          "name": "bony vertebrates"
+        },
+        {
+          "depth": 14,
+          "id": "8287",
+          "name": "Sarcopterygii"
+        },
+        {
+          "depth": 15,
+          "id": "1338369",
+          "name": "Dipnotetrapodomorpha"
+        },
+        {
+          "depth": 16,
+          "id": "32523",
+          "name": "Tetrapoda"
+        },
+        {
+          "depth": 16,
+          "id": "32523",
+          "name": "tetrapods"
+        },
+        {
+          "depth": 17,
+          "id": "32524",
+          "name": "Amniota"
+        },
+        {
+          "depth": 17,
+          "id": "32524",
+          "name": "amniotes"
+        },
+        {
+          "depth": 18,
+          "id": "40674",
+          "name": "Mammalia"
+        },
+        {
+          "depth": 18,
+          "id": "40674",
+          "name": "mammals"
+        },
+        {
+          "depth": 19,
+          "id": "32525",
+          "name": "Theria"
+        },
+        {
+          "depth": 20,
+          "id": "9347",
+          "name": "Eutheria"
+        },
+        {
+          "depth": 20,
+          "id": "9347",
+          "name": "Placentalia"
+        },
+        {
+          "depth": 20,
+          "id": "9347",
+          "name": "eutherian mammals"
+        },
+        {
+          "depth": 20,
+          "id": "9347",
+          "name": "placental mammals"
+        },
+        {
+          "depth": 20,
+          "id": "9347",
+          "name": "placentals"
+        },
+        {
+          "depth": 21,
+          "id": "1437010",
+          "name": "Boreoeutheria"
+        },
+        {
+          "depth": 21,
+          "id": "1437010",
+          "name": "Boreotheria"
+        },
+        {
+          "depth": 22,
+          "id": "314146",
+          "name": "Euarchontoglires"
+        },
+        {
+          "depth": 23,
+          "id": "9443",
+          "name": "Primates"
+        },
+        {
+          "depth": 23,
+          "id": "9443",
+          "name": "Primata"
+        },
+        {
+          "depth": 23,
+          "id": "9443",
+          "name": "primate"
+        },
+        {
+          "depth": 23,
+          "id": "9443",
+          "name": "primates"
+        },
+        {
+          "depth": 24,
+          "id": "376913",
+          "name": "Haplorrhini"
+        },
+        {
+          "depth": 25,
+          "id": "314293",
+          "name": "Simiiformes"
+        },
+        {
+          "depth": 25,
+          "id": "314293",
+          "name": "Anthropoidea"
+        },
+        {
+          "depth": 26,
+          "id": "9526",
+          "name": "Catarrhini"
+        },
+        {
+          "depth": 27,
+          "id": "314295",
+          "name": "Hominoidea"
+        },
+        {
+          "depth": 27,
+          "id": "314295",
+          "name": "ape"
+        },
+        {
+          "depth": 27,
+          "id": "314295",
+          "name": "apes"
+        },
+        {
+          "depth": 28,
+          "id": "9604",
+          "name": "Hominidae"
+        },
+        {
+          "depth": 28,
+          "id": "9604",
+          "name": "Pongidae"
+        },
+        {
+          "depth": 28,
+          "id": "9604",
+          "name": "great apes"
+        },
+        {
+          "depth": 29,
+          "id": "207598",
+          "name": "Homininae"
+        },
+        {
+          "depth": 29,
+          "id": "207598",
+          "name": "Homo/Pan/Gorilla group"
+        },
+        {
+          "depth": 30,
+          "id": "9605",
+          "name": "Homo"
+        },
+        {
+          "depth": 30,
+          "id": "9605",
+          "name": "humans"
+        },
+        {
+          "depth": 31,
+          "id": "9606",
+          "name": "Homo sapiens"
+        },
+        {
+          "depth": 31,
+          "id": "9606",
+          "name": "human"
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity": {
+    "formula_weight": 26.447,
+    "pdbx_description": "Coagulation factor X (EC 3.4.21.6) (Stuart factor) (Stuart-Prower factor)",
+    "pdbx_ec": "3.4.21.6",
+    "pdbx_fragment": "Coagulation Factor X, Heavy Chain",
+    "pdbx_number_of_molecules": 1,
+    "rcsb_multiple_source_flag": "N",
+    "rcsb_source_part_count": 1,
+    "rcsb_source_taxonomy_count": 1,
+    "src_method": "nat",
+    "rcsb_ec_lineage": [
+      {
+        "depth": 1,
+        "id": "3",
+        "name": "Hydrolases"
+      },
+      {
+        "depth": 2,
+        "id": "3.4",
+        "name": "Acting on peptide bonds (peptidases)"
+      },
+      {
+        "depth": 3,
+        "id": "3.4.21",
+        "name": "Serine endopeptidases"
+      },
+      {
+        "depth": 4,
+        "id": "3.4.21.6",
+        "name": "coagulation factor Xa"
+      }
+    ],
+    "rcsb_macromolecular_names_combined": [
+      {
+        "name": "Coagulation factor X (EC 3.4.21.6) (Stuart factor) (Stuart-Prower factor)",
+        "provenance_code": "ECO:0000304",
+        "provenance_source": "PDB Preferred Name"
+      },
+      {
+        "name": "FACTOR XA HEAVY CHAIN",
+        "provenance_code": "ECO:0000303",
+        "provenance_source": "PDB Synonym"
+      },
+      {
+        "name": "ACTIVATED FACTOR XA HEAVY CHAIN",
+        "provenance_code": "ECO:0000303",
+        "provenance_source": "PDB Synonym"
+      }
+    ],
+    "rcsb_enzyme_class_combined": [
+      {
+        "depth": 4,
+        "ec": "3.4.21.6",
+        "provenance_source": "PDB Primary Data"
+      }
+    ],
+    "rcsb_polymer_name_combined": {
+      "names": [
+        "Coagulation factor X"
+      ],
+      "provenance_source": "UniProt Name"
+    }
+  },
+  "rcsb_polymer_entity_align": [
+    {
+      "provenance_source": "SIFTS",
+      "reference_database_accession": "P00742",
+      "reference_database_name": "UniProt",
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 234,
+          "ref_beg_seq_id": 235
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity_annotation": [
+    {
+      "annotation_id": "PF00089",
+      "assignment_version": "34.0",
+      "name": "Trypsin (Trypsin)",
+      "provenance_source": "Pfam",
+      "type": "Pfam"
+    },
+    {
+      "annotation_id": "GO:0005509",
+      "name": "calcium ion binding",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0043169",
+          "name": "cation binding"
+        },
+        {
+          "id": "GO:0043167",
+          "name": "ion binding"
+        },
+        {
+          "id": "GO:0005488",
+          "name": "binding"
+        },
+        {
+          "id": "GO:0005509",
+          "name": "calcium ion binding"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        },
+        {
+          "id": "GO:0046872",
+          "name": "metal ion binding"
+        },
+        {
+          "id": "GO:0036094",
+          "name": "small molecule binding"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0007596",
+      "name": "blood coagulation",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0032501",
+          "name": "multicellular organismal process"
+        },
+        {
+          "id": "GO:0050878",
+          "name": "regulation of body fluid levels"
+        },
+        {
+          "id": "GO:0042060",
+          "name": "wound healing"
+        },
+        {
+          "id": "GO:0050896",
+          "name": "response to stimulus"
+        },
+        {
+          "id": "GO:0007599",
+          "name": "hemostasis"
+        },
+        {
+          "id": "GO:0065007",
+          "name": "biological regulation"
+        },
+        {
+          "id": "GO:0007596",
+          "name": "blood coagulation"
+        },
+        {
+          "id": "GO:0006950",
+          "name": "response to stress"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0050817",
+          "name": "coagulation"
+        },
+        {
+          "id": "GO:0065008",
+          "name": "regulation of biological quality"
+        },
+        {
+          "id": "GO:0009611",
+          "name": "response to wounding"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0009897",
+      "name": "external side of plasma membrane",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0071944",
+          "name": "cell periphery"
+        },
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0009986",
+          "name": "cell surface"
+        },
+        {
+          "id": "GO:0016020",
+          "name": "membrane"
+        },
+        {
+          "id": "GO:0005886",
+          "name": "plasma membrane"
+        },
+        {
+          "id": "GO:0009897",
+          "name": "external side of plasma membrane"
+        },
+        {
+          "id": "GO:0098552",
+          "name": "side of membrane"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR000294",
+      "name": "Gamma-carboxyglutamic acid-rich (GLA) domain",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "depth": 1,
+          "id": "IPR000294",
+          "name": "Gamma-carboxyglutamic acid-rich (GLA) domain"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR018097",
+      "name": "EGF-like calcium-binding, conserved site",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR018097",
+          "name": "EGF-like calcium-binding, conserved site"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0032008",
+      "name": "positive regulation of TOR signaling",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0051716",
+          "name": "cellular response to stimulus"
+        },
+        {
+          "id": "GO:0010647",
+          "name": "positive regulation of cell communication"
+        },
+        {
+          "id": "GO:0050794",
+          "name": "regulation of cellular process"
+        },
+        {
+          "id": "GO:0009967",
+          "name": "positive regulation of signal transduction"
+        },
+        {
+          "id": "GO:0050896",
+          "name": "response to stimulus"
+        },
+        {
+          "id": "GO:0023052",
+          "name": "signaling"
+        },
+        {
+          "id": "GO:0048518",
+          "name": "positive regulation of biological process"
+        },
+        {
+          "id": "GO:0009966",
+          "name": "regulation of signal transduction"
+        },
+        {
+          "id": "GO:0035556",
+          "name": "intracellular signal transduction"
+        },
+        {
+          "id": "GO:0007154",
+          "name": "cell communication"
+        },
+        {
+          "id": "GO:0048584",
+          "name": "positive regulation of response to stimulus"
+        },
+        {
+          "id": "GO:1902531",
+          "name": "regulation of intracellular signal transduction"
+        },
+        {
+          "id": "GO:0032008",
+          "name": "positive regulation of TOR signaling"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0007165",
+          "name": "signal transduction"
+        },
+        {
+          "id": "GO:0048522",
+          "name": "positive regulation of cellular process"
+        },
+        {
+          "id": "GO:0031929",
+          "name": "TOR signaling"
+        },
+        {
+          "id": "GO:0050789",
+          "name": "regulation of biological process"
+        },
+        {
+          "id": "GO:0023051",
+          "name": "regulation of signaling"
+        },
+        {
+          "id": "GO:0032006",
+          "name": "regulation of TOR signaling"
+        },
+        {
+          "id": "GO:0065007",
+          "name": "biological regulation"
+        },
+        {
+          "id": "GO:1902533",
+          "name": "positive regulation of intracellular signal transduction"
+        },
+        {
+          "id": "GO:0048583",
+          "name": "regulation of response to stimulus"
+        },
+        {
+          "id": "GO:0010646",
+          "name": "regulation of cell communication"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0023056",
+          "name": "positive regulation of signaling"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0005886",
+      "name": "plasma membrane",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0071944",
+          "name": "cell periphery"
+        },
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0005886",
+          "name": "plasma membrane"
+        },
+        {
+          "id": "GO:0016020",
+          "name": "membrane"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0004252",
+      "name": "serine-type endopeptidase activity",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0008233",
+          "name": "peptidase activity"
+        },
+        {
+          "id": "GO:0140096",
+          "name": "catalytic activity, acting on a protein"
+        },
+        {
+          "id": "GO:0017171",
+          "name": "serine hydrolase activity"
+        },
+        {
+          "id": "GO:0008236",
+          "name": "serine-type peptidase activity"
+        },
+        {
+          "id": "GO:0016787",
+          "name": "hydrolase activity"
+        },
+        {
+          "id": "GO:0004252",
+          "name": "serine-type endopeptidase activity"
+        },
+        {
+          "id": "GO:0003824",
+          "name": "catalytic activity"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        },
+        {
+          "id": "GO:0004175",
+          "name": "endopeptidase activity"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR018114",
+      "name": "Serine protease-like, trypsin family, histidine active site",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR018114",
+          "name": "Serine protease-like, trypsin family, histidine active site"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0005543",
+      "name": "phospholipid binding",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0005488",
+          "name": "binding"
+        },
+        {
+          "id": "GO:0005543",
+          "name": "phospholipid binding"
+        },
+        {
+          "id": "GO:0008289",
+          "name": "lipid binding"
+        },
+        {
+          "id": "GO:0003674",
+          "name": "molecular_function"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR000742",
+      "name": "EGF-like domain",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "depth": 1,
+          "id": "IPR000742",
+          "name": "EGF-like domain"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR043504",
+      "name": "Peptidase_S1_PA_chymotrypsin",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR043504",
+          "name": "Peptidase_S1_PA_chymotrypsin"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0005796",
+      "name": "Golgi lumen",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0043227",
+          "name": "membrane-bounded organelle"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0005622",
+          "name": "intracellular anatomical structure"
+        },
+        {
+          "id": "GO:0005794",
+          "name": "Golgi apparatus"
+        },
+        {
+          "id": "GO:0031974",
+          "name": "membrane-enclosed lumen"
+        },
+        {
+          "id": "GO:0043231",
+          "name": "intracellular membrane-bounded organelle"
+        },
+        {
+          "id": "GO:0012505",
+          "name": "endomembrane system"
+        },
+        {
+          "id": "GO:0070013",
+          "name": "intracellular organelle lumen"
+        },
+        {
+          "id": "GO:0005796",
+          "name": "Golgi lumen"
+        },
+        {
+          "id": "GO:0043229",
+          "name": "intracellular organelle"
+        },
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0043233",
+          "name": "organelle lumen"
+        },
+        {
+          "id": "GO:0043226",
+          "name": "organelle"
+        },
+        {
+          "id": "GO:0005737",
+          "name": "cytoplasm"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR050442",
+      "name": "Peptidase S1 family, coagulation factors",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR050442",
+          "name": "Peptidase S1 family, coagulation factors"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR009003",
+      "name": "Peptidase S1, PA clan",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR009003",
+          "name": "Peptidase S1, PA clan"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0005788",
+      "name": "endoplasmic reticulum lumen",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0043227",
+          "name": "membrane-bounded organelle"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0005622",
+          "name": "intracellular anatomical structure"
+        },
+        {
+          "id": "GO:0031974",
+          "name": "membrane-enclosed lumen"
+        },
+        {
+          "id": "GO:0043231",
+          "name": "intracellular membrane-bounded organelle"
+        },
+        {
+          "id": "GO:0012505",
+          "name": "endomembrane system"
+        },
+        {
+          "id": "GO:0070013",
+          "name": "intracellular organelle lumen"
+        },
+        {
+          "id": "GO:0005788",
+          "name": "endoplasmic reticulum lumen"
+        },
+        {
+          "id": "GO:0043229",
+          "name": "intracellular organelle"
+        },
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0043233",
+          "name": "organelle lumen"
+        },
+        {
+          "id": "GO:0043226",
+          "name": "organelle"
+        },
+        {
+          "id": "GO:0005783",
+          "name": "endoplasmic reticulum"
+        },
+        {
+          "id": "GO:0005737",
+          "name": "cytoplasm"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0005576",
+      "name": "extracellular region",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0110165",
+          "name": "cellular anatomical structure"
+        },
+        {
+          "id": "GO:0005575",
+          "name": "cellular_component"
+        },
+        {
+          "id": "GO:0005576",
+          "name": "extracellular region"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0030335",
+      "name": "positive regulation of cell migration",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0040017",
+          "name": "positive regulation of locomotion"
+        },
+        {
+          "id": "GO:0050789",
+          "name": "regulation of biological process"
+        },
+        {
+          "id": "GO:2000145",
+          "name": "regulation of cell motility"
+        },
+        {
+          "id": "GO:0050794",
+          "name": "regulation of cellular process"
+        },
+        {
+          "id": "GO:0065007",
+          "name": "biological regulation"
+        },
+        {
+          "id": "GO:0048518",
+          "name": "positive regulation of biological process"
+        },
+        {
+          "id": "GO:0030335",
+          "name": "positive regulation of cell migration"
+        },
+        {
+          "id": "GO:0040012",
+          "name": "regulation of locomotion"
+        },
+        {
+          "id": "GO:2000147",
+          "name": "positive regulation of cell motility"
+        },
+        {
+          "id": "GO:0030334",
+          "name": "regulation of cell migration"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0016477",
+          "name": "cell migration"
+        },
+        {
+          "id": "GO:0048870",
+          "name": "cell motility"
+        },
+        {
+          "id": "GO:0040011",
+          "name": "locomotion"
+        },
+        {
+          "id": "GO:0048522",
+          "name": "positive regulation of cellular process"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR017857",
+      "name": "Coagulation factor-like, Gla domain superfamily",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR017857",
+          "name": "Coagulation factor-like, Gla domain superfamily"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR001314",
+      "name": "Peptidase S1A, chymotrypsin family",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "depth": 1,
+          "id": "IPR001314",
+          "name": "Peptidase S1A, chymotrypsin family"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR033116",
+      "name": "Serine proteases, trypsin family, serine active site",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR033116",
+          "name": "Serine proteases, trypsin family, serine active site"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR001254",
+      "name": "Serine proteases, trypsin domain",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "depth": 1,
+          "id": "IPR001254",
+          "name": "Serine proteases, trypsin domain"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR035972",
+      "name": "Gamma-carboxyglutamic acid-rich (GLA) domain superfamily",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR035972",
+          "name": "Gamma-carboxyglutamic acid-rich (GLA) domain superfamily"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR001881",
+      "name": "EGF-like calcium-binding domain",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "depth": 1,
+          "id": "IPR001881",
+          "name": "EGF-like calcium-binding domain"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0006508",
+      "name": "proteolysis",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0006508",
+          "name": "proteolysis"
+        },
+        {
+          "id": "GO:0008150",
+          "name": "biological_process"
+        },
+        {
+          "id": "GO:0008152",
+          "name": "metabolic process"
+        },
+        {
+          "id": "GO:0009987",
+          "name": "cellular process"
+        },
+        {
+          "id": "GO:0044238",
+          "name": "primary metabolic process"
+        },
+        {
+          "id": "GO:0019538",
+          "name": "protein metabolic process"
+        },
+        {
+          "id": "GO:0043170",
+          "name": "macromolecule metabolic process"
+        }
+      ]
+    },
+    {
+      "annotation_id": "GO:0005615",
+      "name": "extracellular space",
+      "provenance_source": "UNIPROT",
+      "type": "GO",
+      "annotation_lineage": [
+        {
+          "id": "GO:0005615",
+          "name": "extracellular space"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR000152",
+      "name": "EGF-type aspartate/asparagine hydroxylation site",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "id": "IPR000152",
+          "name": "EGF-type aspartate/asparagine hydroxylation site"
+        }
+      ]
+    },
+    {
+      "annotation_id": "IPR012224",
+      "name": "Peptidase S1A, coagulation factor VII/IX/X/C/Z",
+      "provenance_source": "UNIPROT",
+      "type": "InterPro",
+      "annotation_lineage": [
+        {
+          "depth": 1,
+          "id": "IPR001314",
+          "name": "Peptidase S1A, chymotrypsin family"
+        },
+        {
+          "depth": 2,
+          "id": "IPR012224",
+          "name": "Peptidase S1A, coagulation factor VII/IX/X/C/Z"
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity_container_identifiers": {
+    "asym_ids": [
+      "A"
+    ],
+    "auth_asym_ids": [
+      "A"
+    ],
+    "chem_comp_monomers": [
+      "ALA",
+      "ARG",
+      "ASN",
+      "ASP",
+      "CYS",
+      "GLN",
+      "GLU",
+      "GLY",
+      "HIS",
+      "ILE",
+      "LEU",
+      "LYS",
+      "MET",
+      "PHE",
+      "PRO",
+      "SER",
+      "THR",
+      "TRP",
+      "TYR",
+      "VAL"
+    ],
+    "entity_id": "1",
+    "entry_id": "2P16",
+    "rcsb_id": "2P16_1",
+    "uniprot_ids": [
+      "P00742"
+    ],
+    "reference_sequence_identifiers": [
+      {
+        "database_accession": "P00742",
+        "database_name": "UniProt",
+        "entity_sequence_coverage": 1,
+        "provenance_source": "SIFTS",
+        "reference_sequence_coverage": 0.47950819672131145
+      }
+    ]
+  },
+  "rcsb_polymer_entity_feature": [
+    {
+      "assignment_version": "34.0",
+      "feature_id": "PF00089",
+      "name": "Trypsin (Trypsin)",
+      "provenance_source": "Pfam",
+      "type": "Pfam",
+      "feature_positions": [
+        {
+          "beg_seq_id": 1,
+          "end_seq_id": 228
+        }
+      ]
+    },
+    {
+      "name": "Hydropathy values",
+      "provenance_source": "biojava-7.2.4",
+      "type": "hydropathy",
+      "feature_positions": [
+        {
+          "beg_seq_id": 5,
+          "values": [
+            -0.44,
+            -0.99,
+            -1.84,
+            -1.52,
+            -1.66,
+            -1.37,
+            -1.37,
+            -1.44,
+            -0.59,
+            0.22,
+            0.77,
+            0.77,
+            0.1,
+            -0.11,
+            -0.4,
+            -0.4,
+            -0.64,
+            -0.76,
+            -0.9,
+            -1.44,
+            -1.1,
+            -0.79,
+            0.1,
+            0.91,
+            1.21,
+            0.87,
+            0.87,
+            0.44,
+            0.99,
+            1.46,
+            1.46,
+            1.16,
+            0.93,
+            0.67,
+            1.33,
+            1.44,
+            1.44,
+            0.56,
+            0.33,
+            -0.02,
+            -0.72,
+            -0.61,
+            -0.69,
+            -0.5,
+            -1.42,
+            -0.81,
+            -0.47,
+            -1.06,
+            -1.12,
+            -1.01,
+            -1.4,
+            -1.36,
+            -2.21,
+            -2.1,
+            -2.96,
+            -2.96,
+            -2.61,
+            -2.5,
+            -1.91,
+            -1.37,
+            -1.33,
+            -1.33,
+            -0.48,
+            -0.48,
+            0.03,
+            0.54,
+            1.43,
+            0.8,
+            -0.02,
+            -0.06,
+            -0.17,
+            -0.32,
+            -0.01,
+            -0.91,
+            -1.77,
+            -2.34,
+            -2.06,
+            -2.09,
+            -1.39,
+            -1.28,
+            -1.09,
+            -0.81,
+            0.09,
+            0.9,
+            0.48,
+            1.04,
+            1,
+            0.61,
+            0.82,
+            0.82,
+            0.54,
+            0.39,
+            -0.53,
+            0.18,
+            -0.63,
+            0.27,
+            0.54,
+            0.54,
+            0.24,
+            0.6,
+            0.71,
+            1.03,
+            0.43,
+            0.32,
+            -0.53,
+            -0.83,
+            -0.46,
+            -1.04,
+            -1.41,
+            -1.91,
+            -1.31,
+            -0.71,
+            -0.29,
+            -0.29,
+            -0.62,
+            -0.9,
+            -0.56,
+            0.03,
+            0.58,
+            0.07,
+            -0.19,
+            0.2,
+            0.54,
+            0.48,
+            0.48,
+            0.17,
+            -0.72,
+            -1.62,
+            -1.58,
+            -2.03,
+            -2.73,
+            -2.78,
+            -2.36,
+            -2.78,
+            -2,
+            -2.04,
+            -1.4,
+            -0.93,
+            -0.82,
+            0.03,
+            -0.06,
+            -0.12,
+            0.84,
+            0.03,
+            -0.03,
+            -0.63,
+            -1.14,
+            -0.48,
+            -1.38,
+            -0.78,
+            -0.72,
+            -1.28,
+            -0.98,
+            -0.17,
+            0.72,
+            1.31,
+            0.96,
+            1,
+            0.19,
+            0.49,
+            0.89,
+            1.26,
+            1.14,
+            0.6,
+            -0.04,
+            -0.36,
+            -0.04,
+            -0.09,
+            -0.69,
+            -1.39,
+            -2.06,
+            -2.06,
+            -1.73,
+            -1.98,
+            -1.63,
+            -1.94,
+            -1.6,
+            -1.26,
+            -0.91,
+            -0.7,
+            -1.26,
+            -1.07,
+            -0.76,
+            -1.21,
+            -0.51,
+            -0.86,
+            -1.2,
+            -1.23,
+            -1.2,
+            -0.53,
+            -0.53,
+            -0.53,
+            -0.08,
+            0.11,
+            1.01,
+            1.31,
+            1.29,
+            1.39,
+            0.69,
+            0.18,
+            0.53,
+            0.78,
+            -0.22,
+            -1.12,
+            -1.08,
+            -1.41,
+            -1.51,
+            -1.17,
+            -0.62,
+            -1.04,
+            -1.32,
+            -1.26,
+            -0.36,
+            -0.39,
+            0.24,
+            0.7,
+            1.17,
+            0.23,
+            0.28,
+            0.86,
+            0.9,
+            -0.07,
+            -0.08,
+            -0.07,
+            -0.81,
+            -1.31
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Disordered binding sites",
+      "provenance_source": "Anchor2",
+      "type": "disorder_binding",
+      "feature_positions": [
+        {
+          "beg_seq_id": 1,
+          "values": [
+            0.06,
+            0.05,
+            0.04,
+            0.04,
+            0.03,
+            0.03,
+            0.03,
+            0.03,
+            0.03,
+            0.04,
+            0.04,
+            0.05,
+            0.07,
+            0.1,
+            0.11,
+            0.15,
+            0.17,
+            0.2,
+            0.2,
+            0.19,
+            0.19,
+            0.19,
+            0.2,
+            0.2,
+            0.2,
+            0.23,
+            0.24,
+            0.28,
+            0.33,
+            0.39,
+            0.41,
+            0.36,
+            0.34,
+            0.32,
+            0.29,
+            0.29,
+            0.29,
+            0.31,
+            0.34,
+            0.37,
+            0.41,
+            0.42,
+            0.38,
+            0.36,
+            0.33,
+            0.29,
+            0.27,
+            0.25,
+            0.24,
+            0.23,
+            0.22,
+            0.21,
+            0.21,
+            0.21,
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.21,
+            0.21,
+            0.21,
+            0.22,
+            0.23,
+            0.23,
+            0.25,
+            0.26,
+            0.27,
+            0.28,
+            0.29,
+            0.3,
+            0.32,
+            0.33,
+            0.34,
+            0.34,
+            0.35,
+            0.35,
+            0.36,
+            0.36,
+            0.37,
+            0.39,
+            0.4,
+            0.41,
+            0.42,
+            0.43,
+            0.41,
+            0.39,
+            0.37,
+            0.36,
+            0.35,
+            0.34,
+            0.33,
+            0.32,
+            0.31,
+            0.31,
+            0.31,
+            0.31,
+            0.3,
+            0.3,
+            0.29,
+            0.29,
+            0.29,
+            0.3,
+            0.31,
+            0.32,
+            0.32,
+            0.33,
+            0.35,
+            0.37,
+            0.39,
+            0.4,
+            0.42,
+            0.43,
+            0.43,
+            0.43,
+            0.42,
+            0.41,
+            0.41,
+            0.41,
+            0.41,
+            0.42,
+            0.41,
+            0.41,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.4,
+            0.39,
+            0.39,
+            0.38,
+            0.37,
+            0.36,
+            0.36,
+            0.35,
+            0.35,
+            0.36,
+            0.36,
+            0.37,
+            0.39,
+            0.41,
+            0.43,
+            0.4,
+            0.37,
+            0.35,
+            0.32,
+            0.32,
+            0.32,
+            0.33,
+            0.34,
+            0.35,
+            0.37,
+            0.4,
+            0.42,
+            0.43,
+            0.43,
+            0.42,
+            0.42,
+            0.43,
+            0.42,
+            0.41,
+            0.4,
+            0.38,
+            0.37,
+            0.37,
+            0.38,
+            0.4,
+            0.41,
+            0.43,
+            0.41,
+            0.36,
+            0.33,
+            0.29,
+            0.25,
+            0.21,
+            0.19,
+            0.16,
+            0.15,
+            0.13,
+            0.11,
+            0.11,
+            0.1,
+            0.1,
+            0.11,
+            0.11,
+            0.12,
+            0.13,
+            0.14,
+            0.16,
+            0.18,
+            0.2,
+            0.22,
+            0.25,
+            0.27,
+            0.28,
+            0.31,
+            0.33,
+            0.36,
+            0.39,
+            0.4,
+            0.39,
+            0.39,
+            0.4,
+            0.38,
+            0.36,
+            0.34,
+            0.3,
+            0.27,
+            0.24,
+            0.21,
+            0.2,
+            0.2,
+            0.18,
+            0.17,
+            0.18,
+            0.19,
+            0.2,
+            0.24,
+            0.27,
+            0.29,
+            0.32,
+            0.34,
+            0.36,
+            0.38,
+            0.4,
+            0.38,
+            0.36,
+            0.34,
+            0.29,
+            0.23,
+            0.22,
+            0.2,
+            0.18,
+            0.16,
+            0.14
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Disordered regions",
+      "provenance_source": "IUPred2(short)",
+      "type": "disorder",
+      "feature_positions": [
+        {
+          "beg_seq_id": 1,
+          "values": [
+            0.86,
+            0.71,
+            0.7,
+            0.62,
+            0.57,
+            0.5,
+            0.38,
+            0.26,
+            0.16,
+            0.12,
+            0.1,
+            0.15,
+            0.18,
+            0.2,
+            0.2,
+            0.13,
+            0.05,
+            0.12,
+            0.13,
+            0.11,
+            0.07,
+            0.04,
+            0.09,
+            0.07,
+            0.06,
+            0.04,
+            0.03,
+            0.03,
+            0.05,
+            0.06,
+            0.05,
+            0.05,
+            0.02,
+            0.01,
+            0.01,
+            0.01,
+            0.01,
+            0.03,
+            0.03,
+            0.02,
+            0.02,
+            0.02,
+            0.03,
+            0.02,
+            0.02,
+            0.03,
+            0.05,
+            0.08,
+            0.12,
+            0.13,
+            0.16,
+            0.18,
+            0.19,
+            0.28,
+            0.35,
+            0.42,
+            0.39,
+            0.36,
+            0.38,
+            0.4,
+            0.43,
+            0.45,
+            0.46,
+            0.41,
+            0.4,
+            0.39,
+            0.38,
+            0.39,
+            0.38,
+            0.31,
+            0.3,
+            0.29,
+            0.3,
+            0.3,
+            0.22,
+            0.23,
+            0.15,
+            0.17,
+            0.16,
+            0.13,
+            0.09,
+            0.08,
+            0.08,
+            0.06,
+            0.09,
+            0.13,
+            0.16,
+            0.1,
+            0.1,
+            0.06,
+            0.1,
+            0.08,
+            0.08,
+            0.05,
+            0.04,
+            0.08,
+            0.06,
+            0.08,
+            0.05,
+            0.09,
+            0.11,
+            0.16,
+            0.23,
+            0.17,
+            0.22,
+            0.23,
+            0.24,
+            0.21,
+            0.24,
+            0.23,
+            0.31,
+            0.32,
+            0.35,
+            0.36,
+            0.43,
+            0.4,
+            0.32,
+            0.36,
+            0.41,
+            0.42,
+            0.4,
+            0.38,
+            0.38,
+            0.38,
+            0.45,
+            0.48,
+            0.48,
+            0.48,
+            0.48,
+            0.53,
+            0.55,
+            0.55,
+            0.48,
+            0.48,
+            0.46,
+            0.39,
+            0.45,
+            0.44,
+            0.47,
+            0.38,
+            0.39,
+            0.39,
+            0.4,
+            0.4,
+            0.41,
+            0.29,
+            0.29,
+            0.23,
+            0.23,
+            0.23,
+            0.23,
+            0.17,
+            0.13,
+            0.13,
+            0.13,
+            0.15,
+            0.2,
+            0.18,
+            0.17,
+            0.08,
+            0.1,
+            0.14,
+            0.09,
+            0.1,
+            0.09,
+            0.08,
+            0.16,
+            0.17,
+            0.23,
+            0.19,
+            0.11,
+            0.11,
+            0.16,
+            0.2,
+            0.25,
+            0.25,
+            0.24,
+            0.27,
+            0.29,
+            0.31,
+            0.41,
+            0.44,
+            0.36,
+            0.42,
+            0.42,
+            0.42,
+            0.36,
+            0.29,
+            0.23,
+            0.22,
+            0.25,
+            0.3,
+            0.23,
+            0.23,
+            0.17,
+            0.16,
+            0.17,
+            0.17,
+            0.11,
+            0.1,
+            0.13,
+            0.13,
+            0.13,
+            0.18,
+            0.12,
+            0.12,
+            0.08,
+            0.07,
+            0.09,
+            0.12,
+            0.08,
+            0.08,
+            0.09,
+            0.08,
+            0.05,
+            0.07,
+            0.05,
+            0.03,
+            0.03,
+            0.05,
+            0.05,
+            0.04,
+            0.04,
+            0.04,
+            0.06,
+            0.13,
+            0.17,
+            0.27,
+            0.41,
+            0.46,
+            0.51,
+            0.62,
+            0.67,
+            0.74
+          ]
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity_feature_summary": [
+    {
+      "count": 1,
+      "coverage": 0.97436,
+      "type": "Pfam"
+    }
+  ],
+  "rcsb_polymer_entity_group_membership": [
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "210_90",
+      "similarity_cutoff": 90,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 233,
+          "ref_beg_seq_id": 235
+        },
+        {
+          "entity_beg_seq_id": 234,
+          "length": 1,
+          "ref_beg_seq_id": 470
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "223_95",
+      "similarity_cutoff": 95,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 233,
+          "ref_beg_seq_id": 243
+        },
+        {
+          "entity_beg_seq_id": 234,
+          "length": 1,
+          "ref_beg_seq_id": 478
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "321_50",
+      "similarity_cutoff": 50,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 20,
+          "ref_beg_seq_id": 258
+        },
+        {
+          "entity_beg_seq_id": 21,
+          "length": 61,
+          "ref_beg_seq_id": 279
+        },
+        {
+          "entity_beg_seq_id": 82,
+          "length": 152,
+          "ref_beg_seq_id": 353
+        },
+        {
+          "entity_beg_seq_id": 234,
+          "length": 1,
+          "ref_beg_seq_id": 507
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "251_70",
+      "similarity_cutoff": 70,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 20,
+          "ref_beg_seq_id": 237
+        },
+        {
+          "entity_beg_seq_id": 21,
+          "length": 213,
+          "ref_beg_seq_id": 258
+        },
+        {
+          "entity_beg_seq_id": 234,
+          "length": 1,
+          "ref_beg_seq_id": 473
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "757_100",
+      "similarity_cutoff": 100,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 234,
+          "ref_beg_seq_id": 1
+        }
+      ]
+    },
+    {
+      "aggregation_method": "sequence_identity",
+      "group_id": "274_30",
+      "similarity_cutoff": 30,
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 20,
+          "ref_beg_seq_id": 306
+        },
+        {
+          "entity_beg_seq_id": 21,
+          "length": 27,
+          "ref_beg_seq_id": 327
+        },
+        {
+          "entity_beg_seq_id": 48,
+          "length": 36,
+          "ref_beg_seq_id": 357
+        },
+        {
+          "entity_beg_seq_id": 84,
+          "length": 31,
+          "ref_beg_seq_id": 406
+        },
+        {
+          "entity_beg_seq_id": 115,
+          "length": 8,
+          "ref_beg_seq_id": 438
+        },
+        {
+          "entity_beg_seq_id": 123,
+          "length": 13,
+          "ref_beg_seq_id": 447
+        },
+        {
+          "entity_beg_seq_id": 136,
+          "length": 3,
+          "ref_beg_seq_id": 465
+        },
+        {
+          "entity_beg_seq_id": 139,
+          "length": 23,
+          "ref_beg_seq_id": 473
+        },
+        {
+          "entity_beg_seq_id": 162,
+          "length": 72,
+          "ref_beg_seq_id": 501
+        },
+        {
+          "entity_beg_seq_id": 234,
+          "length": 1,
+          "ref_beg_seq_id": 575
+        }
+      ]
+    },
+    {
+      "aggregation_method": "matching_uniprot_accession",
+      "group_id": "P00742",
+      "aligned_regions": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 234,
+          "ref_beg_seq_id": 235
+        }
+      ]
+    }
+  ],
+  "rcsb_polymer_entity_name_com": [
+    {
+      "name": "FACTOR XA HEAVY CHAIN, ACTIVATED FACTOR XA HEAVY CHAIN"
+    }
+  ],
+  "rcsb_related_target_references": [
+    {
+      "related_resource_name": "ChEMBL",
+      "related_resource_version": "37",
+      "related_target_id": "CHEMBL244",
+      "target_taxonomy_id": 9606,
+      "aligned_target": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 233,
+          "target_beg_seq_id": 235
+        }
+      ]
+    },
+    {
+      "related_resource_name": "ChEMBL",
+      "related_resource_version": "37",
+      "related_target_id": "CHEMBL2111449",
+      "target_taxonomy_id": 9606,
+      "aligned_target": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 233,
+          "target_beg_seq_id": 235
+        }
+      ]
+    },
+    {
+      "related_resource_name": "ChEMBL",
+      "related_resource_version": "37",
+      "related_target_id": "CHEMBL2111412",
+      "target_taxonomy_id": 9606,
+      "aligned_target": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 233,
+          "target_beg_seq_id": 235
+        }
+      ]
+    },
+    {
+      "related_resource_name": "ChEMBL",
+      "related_resource_version": "37",
+      "related_target_id": "CHEMBL2111419",
+      "target_taxonomy_id": 9606,
+      "aligned_target": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 233,
+          "target_beg_seq_id": 235
+        }
+      ]
+    },
+    {
+      "related_resource_name": "ChEMBL",
+      "related_resource_version": "37",
+      "related_target_id": "CHEMBL2111424",
+      "target_taxonomy_id": 9606,
+      "aligned_target": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 233,
+          "target_beg_seq_id": 235
+        }
+      ]
+    },
+    {
+      "related_resource_name": "ChEMBL",
+      "related_resource_version": "37",
+      "related_target_id": "CHEMBL2111401",
+      "target_taxonomy_id": 9606,
+      "aligned_target": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 233,
+          "target_beg_seq_id": 235
+        }
+      ]
+    },
+    {
+      "related_resource_name": "ChEMBL",
+      "related_resource_version": "37",
+      "related_target_id": "CHEMBL6066543",
+      "target_taxonomy_id": 9606,
+      "aligned_target": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 233,
+          "target_beg_seq_id": 235
+        }
+      ]
+    },
+    {
+      "related_resource_name": "ChEMBL",
+      "related_resource_version": "37",
+      "related_target_id": "CHEMBL5482991",
+      "target_taxonomy_id": 9606,
+      "aligned_target": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 233,
+          "target_beg_seq_id": 235
+        }
+      ]
+    },
+    {
+      "related_resource_name": "DrugBank",
+      "related_resource_version": "5.1",
+      "related_target_id": "P00742",
+      "target_taxonomy_id": 9606,
+      "aligned_target": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 233,
+          "target_beg_seq_id": 235
+        }
+      ]
+    },
+    {
+      "related_resource_name": "Pharos",
+      "related_resource_version": "6.13.4",
+      "related_target_id": "1457",
+      "target_taxonomy_id": 9606,
+      "aligned_target": [
+        {
+          "entity_beg_seq_id": 1,
+          "length": 233,
+          "target_beg_seq_id": 235
+        }
+      ]
+    }
+  ],
+  "rcsb_target_cofactors": [
+    {
+      "binding_assay_value": 2,
+      "binding_assay_value_type": "pKi",
+      "cofactor_InChIKey": "SEXXIOSYTLBBPF-NSHDSACASA-N",
+      "cofactor_SMILES": "N=C(N)c1ccc(CNC(=O)CNC(=O)[C@@H](N)CCC(=O)O)cc1",
+      "cofactor_resource_id": "CHEMBL2371217",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL244"
+    },
+    {
+      "binding_assay_value": 2,
+      "binding_assay_value_type": "pKi",
+      "cofactor_InChIKey": "RXIWFKTYURFNOC-ZDUSSCGKSA-N",
+      "cofactor_SMILES": "CS(=O)(=O)N1CCN(C(=O)[C@@H](N)Cc2cccc(C(=N)N)c2)CC1",
+      "cofactor_resource_id": "CHEMBL358999",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL244"
+    },
+    {
+      "binding_assay_value": 2,
+      "binding_assay_value_type": "pKi",
+      "cofactor_InChIKey": "MDSVGJAUFNXYRR-WTGUMLROSA-N",
+      "cofactor_SMILES": "CN[C@H](Cc1ccccc1)C(=O)N1CCC[C@H]1C(=O)NC[C@H]1CC[C@H](N)CC1",
+      "cofactor_resource_id": "CHEMBL125181",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL244"
+    },
+    {
+      "binding_assay_value": 2,
+      "binding_assay_value_type": "pKi",
+      "cofactor_InChIKey": "NXBMHZOVQPKBKA-UHFFFAOYSA-N",
+      "cofactor_SMILES": "N=C(N)Nc1ccc(CNC(=O)OCc2ccccc2)cc1",
+      "cofactor_resource_id": "CHEMBL391969",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL244"
+    },
+    {
+      "binding_assay_value": 2,
+      "binding_assay_value_type": "pKi",
+      "cofactor_InChIKey": "JDZDOEGGWHUFAN-DEOSSOPVSA-N",
+      "cofactor_SMILES": "Cc1c(C)c(S(=O)(=O)N[C@@H](Cc2cccc(C(=N)N)c2)C(=O)N2CCN(C(=O)CCN=C(N)N)CC2)c(C)c2c1OC(C)(C)C2",
+      "cofactor_resource_id": "CHEMBL211794",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL244"
+    },
+    {
+      "binding_assay_value": 1.97,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_InChIKey": "BONPXDNWVLALRX-IUGKGNRASA-N",
+      "cofactor_SMILES": "CC(=O)N[C@@H](Cc1ccc(O)cc1)C(=O)N[C@H](C(=O)N[C@@H](CCCCNC(=N)N)C(=O)Cc1ccccc1)[C@@H](C)O",
+      "cofactor_resource_id": "CHEMBL1797520",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL244"
+    },
+    {
+      "binding_assay_value": 1.87,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_InChIKey": "ILYWUIPCXGUYEK-HGAHBTBJSA-N",
+      "cofactor_SMILES": "C[C@@H](O)[C@H](NC(=O)[C@@H](N)Cc1ccc(O)cc1)C(=O)N[C@@H](CCCCNC(=N)N)C(=O)Cc1ccccc1",
+      "cofactor_resource_id": "CHEMBL1797519",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL244"
+    },
+    {
+      "binding_assay_value": 1.83,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_InChIKey": "HSAQNHSMBXXSCF-KCHLEUMXSA-N",
+      "cofactor_SMILES": "N=C(N)NCCCC[C@H](NC(=O)[C@H](Cc1ccccc1)NC(=O)[C@@H](N)Cc1ccccc1)C(=O)Cc1ccccc1",
+      "cofactor_resource_id": "CHEMBL1797522",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL244"
+    },
+    {
+      "binding_assay_value": 1.26,
+      "binding_assay_value_type": "pKi",
+      "cofactor_InChIKey": "IAWOOURUFUHFID-QGZVFWFLSA-N",
+      "cofactor_SMILES": "O=C(O)CNC(=O)[C@@H](COCc1ccccc1)NS(=O)(=O)Cc1ccccc1",
+      "cofactor_resource_id": "CHEMBL4572188",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL244"
+    },
+    {
+      "binding_assay_value": 2.72,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_InChIKey": "QSBQABUDXJWIJA-FGQIZUPISA-N",
+      "cofactor_SMILES": "O=c1c2ccc(O[C@@H]3O[C@H](COS(=O)(=O)O)[C@@H](OS(=O)(=O)O)[C@H](OS(=O)(=O)O)[C@H]3OS(=O)(=O)O)cc2oc2cc(O[C@@H]3O[C@H](COS(=O)(=O)O)[C@@H](OS(=O)(=O)O)[C@H](OS(=O)(=O)O)[C@H]3OS(=O)(=O)O)ccc12",
+      "cofactor_resource_id": "CHEMBL2158198",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL2111449"
+    },
+    {
+      "binding_assay_value": 7,
+      "binding_assay_value_type": "pKi",
+      "cofactor_InChIKey": "YFPMFJCXOLJIOD-UHFFFAOYSA-N",
+      "cofactor_SMILES": "COc1ccc(-n2nc(C(F)(F)F)c3c2C(=O)N(C2CCN(N4CCCCC4=O)CC2)CC3)cc1",
+      "cofactor_resource_id": "CHEMBL5739834",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL6066543"
+    },
+    {
+      "binding_assay_value": 7,
+      "binding_assay_value_type": "pKi",
+      "cofactor_InChIKey": "IIZCQQAYVRKZHU-UHFFFAOYSA-N",
+      "cofactor_SMILES": "COc1ccc(-n2nc(C(N)=O)c3c2C(=O)N(C2CCN(N4CCCCC4=O)CC2)CC3)cc1",
+      "cofactor_resource_id": "CHEMBL5948094",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL6066543"
+    },
+    {
+      "binding_assay_value": 7,
+      "binding_assay_value_type": "pKi",
+      "cofactor_InChIKey": "ITIOYIRDUNQHQA-UHFFFAOYSA-N",
+      "cofactor_SMILES": "COc1ccc(-n2nc(C#N)c3c2C(=O)N(C2CCN(N4CCCCC4=O)CC2)CC3)cc1",
+      "cofactor_resource_id": "CHEMBL6040416",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL6066543"
+    },
+    {
+      "binding_assay_value": 6.52,
+      "binding_assay_value_type": "pKi",
+      "cofactor_InChIKey": "NYUWMYQXNKUCSV-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NC(=O)c1cccc(-n2nc(C(F)(F)F)c3c2C(=O)N(C2CCN(N4CCOCC4=O)CC2)CC3)c1",
+      "cofactor_resource_id": "CHEMBL6013950",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL6066543"
+    },
+    {
+      "binding_assay_value": 6.52,
+      "binding_assay_value_type": "pKi",
+      "cofactor_InChIKey": "MTLRBJOPNITTML-UHFFFAOYSA-N",
+      "cofactor_SMILES": "COc1ccc(-n2nc(C(N)=O)c3c2C(=O)N(C2CCN(C4CCNC4=O)CC2)CC3)cc1",
+      "cofactor_resource_id": "CHEMBL5919505",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL6066543"
+    },
+    {
+      "binding_assay_value": 6.52,
+      "binding_assay_value_type": "pKi",
+      "cofactor_InChIKey": "ORDFJBYOBIZZSP-UHFFFAOYSA-N",
+      "cofactor_SMILES": "COc1ccc(-n2nc(C(N)=O)cc2C(=O)NC2CCN(N3CCOCC3=O)CC2)cc1",
+      "cofactor_resource_id": "CHEMBL5912703",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL6066543"
+    },
+    {
+      "binding_assay_value": 5.28,
+      "binding_assay_value_type": "pKi",
+      "cofactor_InChIKey": "YVVAPRJVYSYPJY-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NC(=O)c1nn(-c2ccc(OC(F)(F)F)cc2)c2c1CCN(C1CCN(N3CCOCC3=O)CC1)C2=O",
+      "cofactor_resource_id": "CHEMBL5877639",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL6066543"
+    },
+    {
+      "binding_assay_value": 7.53,
+      "binding_assay_value_type": "pKi",
+      "cofactor_InChIKey": "HGVDHZBSSITLCT-JLJPHGGASA-N",
+      "cofactor_SMILES": "CN1CCc2nc(C(=O)N[C@@H]3C[C@@H](C(=O)N(C)C)CC[C@@H]3NC(=O)C(=O)Nc3ccc(Cl)cn3)sc2C1",
+      "cofactor_name": "EDOXABAN",
+      "cofactor_resource_id": "CHEMBL1269025",
+      "neighbor_flag": "N",
+      "resource_name": "ChEMBL",
+      "resource_version": "37",
+      "target_resource_id": "CHEMBL5482991"
+    },
+    {
+      "cofactor_name": "Antihemophilic factor, human recombinant",
+      "cofactor_resource_id": "DB00025",
+      "mechanism_of_action": "Antihemophilic factor (AHF) is a protein found in normal plasma which is necessary for clot formation. The administration of AHF provides an increase in plasma levels of AHF and can temporarily correct the coagulation defect of patients with hemophilia A (classical hemophilia).",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        13801371,
+        14285227,
+        236567,
+        6436416,
+        11891806
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_name": "Coagulation factor VIIa Recombinant Human",
+      "cofactor_resource_id": "DB00036",
+      "mechanism_of_action": "NovoSeven activates the coagulation or clotting cascade by cleaving Factor IX and Factor X, which activates them and then leads to activation of thrombin and fibrin.",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        5969560,
+        13801371,
+        13713641,
+        14227143,
+        13621053
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_name": "Coagulation Factor IX (Recombinant)",
+      "cofactor_resource_id": "DB00100",
+      "mechanism_of_action": "Coagulation Factor IX is an important protein in the process of hemostasis and normal blood clotting as it plays a key role within the coagulation cascade. It is located within the blood plasma as a zymogen, an antecedent to enzymatic function, in its inactivated state. Factor IX is dependent on the presence of Vitamin K, and is activated to a serine protease by the function of Coagulation Factor XIa. Factor XIa cleaves the peptide bond associated with protein activation in Factor IX, leaving Factor IX with two exposed chains, a light chain and a heavy chain. These two chains are held together by several disulfide bonds that reinforce the structure of Factor IX's activated form. After being activated, Factor IX forms a complex with calcium ions, membrane phospholipids and Coagulation Factor VIII to activate Coagulation Factor X. The activation of Factor X then performs a similarly integral step in the blood coagulation cascade. The ultimate result of phenotypically normal coagulation factors is the creation of platelets for normal blood clotting.",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        1391956,
+        8083242,
+        9079657,
+        10933803,
+        10919405,
+        11752352,
+        659613
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_InChIKey": "RVOLLAQWKVFTGE-UHFFFAOYSA-N",
+      "cofactor_SMILES": "CN(C)C(=O)OC1=C[N+](C)=CC=C1",
+      "cofactor_name": "Pyridostigmine",
+      "cofactor_resource_id": "DB00545",
+      "mechanism_of_action": "Myasthenia gravis is an autoimmune disease involving dysfunction at the neuromuscular junction most commonly due to autoantibodies directed against the acetylcholine receptor (AChR), but also against other targets such as the muscle-specific kinase (MUSK), lipoprotein-related protein 4 (LRP4), or agrin.[A231004] In the case of AChR antibodies, AChRs are directly bound and cross-linked, impairing acetylcholine binding and contributing through various mechanisms to receptor degradation.[A231004] The lack of acetylcholine signalling leads to muscle tone loss, muscle weakness, and fatigue.[A231004]\r\n\r\nPyridostigmine is a reversible acetylcholinesterase inhibitor that increases extracellular acetylcholine levels in the neuromuscular junction by impairing its breakdown by acetylcholinesterase.[L32408, L32413] The increased acetylcholine leads to increased neural transmission across the junction, which drastically improves myasthenia gravis symptoms.[A231004]\r\n\r\nIn addition to its use in myasthenia gravis and in reversing neuromuscular blocks, pyridostigmine is also a common first-line treatment in congenital myasthenic syndromes (CMS), of which there are multiple subtypes caused by mutations in more than 30 distinct genes.[A231009, A231014] CMS present similarly to myasthenia gravis, albeit due to distinct underlying causes, and often benefit from pyridostigmine. However, in some subgroups, treatment with pyridostigmine is detrimental; detailed genetic testing is required before starting therapy.[A231009, A231014]",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_InChIKey": "KANJSNBRCNMZMV-ABRZTLGGSA-N",
+      "cofactor_SMILES": "CO[C@H]1O[C@H](COS(O)(=O)=O)[C@@H](O[C@@H]2O[C@H]([C@@H](O[C@H]3O[C@H](COS(O)(=O)=O)[C@@H](O[C@@H]4O[C@@H]([C@@H](O[C@H]5O[C@H](COS(O)(=O)=O)[C@@H](O)[C@H](O)[C@H]5NS(O)(=O)=O)[C@H](O)[C@H]4O)C(O)=O)[C@H](OS(O)(=O)=O)[C@H]3NS(O)(=O)=O)[C@H](O)[C@H]2OS(O)(=O)=O)C(O)=O)[C@H](O)[C@H]1NS(O)(=O)=O",
+      "cofactor_name": "Fondaparinux",
+      "cofactor_prd_id": "PRD_900028",
+      "cofactor_resource_id": "DB00569",
+      "mechanism_of_action": "The antithrombotic activity of fondaparinux is the result of ATIII-mediated selective inhibition of Factor Xa. By selectively binding to ATIII, Fondaparinux potentiates (about 300 times) the neutralization of Factor Xa by ATIII. Neutralization of Factor Xa interrupts the blood coagulation cascade and thus inhibits thrombin formation and thrombus development. It is thought that fondaparinux is unlikely to induce thrombocytopenia via a heparin-induced thrombocytopenia (HIT)-like mechanism given its chemical structure [A17488]. As a result, fondaparinux has been used as an alternative anticoagulant in heparin-induced thrombocytopenia (HIT) patients [A33876,A33877,A33878]. However, it is important to note that rare cases of HIT have been reported in patients treated with fondaparinux [A33879,A33880].",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        19825921,
+        37713619,
+        32216347,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_name": "Heparin",
+      "cofactor_resource_id": "DB01109",
+      "mechanism_of_action": "Under normal circumstances, antithrombin III (ATIII) inactivates thrombin (factor IIa) and factor Xa. This process occurs at a slow rate. Administered heparin binds reversibly to ATIII and leads to almost instantaneous inactivation of factors IIa and Xa The heparin-ATIII complex can also inactivate factors IX, XI, XII and plasmin. The mechanism of action of heparin is ATIII-dependent. It acts mainly by accelerating the rate of the neutralization of certain activated coagulation factors by antithrombin, but other mechanisms may also be involved. The antithrombotic effect of heparin is well correlated to the inhibition of factor Xa. Heparin is not a thrombolytic or fibrinolytic. It prevents progression of existing clots by inhibiting further clotting. The lysis of existing clots relies on endogenous thrombolytics.",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        17118432,
+        17004727,
+        11369259,
+        3155697
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_name": "Enoxaparin",
+      "cofactor_resource_id": "DB01225",
+      "mechanism_of_action": "Enoxaparin binds to antithrombin III, a serine protease inhibitor, forming a complex that irreversibly inactivates factor Xa, which is frequently used to monitor anticoagulation in the clinical setting.[A228318] Following factor Xa inactivation, enoxaparin is released and binds to other anti-thrombin molecules. Factor IIa (thrombin) is directly inhibited by enoxaparin, however with less potency than unfractionated heparin (UFH). [A188051] Due to the cascade of effects resulting from enoxaparin binding, thrombin is unable to convert fibrinogen to fibrin and form a clot, preventing thromboembolic events. \r\n \r\n",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        17474542,
+        17509040,
+        16187968,
+        15675440,
+        17567541
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_InChIKey": "YYLQUHNPNCGKJQ-NHYDCYSISA-N",
+      "cofactor_SMILES": "N[C@@H]([C@@H](O)C(O)=O)C(O)=O",
+      "cofactor_chem_comp_id": "BH2",
+      "cofactor_name": "Beta-Hydroxyaspartic Acid",
+      "cofactor_resource_id": "DB03640",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_InChIKey": "UHBYWPGGCSDKFX-VKHMYHEASA-N",
+      "cofactor_SMILES": "N[C@@H](CC(C(O)=O)C(O)=O)C(O)=O",
+      "cofactor_chem_comp_id": "CGU",
+      "cofactor_name": "gamma-carboxy-L-glutamic acid",
+      "cofactor_resource_id": "DB03847",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        10592235,
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_InChIKey": "JUUFKVAFKAKWRV-JOCHJYFZSA-N",
+      "cofactor_SMILES": "[H][C@@]1(CC(C)C)CN(CCN1C(=O)C1=NC=C(C=N1)C1=CC=NC=C1)S(=O)(=O)C1=CC2=CC(Cl)=CC=C2N1",
+      "cofactor_chem_comp_id": "D91",
+      "cofactor_name": "4-[(5-CHLOROINDOL-2-YL)SULFONYL]-2-(2-METHYLPROPYL)-1-[[5-(PYRIDIN-4-YL)PYRIMIDIN-2-YL]CARBONYL]PIPERAZINE",
+      "cofactor_resource_id": "DB04673",
+      "neighbor_flag": "Y",
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_name": "SR-123781A",
+      "cofactor_resource_id": "DB05361",
+      "mechanism_of_action": "SR123781A is a synthetic hexadecasaccharide comprising an antithrombin (AT) binding domain, a thrombin binding domain, and a neutral methylated hexasaccharide sequence, was obtained from glucose through a convergent synthesis. SR123781A showed high affinity for human AT and was a potent catalyst of its inhibitory effect with regard to factor Xa and thrombin. ",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_name": "SSR-126517E",
+      "cofactor_resource_id": "DB05362",
+      "mechanism_of_action": "SSR126517E is a biotinylated form of idraparinux. It can be neutralized with intravenous recombinant avidin. Avidin binds biotinylated fondaparinux with high affinity, and the complex is then rapidly cleared.\r\n\r\nSSR126517E also has an advantage over idraparinux\r\nin that an antidote is available when rapid reversal is\r\nrequired. None of the new agents has a specific antidote except SSR126517E. The lack of an antidote in other anticoagulants agents has been a major cause for the development of  SSR126517E.\r\n",
+      "neighbor_flag": "N",
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_InChIKey": "VYNKVNDKAOGAAQ-RUZDIDTESA-N",
+      "cofactor_SMILES": "CN1CCC(CC1)N1CCN(CC1)C(=O)[C@H](NC(=O)C1=CC=C2C=CNC2=C1)C1=CC=CC=C1",
+      "cofactor_name": "LY-517717",
+      "cofactor_resource_id": "DB05713",
+      "mechanism_of_action": "LY517717, an investigational oral direct inhibitor of activated Factor Xa, appears to interrupt thrombus formation without impairing platelet hemostatic function.",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_InChIKey": "KGFYHTZWPPHNLQ-AWEZNQCLSA-N",
+      "cofactor_SMILES": "ClC1=CC=C(S1)C(=O)NC[C@H]1CN(C(=O)O1)C1=CC=C(C=C1)N1CCOCC1=O",
+      "cofactor_chem_comp_id": "RIV",
+      "cofactor_name": "Rivaroxaban",
+      "cofactor_resource_id": "DB06228",
+      "mechanism_of_action": "Rivaroxaban competitively inhibits free and clot bound factor Xa. Factor Xa is needed to activate prothrombin (factor II) to thrombin (factor IIa). Thrombin is a serine protease that is required to activate fibrinogen to fibrin, which is the loose meshwork that completes the clotting process. Since one molecule of factor Xa can generate more than 1000 molecules of thrombin, selective inhibitors of factor Xa are profoundly useful in terminating the amplification of thrombin generation. The action of rivaroxaban is irreversible.\r\n \r\n",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        20424181,
+        20135071,
+        10592235
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_name": "Lanoteplase",
+      "cofactor_resource_id": "DB06245",
+      "mechanism_of_action": "Lanoteplase is a second generation derivative of alteplase, and a third generation recombinant plasminogen activator made from a deletion and point mutant of tissue type-plasminogen activator (t-PA). Lanoteplase has a longer half life than alteplase. Lanoteplase is a serine protease that binds to fibrin in a thrombus (blood clot)and cleaves the Arg-Val bond in plasminogen, producing active plasmin. Plasmin is an enzyme that degrades plasma proteins such as fibrin clots to clear blocked blood vessels that cause myocardial infarction (heart attack) or stroke. \r\n \r\n",
+      "neighbor_flag": "N",
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_InChIKey": "AJBMORBNKXNZSF-COSHMZDQSA-N",
+      "cofactor_SMILES": "[H][C@]1(O[C@H]2[C@H](OC)[C@@H](OC)[C@]([H])(O[C@@H]3[C@@H](COS(O)(=O)=O)O[C@]([H])(O[C@H]4[C@H](OC)[C@@H](OC)[C@]([H])(O[C@@H]5[C@@H](COS(O)(=O)=O)O[C@H](OC)[C@H](OS(O)(=O)=O)[C@H]5OS(O)(=O)=O)O[C@H]4C(O)=O)[C@H](OS(O)(=O)=O)[C@H]3OS(O)(=O)=O)O[C@@H]2C(O)=O)O[C@H](COS(O)(=O)=O)[C@@H](OC)[C@H](OC)[C@H]1OC",
+      "cofactor_name": "Idraparinux",
+      "cofactor_resource_id": "DB06406",
+      "mechanism_of_action": "Idraparinux sodium is a novel long-acting synthetic highly potent synthetic and specific indirect inhibitor of coagulation factor Xa, injectable subcutaneously.",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_name": "Anpocogin",
+      "cofactor_resource_id": "DB06552",
+      "mechanism_of_action": "Recombinant Nematode Anticoagulant Protein c2 (rNAPc2) is a potent (K(i) =10 pM), inhibitor of the factor VIIa/tissue factor (fVIIa/TF) complex that requires the prerequisite binding to zymogen or activated factor X (fX). This has been shown to attenuate the activation of coagulation and to prevent death in a primate model of sepsis caused by gram-negative bacteria.",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        14597974
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_InChIKey": "QNZCBYKSOIHPEH-UHFFFAOYSA-N",
+      "cofactor_SMILES": "COC1=CC=C(C=C1)N1N=C(C(N)=O)C2=C1C(=O)N(CC2)C1=CC=C(C=C1)N1CCCCC1=O",
+      "cofactor_chem_comp_id": "GG2",
+      "cofactor_name": "Apixaban",
+      "cofactor_resource_id": "DB06605",
+      "mechanism_of_action": "Apixaban selectively inhibits factor Xa in its free and bound forms, independant of antithrombin III[Label]. Apixaban also inhibits prothrominase[Label]. These effects prevent the formation of a thrombus[Label].",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        17371192,
+        18393142,
+        37713619,
+        36634753,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_InChIKey": "PFGVNLZDWRZPJW-OPAMFIHVSA-N",
+      "cofactor_SMILES": "COC(=O)[C@H](CC1=CC(=CC=C1)C(N)=N)[C@@H](C)NC(=O)C1=CC=C(C=C1)C1=CC=[N+]([O-])C=C1",
+      "cofactor_name": "Otamixaban",
+      "cofactor_resource_id": "DB06635",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        18060241,
+        16411387,
+        37713619,
+        12039587,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_InChIKey": "QQBKAVAGLMGMHI-WIYYLYMNSA-N",
+      "cofactor_SMILES": "[H][C@@]1(CN(C(=O)NC2=CC=C(Cl)C=C2)[C@]([H])(C1)C(=O)NC1=CC=C(C=C1F)N1C=CC=CC1=O)OC",
+      "cofactor_chem_comp_id": "230",
+      "cofactor_name": "Eribaxaban",
+      "cofactor_resource_id": "DB06920",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10592235,
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_InChIKey": "YMJHMJLNQLVUAV-GHYUOPHCSA-N",
+      "cofactor_SMILES": "C\\C(=C/S(=O)(=O)N[C@@]1([H])CCN([C@](C)([H])C(=O)N2CCOCC2)C1=O)C1=CC=C(Cl)S1",
+      "cofactor_chem_comp_id": "701",
+      "cofactor_name": "(2R)-2-(5-CHLORO-2-THIENYL)-N-{(3S)-1-[(1S)-1-METHYL-2-MORPHOLIN-4-YL-2-OXOETHYL]-2-OXOPYRROLIDIN-3-YL}PROPENE-1-SULFONAMIDE",
+      "cofactor_resource_id": "DB07211",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10592235,
+        17420122,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_InChIKey": "NVKDOURNRJCKJE-INIZCTEOSA-N",
+      "cofactor_SMILES": "[H][C@@]1(CCN(CC2=CC3=C(C=CN=C3N)C=C2)C1=O)NS(=O)(=O)C1=CC2=C(S1)C=CC=N2",
+      "cofactor_chem_comp_id": "815",
+      "cofactor_name": "THIENO[3,2-B]PYRIDINE-2-SULFONIC ACID [1-(1-AMINO-ISOQUINOLIN-7-YLMETHYL)-2-OXO-PYRROLDIN-3-YL]-AMIDE",
+      "cofactor_resource_id": "DB07261",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10592235
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_InChIKey": "IAUZEBLXCOCAFL-JSGCOSHPSA-N",
+      "cofactor_SMILES": "[H][C@@](C)(N1CC[C@]([H])(NS(=O)(=O)CCC2=CC=C(Cl)S2)C1=O)C(=O)N1CCOCC1",
+      "cofactor_chem_comp_id": "894",
+      "cofactor_name": "2-(5-CHLORO-2-THIENYL)-N-{(3S)-1-[(1S)-1-METHYL-2-MORPHOLIN-4-YL-2-OXOETHYL]-2-OXOPYRROLIDIN-3-YL}ETHANESULFONAMIDE",
+      "cofactor_resource_id": "DB07277",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10592235,
+        17420122,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_InChIKey": "ACEFOQMQINFMRW-DYCFVMESSA-N",
+      "cofactor_SMILES": "C[C@H](N1CC[C@H](NS(=O)(=O)\\C=C\\C2=CC=C(Cl)S2)C1=O)C(=O)N1CCOCC1",
+      "cofactor_chem_comp_id": "895",
+      "cofactor_name": "GW-813893",
+      "cofactor_resource_id": "DB07278",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10592235,
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_InChIKey": "DHDQMXPAANQKDC-UHFFFAOYSA-N",
+      "cofactor_SMILES": "[O-][N+]1=CC=CC2=C1C=C(S2)C(=O)N1CCN(CC1)S(=O)(=O)C1=CC2=CC(Cl)=CC=C2N1",
+      "cofactor_chem_comp_id": "D01",
+      "cofactor_name": "2-({4-[(5-CHLORO-1H-INDOL-2-YL)SULFONYL]PIPERAZIN-1-YL}CARBONYL)THIENO[3,2-B]PYRIDINE 4-OXIDE",
+      "cofactor_resource_id": "DB07605",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10592235
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_InChIKey": "ARPFWVKYXJZULB-DLBZAZTESA-N",
+      "cofactor_SMILES": "[H][C@@]1(CCCC[C@@]1([H])NC(=O)C1=NC2=C(CN(C)CC2)S1)NC(=O)C1=CC2=C(N1)C=CC(Cl)=C2",
+      "cofactor_chem_comp_id": "D92",
+      "cofactor_name": "N-((1R,2S)-2-(5-CHLORO-1H-INDOLE-2-CARBOXAMIDO)CYCLOHEXYL)-5-METHYL-4,5,6,7-TETRAHYDROTHIAZOLO[5,4-C]PYRIDINE-2-CARBOXAMIDE",
+      "cofactor_resource_id": "DB07629",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10592235
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_InChIKey": "ARPFWVKYXJZULB-IAGOWNOFSA-N",
+      "cofactor_SMILES": "[H][C@]1(CCCC[C@@]1([H])NC(=O)C1=NC2=C(CN(C)CC2)S1)NC(=O)C1=CC2=C(N1)C=CC(Cl)=C2",
+      "cofactor_chem_comp_id": "D93",
+      "cofactor_name": "N-((1R,2R)-2-(5-CHLORO-1H-INDOLE-2-CARBOXAMIDO)CYCLOHEXYL)-5-METHYL-4,5,6,7-TETRAHYDROTHIAZOLO[5,4-C]PYRIDINE-2-CARBOXAMIDE",
+      "cofactor_resource_id": "DB07630",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10592235,
+        20503967,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_InChIKey": "MIJGLXFQYBTIFY-UHFFFAOYSA-N",
+      "cofactor_SMILES": "ClC1=CN=C(NS(=O)(=O)C2=C(NC(=O)C3=CC=C(C=C3)N3C=CC=CC3=O)C=CC=C2)C=C1",
+      "cofactor_chem_comp_id": "FXA",
+      "cofactor_name": "N-(2-(((5-CHLORO-2-PYRIDINYL)AMINO)SULFONYL)PHENYL)-4-(2-OXO-1(2H)-PYRIDINYL)BENZAMIDE",
+      "cofactor_resource_id": "DB07800",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10592235,
+        18424044,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_InChIKey": "FKCQUVAGEOSYRU-QWRGUYRKSA-N",
+      "cofactor_SMILES": "[H][C@@](C)(N1CC[C@]([H])(NS(=O)(=O)C2=NNC(=N2)C2=CC=C(Cl)S2)C1=O)C(=O)N1CCOCC1",
+      "cofactor_chem_comp_id": "G15",
+      "cofactor_name": "5-(5-CHLORO-2-THIENYL)-N-{(3S)-1-[(1S)-1-METHYL-2-MORPHOLIN-4-YL-2-OXOETHYL]-2-OXOPYRROLIDIN-3-YL}-1H-1,2,4-TRIAZOLE-3-SULFONAMIDE",
+      "cofactor_resource_id": "DB07804",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10592235
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_InChIKey": "LTJNKFUIOOJXNJ-WFASDCNBSA-N",
+      "cofactor_SMILES": "[H][C@@](C)(N1CC[C@]([H])(NS(=O)(=O)C2=CC3=C(S2)C=CC(Cl)=C3)C1=O)C(=O)N1CCOCC1",
+      "cofactor_chem_comp_id": "GS5",
+      "cofactor_name": "5-CHLORO-N-{(3S)-1-[(1S)-1-METHYL-2-MORPHOLIN-4-YL-2-OXOETHYL]-2-OXOPYRROLIDIN-3-YL}-1-BENZOTHIOPHENE-2-SULFONAMIDE",
+      "cofactor_resource_id": "DB07843",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10592235
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_InChIKey": "PHLKBODTBJLXRD-WFASDCNBSA-N",
+      "cofactor_SMILES": "[H][C@@](C)(N1CC[C@]([H])(NS(=O)(=O)C2=CC3=C(S2)C=C(Cl)C=C3)C1=O)C(=O)N1CCOCC1",
+      "cofactor_chem_comp_id": "GS6",
+      "cofactor_name": "6-CHLORO-N-{(3S)-1-[(1S)-1-METHYL-2-MORPHOLIN-4-YL-2-OXOETHYL]-2-OXOPYRROLIDIN-3-YL}-1-BENZOTHIOPHENE-2-SULFONAMIDE",
+      "cofactor_resource_id": "DB07844",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10592235
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_InChIKey": "ICLOZQFWTRAYPX-LIRRHRJNSA-N",
+      "cofactor_SMILES": "[H][C@@](C)(N1CC[C@]([H])(NS(=O)(=O)C2=CC3=CC=C(Cl)C=C3C=C2)C1=O)C(=O)N1CCOCC1",
+      "cofactor_chem_comp_id": "GSK",
+      "cofactor_name": "6-CHLORO-N-{(3S)-1-[(1S)-1-METHYL-2-(4-MORPHOLINYL)-2-OXO ETHYL]-2-OXO-3-PYRROLIDINYL}-2-NAPHTHALENESULFONAMIDE",
+      "cofactor_resource_id": "DB07847",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10592235
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_InChIKey": "BHNMMFGOJRIAEZ-LRDDRELGSA-N",
+      "cofactor_SMILES": "C[C@H](N1CC[C@H](NS(=O)(=O)C2=CC3=C(N2)C=CC(Cl)=C3)C1=O)C(=O)N1CCOCC1",
+      "cofactor_chem_comp_id": "GSQ",
+      "cofactor_name": "5-Chloro-N-{(3S)-1-[(2S)-1-(4-morpholinyl)-1-oxo-2-propanyl]-2-oxo-3-pyrrolidinyl}-1H-indole-2-sulfonamide",
+      "cofactor_resource_id": "DB07848",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10592235
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_InChIKey": "IYGIXVNAMZPBDK-CQSZACIVSA-N",
+      "cofactor_SMILES": "[H][C@]1(CCN(CC(=O)NC2=C(F)C=C(C=C2)N2C=CC=CC2=O)C1)NC(=O)C1=CC=C(Cl)S1",
+      "cofactor_chem_comp_id": "H22",
+      "cofactor_name": "5-chloro-N-[(3R)-1-(2-{[2-fluoro-4-(2-oxopyridin-1(2H)-yl)phenyl]amino}-2-oxoethyl)pyrrolidin-3-yl]thiophene-2-carboxamide",
+      "cofactor_resource_id": "DB07872",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10592235
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_InChIKey": "ARAVOODWJJJNBY-IRXDYDNUSA-N",
+      "cofactor_SMILES": "[H][C@]1(O)CN(CC(=O)NC2=C(F)C=C(C=C2)N2C=CC=CC2=O)C[C@]1([H])NC(=O)C1=CC=C(Cl)S1",
+      "cofactor_chem_comp_id": "H25",
+      "cofactor_name": "5-Chloro-thiophene-2-carboxylic acid ((3S,4S)-1-{[2-fluoro-4-(2-oxo-2H-pyridin-1-yl)-phenylcarbamoyl]-methyl}-4-hydroxy-pyrrolidin-3-yl)-amide",
+      "cofactor_resource_id": "DB07875",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10592235
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_InChIKey": "GIPCBGDQVGKMPO-UHFFFAOYSA-N",
+      "cofactor_SMILES": "COC1=CC(CN2C(=CC3=C2C=CC=C3)C(=O)NC2CCN(CC2)C(C)C)=CC=C1",
+      "cofactor_chem_comp_id": "IID",
+      "cofactor_name": "N-(1-ISOPROPYLPIPERIDIN-4-YL)-1-(3-METHOXYBENZYL)-1H-INDOLE-2-CARBOXAMIDE",
+      "cofactor_resource_id": "DB07973",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10592235,
+        15261268,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_InChIKey": "BDLMBQRBNPDCSS-UHFFFAOYSA-N",
+      "cofactor_SMILES": "CC(C)N1CCC(CC1)NC(=O)C1=CC2=C(C=CC=C2)N1CC(=O)NC1=CC=C(Cl)C=C1",
+      "cofactor_chem_comp_id": "IIE",
+      "cofactor_name": "1-{2-[(4-CHLOROPHENYL)AMINO]-2-OXOETHYL}-N-(1-ISOPROPYLPIPERIDIN-4-YL)-1H-INDOLE-2-CARBOXAMIDE",
+      "cofactor_resource_id": "DB07974",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10592235,
+        36178213,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_InChIKey": "SXIYSYYSKHUTQQ-RDJZCZTQSA-N",
+      "cofactor_SMILES": "[H][C@]1(F)CN(CC(=O)NC2=CC=C(C=C2F)N2C=CC=CC2=O)C[C@]1([H])NC(=O)C1=CC=C(Cl)S1",
+      "cofactor_chem_comp_id": "LZG",
+      "cofactor_name": "5-CHLORO-THIOPHENE-2-CARBOXYLIC ACID ((3S,4S)-4-FLUORO- 1-{[2-FLUORO-4-(2-OXO-2H-PYRIDIN-1-YL)-PHENYLCARBAMOYL]-METHYL}-PYRROLIDIN-3-YL)-AMIDE",
+      "cofactor_resource_id": "DB08143",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10592235
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_InChIKey": "UCKHUNHXYMAFQM-UHFFFAOYSA-N",
+      "cofactor_SMILES": "ClC1=CC=C(S1)C(=O)NCCNC(=O)C1=CC=C(C=C1)N1C=CC=CC1=O",
+      "cofactor_chem_comp_id": "ME1",
+      "cofactor_name": "5-CHLORO-N-(2-(4-(2-OXOPYRIDIN-1(2H)-YL)BENZAMIDO)ETHYL)THIOPHENE-2-CARBOXAMIDE",
+      "cofactor_resource_id": "DB08173",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10592235,
+        17588746,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_InChIKey": "QCPYHSAHOYXXQK-DLBZAZTESA-N",
+      "cofactor_SMILES": "[H][C@]1(CCC[C@]1([H])NC(=O)C1=CC=C(C=C1)N1C=CC=CC1=O)NC(=O)C1=CC=C(Cl)S1",
+      "cofactor_chem_comp_id": "ME5",
+      "cofactor_name": "5-CHLORO-N-((1R,2S)-2-(4-(2-OXOPYRIDIN-1(2H)-YL)BENZAMIDO) CYCLOPENTYL)THIOPHENE-2-CARBOXAMIDE",
+      "cofactor_resource_id": "DB08174",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10592235,
+        20503967,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_InChIKey": "PLXOQMHGHDZMSX-AWEZNQCLSA-N",
+      "cofactor_SMILES": "[H][C@@]1(CCN(CC2=CC3=C(N2)C=NC=C3)C1=O)NS(=O)(=O)C1=CC2=C(S1)C=CC=N2",
+      "cofactor_chem_comp_id": "PR2",
+      "cofactor_name": "THIENO[3,2-B]PYRIDINE-2-SULFONIC ACID [2-OXO-1-(1H-PYRROLO[2,3-C]PYRIDIN-2-YLMETHYL)-PYRROLIDIN-3-YL]-AMIDE",
+      "cofactor_resource_id": "DB08426",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10592235
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_InChIKey": "PRMSFVUWLBPPLY-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NC(=N)C1=CC(CN2CCN(CC2=O)S(=O)(=O)C2=CC3=C(S2)C=C(Cl)C=C3)=CC=C1",
+      "cofactor_chem_comp_id": "RRP",
+      "cofactor_name": "3-({4-[(6-CHLORO-1-BENZOTHIEN-2-YL)SULFONYL]-2-OXOPIPERAZIN-1-YL}METHYL)BENZENECARBOXIMIDAMIDE",
+      "cofactor_resource_id": "DB08487",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10592235,
+        20503967,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_InChIKey": "PLWVUIRWJVKSSD-XBXARRHUSA-N",
+      "cofactor_SMILES": "ClC1=CC=C(S1)\\C=C\\S(=O)(=O)N1CCN(CC2=CC3=C(N2)C=CN=C3)C(=O)C1",
+      "cofactor_chem_comp_id": "RRR",
+      "cofactor_name": "4-{[(E)-2-(5-CHLOROTHIEN-2-YL)VINYL]SULFONYL}-1-(1H-PYRROLO[3,2-C]PYRIDIN-2-YLMETHYL)PIPERAZIN-2-ONE",
+      "cofactor_resource_id": "DB08488",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10592235,
+        20503967,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_InChIKey": "VXONTEUOQXFJJS-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NC(=N)C1=CC=C(CN2CCN(CC2=O)S(=O)(=O)C2=CC3=C(S2)C=C(Cl)C=C3)C=C1",
+      "cofactor_chem_comp_id": "RTR",
+      "cofactor_name": "4-({4-[(6-CHLORO-1-BENZOTHIEN-2-YL)SULFONYL]-2-OXOPIPERAZIN-1-YL}METHYL)BENZENECARBOXIMIDAMIDE",
+      "cofactor_resource_id": "DB08495",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10592235,
+        11958994,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_InChIKey": "QLHUDNKWOSQSMK-CXUHLZMHSA-N",
+      "cofactor_SMILES": "ClC1=CC=C(\\C=C\\S(=O)(=O)N2CCN(CC3CCN(CC3)C3=CC=NC=C3)C(=O)C2)C=C1",
+      "cofactor_chem_comp_id": "XMJ",
+      "cofactor_name": "4-[[(1E)-2-(4-CHLOROPHENYL)ETHENYL]SULFONYL]-1-[[1-(4-PYRIDINYL)-4-PIPERIDINYL]METHYL]PIPERAZINONE",
+      "cofactor_resource_id": "DB08745",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10592235
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_InChIKey": "ZOSSOFIFNGGDKG-GIJQJNRQSA-N",
+      "cofactor_SMILES": "ClC1=CC=C(\\C=C\\S(=O)(=O)N2CCN(CC3CCN(CC3)C3=CC=NC=C3)CC2)C=C1",
+      "cofactor_chem_comp_id": "XMK",
+      "cofactor_name": "1-[[(1E)-2-(4-CHLOROPHENYL)ETHENYL]SULFONYL]-4-[[1-(4-PYRIDINYL)-4-PIPERIDINYL]METHYL]PIPERAZINE",
+      "cofactor_resource_id": "DB08746",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10592235
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_name": "Nadroparin",
+      "cofactor_resource_id": "DB08813",
+      "mechanism_of_action": "The mechanism of action for nadroparin is similar to all other LMWHs. Like all LMWHs, nadroparin has a pentasaccharide sequence which binds to ATIII, which potentiates the action of ATIII. This complex greatly accelerates the inactivation of factor Xa and factor IIa. As a result, the coagulation cascade is inhibited.",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_InChIKey": "HGVDHZBSSITLCT-JLJPHGGASA-N",
+      "cofactor_SMILES": "CN(C)C(=O)[C@H]1CC[C@H](NC(=O)C(=O)NC2=NC=C(Cl)C=C2)[C@@H](C1)NC(=O)C1=NC2=C(CN(C)CC2)S1",
+      "cofactor_name": "Edoxaban",
+      "cofactor_resource_id": "DB09075",
+      "mechanism_of_action": "Edoxaban is a selective inhibitor of factor Xa, a serine endopeptidase of the clotting cascade required for cleavage of prothrombin into thrombin.",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        18096568
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_name": "Turoctocog alfa",
+      "cofactor_resource_id": "DB09109",
+      "mechanism_of_action": "The B domain is known to perform the function of restrict the expression of the endogenous coagulation factor VIII but it has no direct relationship to the function of this factor. In normal conditions during hemostasis, the coagulation factor VIII will be activated by specific thrombin cleavages producing A1, A2 and A3-C1-C2 fragments of activated factor VIII (Factor VIIIa) which will form a complex with the factor IXa and activate the factor X leading to a stable haemostatic plug.[A31504] Turoctocog contains all function-related domains with a considerably easier intact expression of the protein in mammalian cells by truncating the B domain.[A31507] This recombinant structure allows it to replace the missing factor VIII and restore hemostasis.[L1105]",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        24797664,
+        26761578
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_name": "Bemiparin",
+      "cofactor_resource_id": "DB09258",
+      "mechanism_of_action": "This drug is a second-generation low molecular weight heparin (LMWH). It has a very low mean molecular weight (3600 Dalton), a long half-life (5.3 hrs) and a large anti-Xa: anti-IIa ratio (8:1)[L1463].  The mechanism of action of bemiparin is inhibition of factor Xa, which is a necessary step in the clotting cascade. Factor-Xa is necessary for the propagation of a thrombus.\r\nCombined with various co-factors that bind to activated platelets, Factor-Xa increases coagulation by converting prothrombin to thrombin [L1467]. Activated Factor-X, bound as part of the prothrombinase complex on the external surface of activated platelets, converts significant amounts of prothrombin to thrombin, promoting the so-called ‘thrombin burst’, referring to a burst of thrombin release [L1467]. \r\n\r\nA secondary but less potent mechanism of action of this drug is binding to antithrombin III and activated factor II (Factor IIa), which further prevents the propagation of thrombi [L1472]. \r\n\r\nDue to its excellent pharmacological profile-the second-generation LMWH with the lowest molecular weight, the longest half-life and the highest anti-Factor Xa/anti-Factor IIa activity ratio-it can be safely used in special categories of patients (children, elderly, patients with renal impairment and congestive heart failure). Several studies demonstrated its safety and efficacy, while cost analyses show the economic benefits of bemiparin treatment as compared to other heparins [A7866, A7867]. ",
+      "neighbor_flag": "N",
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_InChIKey": "GZBACHSOZNEZOG-UHFFFAOYSA-J",
+      "cofactor_SMILES": "[Na+].[Na+].[Na+].[Na+].CC1=C(OP([O-])([O-])=O)C2=CC=CC=C2C(OP([O-])([O-])=O)=C1",
+      "cofactor_name": "Kappadione",
+      "cofactor_resource_id": "DB09332",
+      "mechanism_of_action": "Menadiol sodium phosphate (vitamin K3) is involved as a cofactor in the posttranslational gamma-carboxylation of glutamic acid residues of various proteins in the body, allowing for propagation of the clotting cascade that results in coagulation. These proteins are comprised of the vitamin K-dependent coagulation factors II (prothrombin), VII (proconvertin), IX (Christmas factor), X (Stuart factor), protein C, protein S, protein Zv and a growth-arrest-specific factor (Gas6). The two vitamin K-dependent proteins found in bone are osteocalcin, also known as bone G1a (gamma-carboxyglutamate) protein or BGP, and the matrix G1a protein or MGP. Gamma-carboxylation is catalyzed by the vitamin K-dependent gamma-carboxylases. The reduced form of vitamin K, vitamin K hydroquinone, is the actual cofactor for the gamma-carboxylases. Proteins containing gamma-carboxyglutamate are called G1a proteins [L1568].  ",
+      "neighbor_flag": "N",
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_InChIKey": "AMTWCFIAVKBGOD-UHFFFAOYSA-N",
+      "cofactor_SMILES": "O=[Si]=O.CO[Si](C)(C)O[Si](C)(C)C",
+      "cofactor_name": "Simethicone",
+      "cofactor_resource_id": "DB09512",
+      "mechanism_of_action": "Simethicone is a surfactant that decreases the surface tension of gas bubbles in the gastrointestinal tract, more easily allowing gas to exit the body.[A228308]",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_name": "Antithrombin Alfa",
+      "cofactor_resource_id": "DB11166",
+      "mechanism_of_action": "Antithrombin is the main inhibitor of thrombin and Factor Xa , the serine proteases involved in blood coagulation. Antithrombin neutralizes the activity of thrombin and Factor Xa by forming a complex which is rapidly removed from the circulation. ",
+      "neighbor_flag": "N",
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_name": "Prothrombin",
+      "cofactor_resource_id": "DB11311",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        25535411
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_InChIKey": "YJDYDFNKCBANTM-QCWCSKBGSA-N",
+      "cofactor_SMILES": "C\\C=C\\C[C@@H](C)C(=O)[C@@H]1N(C)C(=O)[C@H](C(C)C)N(C)C(=O)[C@H](CC(C)C)N(C)C(=O)[C@H](CC(C)C)N(C)C(=O)[C@@H](C)NC(=O)[C@H](C)NC(=O)[C@H](CC(C)C)N(C)C(=O)[C@@H](NC(=O)[C@H](CC(C)C)N(C)C(=O)CN(C)C(=O)[C@@H](NC1=O)C(C)C)C(C)C",
+      "cofactor_name": "Valspodar",
+      "cofactor_resource_id": "DB11869",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_InChIKey": "GEHAEMCVKDPMKO-HXUWFJFHSA-N",
+      "cofactor_SMILES": "O[C@H](CS(=O)(=O)C1=CC=C2C=C(Cl)C=CC2=C1)C(=O)N1CCC(CC1)N1CCCNC1=O",
+      "cofactor_chem_comp_id": "443",
+      "cofactor_name": "Letaxaban",
+      "cofactor_resource_id": "DB11984",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_InChIKey": "IJNIQYINMSGIPS-UHFFFAOYSA-N",
+      "cofactor_SMILES": "COC1=CC=C(C=C1)C(=O)NC1=C(NC(=O)C2=CC=C(C=C2)N2CCCN(C)CC2)C(O)=CC=C1",
+      "cofactor_name": "Darexaban",
+      "cofactor_resource_id": "DB12289",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619,
+        21995444,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_InChIKey": "XHOLNRLADUSQLD-UHFFFAOYSA-N",
+      "cofactor_SMILES": "COC1=CC=C(NC(=O)C2=CC=C(C=C2)C(=N)N(C)C)C(=C1)C(=O)NC1=CC=C(Cl)C=N1",
+      "cofactor_name": "Betrixaban",
+      "cofactor_resource_id": "DB12364",
+      "mechanism_of_action": "Betrixaban is a cofactor-independent direct inhibitor of the Factor Xa and inhibits free and prothrombinase-bound Factor Xa [A7708].",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        23487517,
+        19297154,
+        26170684,
+        25673997,
+        39574417,
+        20503967
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_InChIKey": "MQQNFDZXWVTQEH-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NC(=N)NC1=CC=C(C=C1)C(=O)OC1=CC2=C(C=C1)C=C(C=C2)C(N)=N",
+      "cofactor_chem_comp_id": "7RF",
+      "cofactor_name": "Nafamostat",
+      "cofactor_resource_id": "DB12598",
+      "mechanism_of_action": "Nafamostat mesilate inhibits various enzyme systems, such as coagulation and fibrinolytic systems (thrombin, Xa, and XIIa), the kallikrein–kinin system, the complement system, pancreatic proteases and activation of protease-activated receptors (PARs) [A19230]. Nafamostat inhibits lipopolysaccharide-induced nitric oxide production, apoptosis, and interleukin (IL)-6 and IL-8 levels in cultured human trophoblasts. It is shown to act as an antioxidant in TNF-α-induced ROS production [A19225]. ",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        22251267,
+        10669559,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_name": "Protein S human",
+      "cofactor_resource_id": "DB13149",
+      "mechanism_of_action": "Thrombin converts protein C to activated protein C (APC) [A19561]. Protein S functions as a cofactor for APC and together they proteolytically cleave factor Va and VIIIa [A19561] [A19562]. This inhibits the activities of the prothrombinase and tenase complexes respectively and leads to a reduction in thrombin generation. The reduction in thrombin generation suppresses the coagulation cascade preventing additional clotting from occuring. Protein S is suggested to inhibit factors Va and Xa through protein-protein interactions [A19565] [A19561]. Protein S is also suggested to inhibit production of factor Xa by the tenase complex by competing for binding to phospholipids via its gamma-carboxyglutamic acid domain.\r\n\r\nProtein S is thought to exert an anti-inflammatory effect in addition to its anticoagulant properties. The protein S-C4b-binding protein complex is believed to bind to phosphotidylserines on the cell membranes of apoptotic cells and interact with macrophages, signalling them to phagocytose the cell before it can rupture [A19564].",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        8063724
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_name": "Coagulation factor VII human",
+      "cofactor_resource_id": "DB13150",
+      "mechanism_of_action": "Factor VII is required in the extrinsic clotting cascade. When there is vascular damage tissue factor (TF) is released which then interacts with Factor VII resulting in the formation of the activated complex VIIa.  Factor VIIa then continues to activate coagulation factors in the cascade until a clot is formed.",
+      "neighbor_flag": "N",
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_name": "Anti-inhibitor coagulant complex",
+      "cofactor_resource_id": "DB13151",
+      "mechanism_of_action": "Factor VIIa present in FEIBA forms a complex with tissue factor and calcium which converts endogenous and FEIBA contained factor X to Xa [A19574] [A19411]. Endogenous and FEIBA contained factor Xa act as parrt of the prothrombinase complex to convert endogenous and FEIBA contained prothrombin to thrombin. Endogenous and FEIBA contained thrombin then cleave fibrinogen to insulouble fibrin and activate factor XIII which covalently cross-links fibrin to form a polymer mesh. FEIBA also contains factor IX and IXa which act as part of the tenase complex to convert factor X to Xa. Thrombin activates factor V, VII, and VIII as part of the amplification phase of the clotting cascade. These events promote the formation of blood clots to prevent or stop bleeding. ",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        15385040
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_name": "Coagulation Factor IX Human",
+      "cofactor_resource_id": "DB13152",
+      "mechanism_of_action": "Coagulation Factor IX is an important protein in the process of hemostasis and normal blood clotting as it plays a key role within the coagulation cascade. It is located within the blood plasma as a zymogen, an antecedent to enzymatic function, in its inactivated state. Factor IX is dependent on the presence of Vitamin K, and is activated to a serine protease by the function of Coagulation Factor XIa. Factor XIa cleaves the peptide bond associated with protein activation in Factor IX, leaving Factor IX with two exposed chains, a light chain and a heavy chain. These two chains are held together by several disulfide bonds that reinforce the structure of Factor IX's activated form. After being activated, Factor IX forms a complex with calcium ions, membrane phospholipids and Coagulation Factor VIII to activate Coagulation Factor X. The activation of Factor X then performs a similarly integral step in the blood coagulation cascade. The ultimate result of phenotypically normal coagulation factors is the creation of platelets for normal blood clotting.",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        1391956,
+        8083242,
+        9079657,
+        10933803,
+        10919405,
+        11752352,
+        659613
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_name": "Antihemophilic factor human",
+      "cofactor_resource_id": "DB13192",
+      "mechanism_of_action": "The human antihemophilic factor replaces the coagulation factor VIII. It acts as a co-factor for factor IX to activate factor X in the intrinsic pathway of blood coagulation.[L1056, L1057]",
+      "neighbor_flag": "N",
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_InChIKey": "QHGUCRYDKWKLMG-UHFFFAOYSA-N",
+      "cofactor_SMILES": "NCC(O)C1=CC=C(O)C=C1",
+      "cofactor_name": "Octopamine",
+      "cofactor_resource_id": "DB13251",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_InChIKey": "DKWNMCUOEDMMIN-PKOBYXMFSA-N",
+      "cofactor_SMILES": "[H][C@]1(CCN1C(=O)[C@H](NCC(O)=O)C1CCCCC1)C(=O)NCC1=CC=C(C=C1)C(N)=N",
+      "cofactor_chem_comp_id": "MEL",
+      "cofactor_name": "Melagatran",
+      "cofactor_resource_id": "DB13616",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619,
+        36462436,
+        39574417,
+        23899618
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_name": "Albutrepenonacog alfa",
+      "cofactor_resource_id": "DB13884",
+      "mechanism_of_action": "The current therapies against hemophilia B are hampered by the short half-life of the replacement FIX therapy.[A32547] Thus, to solve this problem, in rIX-RFP there is the fusion of rFIX with rAlbumin which presents a much longer half-life and it does not present interactions with the immune system.[A32547]\r\n\r\nThe administration of rIX-RFP increases the plasma concentration of FIX, thus addressing the coagulation deficiency of the patient. rIX-RFP is able to circulate in the plasma as an intact zymogen thanks to the pH-dependent binding to FcRn which is a normal protection pathway from lysosomal degradation of albumin. When the FIX is needed, rAlbumin is cleaved by the same proteases that activate the FIX.[A32547]",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        27988873
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_name": "Emicizumab",
+      "cofactor_resource_id": "DB13923",
+      "mechanism_of_action": "Emicizumab exerts its action by performing the function of the coagulation Factor VIII without presenting a structural homology.[L1017] It presents a dual specificity which allows it to bind to both the Factor IXa and Factor X, performing the required bridging activity for the launch of the coagulation cascade.[A31286] ",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        26626991,
+        27223146,
+        6424437,
+        27207420
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_name": "Nonacog beta pegol",
+      "cofactor_resource_id": "DB13933",
+      "mechanism_of_action": "Nonacog beta pegol is activated by factor IXa and the tissue complex factor VII, whereby the peptide, including the 40kDa PEG moiety, is cleaved off. The resulting product from this activation process is recombinant factor IX with the same biological activity as endogenous coagulation factor IXa.[L1099, L1100] The activated coagulation factor IX, in combination with factor VIIIa, activates the coagulation factor X to trigger the coagulation cascade and promote the conversion of prothrombin into thrombin. Thrombin drives the conversion of fibrinogen into fibrin for clot formation.[A19411]",
+      "neighbor_flag": "N",
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_name": "Lonoctocog alfa",
+      "cofactor_resource_id": "DB13998",
+      "mechanism_of_action": "Antihemophilic factor (AHF) is a protein found in normal plasma which is necessary for clot formation. The administration of AHF provides an increase in plasma levels of AHF and can temporarily correct the coagulation defect of patients with hemophilia A (classical hemophilia).",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        13801371,
+        14285227,
+        236567,
+        6436416,
+        11891806
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_name": "Moroctocog alfa",
+      "cofactor_resource_id": "DB13999",
+      "mechanism_of_action": "Antihemophilic factor (AHF) is a protein found in normal plasma which is necessary for clot formation. The administration of AHF provides an increase in plasma levels of AHF and can temporarily correct the coagulation defect of patients with hemophilia A (classical hemophilia). As factor VIII is the specific clotting factor deficient in patients with hemophilia A, replacement of clotting factor with Moroctocog alfa, also known as BDDrFVIII (B domain deleted recombinant factor VIII), is the cornerstone of the prevention and treatment of bleeding for this disorder. ",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        13801371,
+        14285227,
+        236567,
+        6436416,
+        11891806
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_name": "Turoctocog alfa pegol",
+      "cofactor_resource_id": "DB14738",
+      "mechanism_of_action": "The principal characteristic that defines hemophilia A is the limited presence or complete deficiency of human clotting factor VIII in the body [A31505]. Subsequently, because factor VIII is a critical component that is essential for the extrinsic tissue factor pathway of the blood coagulation cascade process to proceed, individuals with hemophilia A ultimately experience increased bleeding - in comparison to individuals without a factor VIII deficiency - after injury or any kind of medical procedure [A31505]. Such increased bleeding can be heavy and/or fatal and may occur due to minimal injury or even when there is no injury whatsoever - in which case the bleeding is spontaneous [A31505]. Furthermore, excessive bleeds that bleed into muscles, organs, and joints are also associated with dangerous complications and regular pain [A31505].\r\n\r\nThe turoctocog alfa pegol (N8-GP) drug is consequently recombinant factor VIII (rFVIII) in which specific site-directed glycoPEGylation has been performed in an effort to increase the half-life of the rFVIII moiety without altering its hemostatic activity [A31506, A32069]. In particular, the general rFVIII component of N8-GP is turoctocog alfa, a human coagulation factor VIII (rDNA), with a truncated B-domain [A31506, A32069]. This glycoprotein has the same structure as human clotting factor VIII when activated, and also possesses post-translational modifications that are similar to those of the plasma-derived molecule [A31506, A32069].\r\n\r\nIn blood, factor VIII predominantly circulates in a stable non-covalent complex with von Willebrand factor (vWF) [A175078, A175093]. Concurrently, the tyrosine sulfation site present at the Tyr1680 (native full length) position, which is important for binding to vWF, has been found to be fully sulfated in the turoctocog alfa molecule [A31506, A32069]. Subsequently, when infused into a hemophilia patient, this rFVIII binds to endogenous vWF in the patient’s circulation [A31506, A32069]. The resultant factor VIII/vWF complex consists of two molecules (factor VIII and vWF) with different physiological functions [A31506, A32069, A175078, A175093]. Factor VIII is activated by thrombin (factor IIa) [A31506, A32069, A31505]. Activated factor VIII acts as a co-factor for activated factor IX, accelerating the conversion of factor X to activated factor X [A31505]. Activated factor X converts prothrombin into thrombin [A31505]. Thrombin then converts fibrinogen into fibrin and a clot can be formed [A31505]. Turoctocog alfa pegol consequently functions predominantly as factor VIII replacement therapy for patients with factor VIII deficient hemophilia A. \r\n\r\nFinally, the particular N8-GP molecule has a 40-kDa polyethylene glycol (PEG) attached to a specific _O_-glycan in the truncated B-domain of the general turoctocog alfa rFVIII structure [A31506, A32069]. Upon activation by thrombin, this B-domain possessing the pegylation is cleaved away, leaving active rFVIIIa - which as discussed above, is highly similar to and elicits the same blood clotting activities as native factor VIII [A31506, A32069]. Subsequently, the PEG group of N8-GP ultimately serves to extend the half-life of the overall drug molecule in the body. As an inert chemical, the PEG group prolongs N8-GP's half-life by acting like an obstructive 'cloud' around the rFVIII molecule to which it is attached [F3703]. Since the PEG group is generally too large to be cleared by the kidneys and does not bind particularly well with the clearance receptors that typically eliminate endogenous factor VIII, N8-GP demonstrates a longer half-life than the general turoctocog alfa rFVIII structure [F3703].",
+      "neighbor_flag": "N",
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_name": "Efanesoctocog alfa",
+      "cofactor_resource_id": "DB16662",
+      "mechanism_of_action": "Efanesoctocog alfa is a recombinant factor VIII (FVIII) analogue fusion protein that temporarily replaces the missing coagulation FVIII needed for effective hemostasis.[L45379] It is formed by a single recombinant FVIII protein fused to dimeric Fc, a D'D3 domain of von Willebrand factor (VWF), and two XTEN polypeptides, and was designed to have an extended half-life.[A257464] \r\n\r\nIn plasma, most FVIII circulates in a complex with VWF, which protects FVIII from degradation and extends its half-life. However, it also sets a half-life ceiling of approximately 15 to 19 h.[A257469] Linking the D'D3 domain of VWF to the recombinant FVIII-Fc fusion protein provides protection and stability to FVIII and prevents FVIII interaction with endogenous VWF. The lysosomal degradation of efanesoctocog alfa is delayed thanks to the Fc region of human immunoglobulin G1 (IgG1) that binds to the neonatal Fc receptor (FcRn), and the XTEN polypeptides alter the hydrodynamic radius of the fusion protein and reduce clearance and degradation rates.[L45379] Altogether, these modifications lead to a 3- to 4-fold increase in FVIII half-life.[A257469,L45379]\r\n\r\nHemophilia A is a genetic disorder caused by missing or defective FVIII. The use of efanesoctocog alfa in patients with hemophilia A increases FVIII plasma levels, temporarily correcting coagulation deficiency.[L45379]",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        12406064
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_InChIKey": "QIBHGITUGYXJDF-UDLCEBFESA-N",
+      "cofactor_SMILES": "[H][C@]12CS[C@@H](CCCCC(=O)NCCCC[C@H](NC(=O)CCCNC(=O)C[C@H](NS(=O)(=O)C3=C(C)C=C(OC)C(C)=C3C)C(=O)N[C@H](CC3=CC=C(C=C3)C(N)=N)C(=O)N3CCCCC3)C(=O)NCCOCCOCCOCCO[C@@H]3[C@@H](COS(O)(=O)=O)O[C@H](O[C@@]4([H])[C@H](OC)[C@@H](OC)[C@H](O[C@]5([H])[C@@H](COS(O)(=O)=O)O[C@H](O[C@@]6([H])[C@H](OC)[C@@H](OC)[C@H](O[C@]7([H])[C@@H](COS(O)(=O)=O)O[C@H](OC)[C@H](OS(O)(=O)=O)[C@H]7OC)O[C@H]6C(O)=O)[C@H](OS(O)(=O)=O)[C@H]5OS(O)(=O)=O)O[C@@H]4C(O)=O)[C@H](OC)[C@H]3OC)[C@@]1([H])NC(=O)N2",
+      "cofactor_name": "EP-217609",
+      "cofactor_resource_id": "DB18393",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_InChIKey": "NPNSVNGQJGRSNR-UHFFFAOYSA-N",
+      "cofactor_SMILES": "CN(CC(O)=O)C1=C(F)C(OC2=CC(=CC=C2O)C(N)=N)=NC(OC2=CC(=CC=C2)C2=NCCN2C)=C1F",
+      "cofactor_chem_comp_id": "Z34",
+      "cofactor_name": "Fidexaban",
+      "cofactor_resource_id": "DB19562",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        37713619,
+        10639283,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_InChIKey": "OFJRNBWSFXEHSA-UHFFFAOYSA-N",
+      "cofactor_SMILES": "CN(C)CC1=NC=CN1C1=CC(F)=C(NC(=O)C2=CC(=NN2C2=CC=C3ON=C(N)C3=C2)C(F)(F)F)C=C1",
+      "cofactor_chem_comp_id": "IK8",
+      "cofactor_name": "Razaxaban",
+      "cofactor_resource_id": "DB19834",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        37713619,
+        20503967,
+        39574417
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "cofactor_InChIKey": "MAOALPSHCIBFJZ-RUZDIDTESA-N",
+      "cofactor_SMILES": "CN1C(CNC2=CC=C(C=C2)C(N)=N)=NC2=CC(=CC=C12)[C@@](C)(NCC(O)=O)C(=O)N1CCCC1",
+      "cofactor_name": "Tanogitran",
+      "cofactor_resource_id": "DB21367",
+      "neighbor_flag": "N",
+      "pubmed_ids": [
+        37713619
+      ],
+      "resource_name": "DrugBank",
+      "resource_version": "5.1",
+      "target_resource_id": "P00742"
+    },
+    {
+      "binding_assay_value": 10.68,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "COc1ccc(-n2nc(C(F)(F)F)c3c2C(=O)N(c2ccc(C4(CN5CCCC5)CC4)cc2)CC3)cc1",
+      "cofactor_chem_comp_id": "LG0",
+      "cofactor_resource_id": "CHEMBL461091",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        18550370
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 10.1,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "COc1ccc(-n2nc(C(N)=O)c3c2C(=O)N(c2ccc(N4CCCCC4=O)cc2)CC3)cc1",
+      "cofactor_chem_comp_id": "GG2",
+      "cofactor_resource_id": "CHEMBL231779",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        17588746
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 10.1,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_SMILES": "O=C(Nc1ccc(-n2ccccc2=O)cc1F)[C@H]1C[C@](O)(c2ccccc2)CN1C(=O)Nc1ccc(Cl)cc1",
+      "cofactor_chem_comp_id": "L1D",
+      "cofactor_resource_id": "CHEMBL515107",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        19231206
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 10,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "CN1CCN=C1c1cccc(Oc2nc(Oc3cc(C(=N)N)ccc3O)c(F)c(N(C)CC(=O)O)c2F)c1",
+      "cofactor_chem_comp_id": "Z34",
+      "cofactor_resource_id": "CHEMBL73193",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10669559
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 10,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_SMILES": "O=C(Nc1ccc(-n2ccccc2=O)cn1)[C@H]1C[C@](O)(c2ccc(F)cc2F)CN1C(=O)Nc1ccc(Cl)cc1",
+      "cofactor_chem_comp_id": "L1C",
+      "cofactor_resource_id": "CHEMBL474678",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        19231206
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 9.8,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_SMILES": "CO[C@@H]1C[C@H](C(=O)Nc2ccc(-c3ccccc3S(C)(=O)=O)cc2F)N(C(=O)Nc2ccc(Cl)cc2)C1",
+      "cofactor_chem_comp_id": "237",
+      "cofactor_resource_id": "CHEMBL1229814",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        20503967
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 9.49,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_SMILES": "CO[C@@H]1C[C@H](C(=O)Nc2ccc(-n3ccccc3=O)cc2F)N(C(=O)Nc2ccc(Cl)cc2)C1",
+      "cofactor_chem_comp_id": "230",
+      "cofactor_resource_id": "CHEMBL476186",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        20503967
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 9.4,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "O=C(NC[C@H]1CN(c2ccc(N3CCOCC3=O)cc2)C(=O)O1)c1ccc(Cl)s1",
+      "cofactor_chem_comp_id": "RIV",
+      "cofactor_resource_id": "CHEMBL198362",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        19297154
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 9.4,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "O=C1c2c(c(C(F)(F)F)nn2-c2cccc(-c3n[nH]c(=O)[nH]3)c2)CCN1c1ccc(-c2ccccc2CN2CCCC2)cc1",
+      "cofactor_chem_comp_id": "LGL",
+      "cofactor_resource_id": "CHEMBL578098",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        20100660
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 9.37,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "O=C(N[C@H]1CCC[C@H]1NC(=O)c1ccc(Cl)s1)c1ccc(-n2ccccc2=O)cc1",
+      "cofactor_chem_comp_id": "ME5",
+      "cofactor_resource_id": "CHEMBL233992",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        17588746
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 9.3,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "CS(=O)(=O)c1ccccc1-c1ccc(NC(=O)c2cc(C(F)(F)F)nn2-c2cccc(-c3n[nH]c(=O)[nH]3)c2)c(F)c1",
+      "cofactor_chem_comp_id": "LGJ",
+      "cofactor_resource_id": "CHEMBL591955",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        20100660
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 9.17,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "O=C(N[C@H]1CCCC[C@H]1NC(=O)c1ccc2c(Cl)c[nH]c2c1)c1ccc(-n2ccccc2=O)cc1",
+      "cofactor_chem_comp_id": "ME4",
+      "cofactor_resource_id": "CHEMBL398380",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        17588746
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 9.08,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "O=C1c2c(c(C(F)(F)F)nn2-c2cccc(-c3n[nH]c(=O)[nH]3)c2)CCN1c1ccc(-c2ccccc2CN2CC[C@@H](O)C2)cc1",
+      "cofactor_chem_comp_id": "FFG",
+      "cofactor_resource_id": "CHEMBL577677",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        20100660
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 9,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "N=C(N)c1ccc(CN2CCN(S(=O)(=O)c3cc4ccc(Cl)cc4s3)CC2=O)cc1",
+      "cofactor_chem_comp_id": "RTR",
+      "cofactor_resource_id": "CHEMBL48813",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        11958994
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 9,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "CC(C)N(CCNS(C)(=O)=O)C(=O)[C@H](C)N1CC[C@H](NS(=O)(=O)c2ccc3cc(Cl)ccc3c2)C1=O",
+      "cofactor_chem_comp_id": "GSJ",
+      "cofactor_resource_id": "CHEMBL373451",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        16982190
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 9,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "C[C@@H](c1ccc(N2CC[C@H](NS(=O)(=O)/C=C/c3ccc(Cl)s3)C2=O)c(F)c1)N(C)C",
+      "cofactor_chem_comp_id": "898",
+      "cofactor_resource_id": "CHEMBL595477",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        20006499
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 8.96,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "O=C1CN(S(=O)(=O)/C=C/c2ccc(Cl)s2)CCN1Cc1cc2c[nH]ccc-2n1",
+      "cofactor_chem_comp_id": "RRR",
+      "cofactor_resource_id": "CHEMBL423417",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        12593648
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 8.92,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_SMILES": "O=C(Cn1cnc(NC(=O)c2ccc(Cl)s2)n1)Nc1ccc(-n2ccccc2=O)cc1F",
+      "cofactor_chem_comp_id": "H21",
+      "cofactor_resource_id": "CHEMBL564248",
+      "neighbor_flag": "Y",
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 8.89,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "O=C1[C@@H](NS(=O)(=O)c2ccc3cc(Cl)ccc3c2)CCN1c1ccc2c(c1F)CCNC2",
+      "cofactor_chem_comp_id": "MZA",
+      "cofactor_resource_id": "CHEMBL1615104",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        21349711
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 8.89,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_SMILES": "CC(C)N1CCc2nc(C(=O)Nc3cc(C(=O)O)ccc3CCC(=O)Nc3ccc(Cl)cc3)sc2C1",
+      "cofactor_chem_comp_id": "D1Q",
+      "cofactor_resource_id": "CHEMBL1923888",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        22044620
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 8.82,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "O=C(NCCNC(=O)c1ccc(Cl)s1)c1ccc(-n2ccccc2=O)cc1",
+      "cofactor_chem_comp_id": "ME1",
+      "cofactor_resource_id": "CHEMBL232566",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        17588746
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 8.82,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "CN(C)C(=O)c1ccc(N2CC[C@H](NS(=O)(=O)/C=C/c3ccc(Cl)s3)C2=O)c(F)c1",
+      "cofactor_chem_comp_id": "48U",
+      "cofactor_resource_id": "CHEMBL607085",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        20006499
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 8.78,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_SMILES": "O=C(CN1CC[C@@H](NC(=O)c2ccc(Cl)s2)C1)Nc1ccc(-n2ccccc2=O)cc1F",
+      "cofactor_chem_comp_id": "H22",
+      "cofactor_resource_id": "CHEMBL557915",
+      "neighbor_flag": "Y",
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 8.77,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_SMILES": "CN1CCc2nc(C(=O)Nc3ccccc3CNC(=O)c3ccc(Cl)s3)sc2C1",
+      "cofactor_chem_comp_id": "D46",
+      "cofactor_resource_id": "CHEMBL1681798",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        21316975
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 8.74,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "O=C([C@H](O)CS(=O)(=O)c1ccc2cc(Cl)ccc2c1)N1CCC(N2CCCNC2=O)CC1",
+      "cofactor_chem_comp_id": "443",
+      "cofactor_resource_id": "CHEMBL1095032",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        20503967
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 8.7,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "C[C@H](c1ccc(N2CC[C@H](NS(=O)(=O)/C=C/c3ccc(Cl)s3)C2=O)c(F)c1)N(C)C",
+      "cofactor_chem_comp_id": "461",
+      "cofactor_resource_id": "CHEMBL593584",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        20006499
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 8.7,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "O=C1[C@@H](NS(=O)(=O)c2ccc3cc(Cl)ccc3c2)CCN1c1ccc([C@H]2CCCN2)cc1F",
+      "cofactor_chem_comp_id": "931",
+      "cofactor_resource_id": "CHEMBL1614819",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        21349710
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 8.7,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "CN(C)[C@H]1CCc2cc(N3CC[C@H](NS(=O)(=O)c4ccc5cc(Cl)ccc5c4)C3=O)ccc21",
+      "cofactor_chem_comp_id": "C0Z",
+      "cofactor_resource_id": "CHEMBL1614872",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        21349710
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 8.66,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "CS(=O)(=O)c1ccccc1-c1ccc(N2CCc3c(C(F)(F)F)nn(-c4cccc(-c5n[nH]c(=O)[nH]5)c4)c3C2=O)cc1",
+      "cofactor_chem_comp_id": "LGK",
+      "cofactor_resource_id": "CHEMBL578474",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        20100660
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 8.64,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_SMILES": "CN1CCc2nc(C(=O)N[C@@H]3C[C@@H](C(=O)N(C)C)CC[C@@H]3NC(=O)c3cc4cc(Cl)ccc4[nH]3)sc2C1",
+      "cofactor_chem_comp_id": "DT8",
+      "cofactor_resource_id": "CHEMBL479863",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        19128974
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 8.56,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_SMILES": "N=C(N)c1cccc(-c2cccc([C@H](CCCNc3ccncc3)C(=O)O)c2)c1",
+      "cofactor_chem_comp_id": "4PP",
+      "cofactor_resource_id": "CHEMBL105532",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10956211
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 8.52,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "O=C1CN(S(=O)(=O)c2cc3ccc(Cl)cc3s2)CCN1Cc1cc2cnccc2n1CCO",
+      "cofactor_chem_comp_id": "RDR",
+      "cofactor_resource_id": "CHEMBL157813",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        12593648
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 8.52,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "CC(C)N1CCC(NC(=O)c2cc3ccccc3n2Cc2cc(-c3ccc(Cl)s3)on2)CC1",
+      "cofactor_chem_comp_id": "IIA",
+      "cofactor_resource_id": "CHEMBL182746",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        15261268
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 8.52,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "CC(C)N1CCC(NC(=O)c2cc3ccccc3n2CC(=O)Nc2ccc(Cl)cc2)CC1",
+      "cofactor_chem_comp_id": "IIE",
+      "cofactor_resource_id": "CHEMBL368238",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        15261268
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 8.52,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "CO[C@H]1CN(CC(=O)Nc2ccc(-n3ccccc3=O)cc2F)C[C@@H]1NC(=O)c1ccc(Cl)s1",
+      "cofactor_chem_comp_id": "LZF",
+      "cofactor_resource_id": "CHEMBL551393",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        19200624
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 8.43,
+      "binding_assay_value_type": "pKd",
+      "cofactor_SMILES": "O=C(Nc1ccc(Cl)cn1)[C@H]1CN(CC(F)F)C[C@@H]1C(=O)Nc1ccc(-n2ccccc2=O)cc1F",
+      "cofactor_chem_comp_id": "XBV",
+      "cofactor_resource_id": "CHEMBL1221913",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        20650636
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 8.4,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "C[C@@H](C(=O)N1CCOCC1)N1CC[C@H](NS(=O)(=O)c2ccc(-c3ccc(Cl)s3)s2)C1=O",
+      "cofactor_chem_comp_id": "GSX",
+      "cofactor_resource_id": "CHEMBL220171",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        17338508
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 8.4,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "N=C(N)c1cccc(CN2CCN(S(=O)(=O)c3cc4ccc(Cl)cc4s3)CC2=O)c1",
+      "cofactor_chem_comp_id": "RRP",
+      "cofactor_resource_id": "CHEMBL351298",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        20503967
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 8.4,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "O=C1[C@@H](NS(=O)(=O)c2ccc3cc(Cl)ccc3c2)CCN1c1ccc([C@@H]2CCCN2)cc1F",
+      "cofactor_chem_comp_id": "930",
+      "cofactor_resource_id": "CHEMBL1614818",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        21349710
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 8.33,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "O=C(CN1CCC[C@H](NS(=O)(=O)c2ccc3cc(Cl)ccc3c2)C1=O)N1C[C@@H]2C[C@H](C1)c1cccc(=O)n1C2",
+      "cofactor_chem_comp_id": "FI1",
+      "cofactor_resource_id": "CHEMBL1923468",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        22041058
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 8.31,
+      "binding_assay_value_type": "pKd",
+      "cofactor_SMILES": "O=C1[C@@H](NS(=O)(=O)c2cc3ncccc3s2)CCN1Cc1cc2ccncc2[nH]1",
+      "cofactor_chem_comp_id": "PR2",
+      "cofactor_resource_id": "CHEMBL1235423",
+      "neighbor_flag": "Y",
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 8.26,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "O=C(Nc1ccccc1S(=O)(=O)Nc1ccc(Cl)cn1)c1ccc(-n2ccccc2=O)cc1",
+      "cofactor_chem_comp_id": "FXA",
+      "cofactor_resource_id": "CHEMBL402761",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        18424044
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 8.23,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_SMILES": "O=C(CN1C[C@H](F)[C@@H](NC(=O)c2ccc(Cl)s2)C1)Nc1ccc(-n2ccccc2=O)cc1F",
+      "cofactor_chem_comp_id": "LZG",
+      "cofactor_resource_id": "CHEMBL550453",
+      "neighbor_flag": "Y",
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 8.22,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "C[C@@H](C(=O)N1CCOCC1)N1CC[C@H](NS(=O)(=O)c2ccc3cc(Cl)ccc3c2)C1=O",
+      "cofactor_chem_comp_id": "GSK",
+      "cofactor_resource_id": "CHEMBL385587",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        16697194
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 8.13,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_SMILES": "CN1CCc2nc(C(=O)Nc3ccccc3NC(=O)c3cc4cc(Cl)ccc4[nH]3)sc2C1",
+      "cofactor_chem_comp_id": "D90",
+      "cofactor_resource_id": "CHEMBL1761615",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        21345673
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 8.09,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "Cc1nn(-c2cccc(-c3n[nH]c(=O)[nH]3)c2)c2c1CCN(c1ccc(-c3ccccc3CN3CCCC3)cc1)C2=O",
+      "cofactor_chem_comp_id": "LGM",
+      "cofactor_resource_id": "CHEMBL578906",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        20100660
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 8.05,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "Cc1cc(C)cc(CNC(=O)c2cc3c(C)cccc3n2Cc2cccc(C(=N)N)c2)c1",
+      "cofactor_chem_comp_id": "CMI",
+      "cofactor_resource_id": "CHEMBL93087",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        12061878
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 8.05,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "O=C(Nc1ccc(Cl)cc1)[C@H]1CN(CC(F)(F)F)C[C@@H]1C(=O)Nc1ccc(-n2ccccc2=O)cc1F",
+      "cofactor_chem_comp_id": "IVK",
+      "cofactor_resource_id": "CHEMBL1221628",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        20650636
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 8.05,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "CN(C)[C@@H]1CCc2cc(N3CC[C@H](NS(=O)(=O)c4ccc5cc(Cl)ccc5c4)C3=O)ccc21",
+      "cofactor_chem_comp_id": "439",
+      "cofactor_resource_id": "CHEMBL1614790",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        21349710
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 8.05,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "C[N+](C)(C)CCCN1C(=O)[C@H]2[C@@H](C1=O)[C@@H]1CCCN1[C@H]2c1cc(-c2ccc(Cl)s2)on1",
+      "cofactor_chem_comp_id": "BI7",
+      "cofactor_resource_id": "CHEMBL1626802",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        29308120
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 8.02,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_SMILES": "CN1Cc2nc(C(=O)N[C@@H]3C[C@@H](C(=O)N(C)C)CC[C@@H]3NC(=O)c3cc4ccc(Cl)cc4cn3)sc2C1",
+      "cofactor_chem_comp_id": "D14",
+      "cofactor_resource_id": "CHEMBL593603",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        19900814
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 8,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "O=C(CN1C[C@H](O)[C@@H](NC(=O)c2ccc(Cl)s2)C1)Nc1ccc(-n2ccccc2=O)cc1F",
+      "cofactor_chem_comp_id": "H25",
+      "cofactor_resource_id": "CHEMBL561318",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        19200624
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 8,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "NS(=O)(=O)N1C[C@H](C(=O)Nc2ccc(Cl)cc2)[C@@H](C(=O)Nc2ccc(-n3ccccc3=O)cc2F)C1",
+      "cofactor_chem_comp_id": "455",
+      "cofactor_resource_id": "CHEMBL1221627",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        20650636
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 7.96,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "C[C@@H](C(=O)N1CCOCC1)N1CC[C@H](NS(=O)(=O)/C=C/c2ccc(Cl)cc2)C1=O",
+      "cofactor_chem_comp_id": "4O6",
+      "cofactor_resource_id": "CHEMBL223891",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        17338508
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 7.89,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_SMILES": "CN1CCc2nc(C(=O)N[C@@H]3CCCC[C@H]3NC(=O)c3cc4cc(Cl)ccc4[nH]3)sc2C1",
+      "cofactor_chem_comp_id": "D93",
+      "cofactor_resource_id": "CHEMBL391805",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        17555959
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 7.82,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "C[C@@H](C(=O)N1CCOCC1)N1CC[C@H](NS(=O)(=O)c2cc3ccc(Cl)cc3s2)C1=O",
+      "cofactor_chem_comp_id": "GS6",
+      "cofactor_resource_id": "CHEMBL217914",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        16982192
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 7.82,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "CS(=O)(=O)N1C[C@H](C(=O)Nc2ccc(Cl)cc2)[C@@H](C(=O)Nc2ccc(-n3ccccc3=O)cc2F)C1",
+      "cofactor_chem_comp_id": "RR8",
+      "cofactor_resource_id": "CHEMBL1221534",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        20650636
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 7.8,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_SMILES": "CN1CCc2nc(C(=O)N[C@@H]3CCCC[C@@H]3NC(=O)c3cc4cc(Cl)ccc4[nH]3)sc2C1",
+      "cofactor_chem_comp_id": "D92",
+      "cofactor_resource_id": "CHEMBL245678",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        17555959
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 7.8,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "CN(C)Cc1nccn1-c1ccc(-c2ccc3c(C(N)=O)nn(-c4ccc5onc(N)c5c4)c3c2F)c(F)c1",
+      "cofactor_chem_comp_id": "JNJ",
+      "cofactor_resource_id": "CHEMBL398870",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        18159923
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 7.75,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "O=C1[C@@H](NS(=O)(=O)c2cc3ncccc3s2)CCN1Cc1cc2cc[nH]cc-2n1",
+      "cofactor_chem_comp_id": "PR2",
+      "cofactor_resource_id": "CHEMBL275368",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        10966741
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 7.75,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "COc1ccc(C(=O)NCC2CCN(c3ccncc3)CC2)cc1OCCc1ccc(Cl)cc1Cl",
+      "cofactor_chem_comp_id": "I1H",
+      "cofactor_resource_id": "CHEMBL96434",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        15125936
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 7.75,
+      "binding_assay_value_type": "pIC50",
+      "cofactor_SMILES": "Nc1nccc2ccc(CN3CC[C@H](NS(=O)(=O)c4cc5ncccc5s4)C3=O)cc12",
+      "cofactor_chem_comp_id": "815",
+      "cofactor_resource_id": "CHEMBL316053",
+      "neighbor_flag": "Y",
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 7.6,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "Cc1cccc2c1cc(C(=O)NCc1cc(Cl)cc(Cl)c1)n2Cc1cccc(C(=N)N)c1",
+      "cofactor_chem_comp_id": "CMB",
+      "cofactor_resource_id": "CHEMBL92776",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        12061878
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 7.55,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "N=C(N)c1cccc(COC(=O)c2cc3ccccc3n2Cc2cccc(C(=N)N)c2)c1",
+      "cofactor_chem_comp_id": "CBB",
+      "cofactor_resource_id": "CHEMBL92836",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        12061878
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 7.54,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "N=C(N)c1ccc(CNC(=O)CNC(=O)[C@@H](COCc2ccccc2)NS(=O)(=O)Cc2ccccc2)cc1",
+      "cofactor_chem_comp_id": "6PK",
+      "cofactor_resource_id": "CHEMBL4238121",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        29873484
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 7.33,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "C[C@@H](C(=O)N1CCOCC1)N1CC[C@H](NS(=O)(=O)c2cc3cc(Cl)ccc3s2)C1=O",
+      "cofactor_chem_comp_id": "GS5",
+      "cofactor_resource_id": "CHEMBL220529",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        16982192
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 7.21,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "CS(=O)(=O)N1C[C@H](C(=O)Nc2ccc(Cl)c(F)c2)[C@@H](C(=O)Nc2ccc(-n3ccccc3=O)cc2F)C1",
+      "cofactor_chem_comp_id": "OYJ",
+      "cofactor_resource_id": "CHEMBL1222130",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        20650636
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 7.05,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "COc1cccc(Cn2c(C(=O)NC3CCN(C(C)C)CC3)cc3ccccc32)c1",
+      "cofactor_chem_comp_id": "IID",
+      "cofactor_resource_id": "CHEMBL182323",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        15261268
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 7.05,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "C[C@@H](C(=O)N1CCOCC1)N1CC[C@H](NS(=O)(=O)c2cc3cc(Cl)ccc3[nH]2)C1=O",
+      "cofactor_chem_comp_id": "GSQ",
+      "cofactor_resource_id": "CHEMBL375112",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        16982192
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 7.03,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "O=C(CN1C[C@H](NC(=O)c2ccc(Cl)s2)C[C@H]1C(=O)NCC1CC1)Nc1ccc(-n2ccccc2=O)cc1F",
+      "cofactor_chem_comp_id": "LZI",
+      "cofactor_resource_id": "CHEMBL563458",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        19200624
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 7.02,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "O=C(CN1C[C@H](NC(=O)c2ccc(Cl)s2)C[C@H]1CO)Nc1ccc(-n2ccccc2=O)cc1F",
+      "cofactor_chem_comp_id": "LZH",
+      "cofactor_resource_id": "CHEMBL550102",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        19200624
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 6.84,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "C[N+](C)(C)CCCN1C(=O)[C@H]2[C@@H](C1=O)[C@@H]1CCCN1[C@H]2c1ncc(-c2ccc(Cl)s2)o1",
+      "cofactor_chem_comp_id": "FJD",
+      "cofactor_resource_id": "CHEMBL4283525",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        29308120
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 6.72,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "COc1ccc(NC(=O)[C@H]2CN(S(C)(=O)=O)C[C@@H]2C(=O)Nc2ccc(-n3ccccc3=O)cc2F)cc1F",
+      "cofactor_chem_comp_id": "8NC",
+      "cofactor_resource_id": "CHEMBL1222019",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        20650636
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    },
+    {
+      "binding_assay_value": 6.27,
+      "binding_assay_value_type": "pKi",
+      "cofactor_SMILES": "C[C@@H](C(=O)N1CCOCC1)N1CC[C@H](NS(=O)(=O)c2n[nH]c(-c3ccc(Cl)s3)n2)C1=O",
+      "cofactor_chem_comp_id": "G15",
+      "cofactor_resource_id": "CHEMBL220513",
+      "neighbor_flag": "Y",
+      "pubmed_ids": [
+        17338508
+      ],
+      "resource_name": "Pharos",
+      "resource_version": "6.13.4",
+      "target_resource_id": "1457"
+    }
+  ],
+  "rcsb_id": "2P16_1"
+}

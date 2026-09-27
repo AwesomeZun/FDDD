@@ -1,0 +1,53 @@
+{
+  "note": "Geometry-only analysis, not actual drawcalls or measured rendering time. Mesh topology includes wireframe mesh triangles that are rasterized as lines.",
+  "rows": [
+    {
+      "id": "onyx",
+      "name": "ONYX",
+      "renderableObjects": 60,
+      "vertices": 7364,
+      "geometries": 60,
+      "meshTriangleTopology": 11104
+    },
+    {
+      "id": "aero",
+      "name": "MICA",
+      "renderableObjects": 54,
+      "vertices": 7352,
+      "geometries": 54,
+      "meshTriangleTopology": 11104
+    },
+    {
+      "id": "prism",
+      "name": "PRISM",
+      "renderableObjects": 54,
+      "vertices": 4832,
+      "geometries": 54,
+      "meshTriangleTopology": 5690
+    },
+    {
+      "id": "veil",
+      "name": "VEIL",
+      "renderableObjects": 61,
+      "vertices": 7789,
+      "geometries": 61,
+      "meshTriangleTopology": 11824
+    },
+    {
+      "id": "vector",
+      "name": "VECTOR",
+      "renderableObjects": 62,
+      "vertices": 4502,
+      "geometries": 62,
+      "meshTriangleTopology": 5808
+    },
+    {
+      "id": "ivory",
+      "name": "IVORY",
+      "renderableObjects": 56,
+      "vertices": 8202,
+      "geometries": 56,
+      "meshTriangleTopology": 12544
+    }
+  ]
+}

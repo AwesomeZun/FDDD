@@ -1,0 +1,13 @@
+{
+  "sourceUrl": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Niraparib/property/MolecularFormula,MolecularWeight,CanonicalSMILES/JSON",
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 24958200,
+        "MolecularFormula": "C19H20N4O",
+        "MolecularWeight": "320.4",
+        "ConnectivitySMILES": "C1CC(CNC1)C2=CC=C(C=C2)N3C=C4C=CC=C(C4=N3)C(=O)N"
+      }
+    ]
+  }
+}

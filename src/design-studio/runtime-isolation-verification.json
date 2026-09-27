@@ -1,0 +1,30 @@
+[
+  {
+    "path": "src/main.tsx",
+    "unchanged": true
+  },
+  {
+    "path": "src/components/ColonyHabitat.tsx",
+    "unchanged": true
+  },
+  {
+    "path": "src/components/ProteinRibbon.ts",
+    "unchanged": true
+  },
+  {
+    "path": "src/lib/useContinuousColony.ts",
+    "unchanged": true
+  },
+  {
+    "path": "src/lib/neuralRecord.ts",
+    "unchanged": true
+  },
+  {
+    "path": "public/engine/malecns/core.js",
+    "unchanged": true
+  },
+  {
+    "path": "public/data/malecns/manifest.json",
+    "unchanged": true
+  }
+]

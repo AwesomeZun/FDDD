@@ -1,0 +1,17 @@
+{
+  "id": "factor-xa-2p16--niraparib",
+  "targetId": "factor-xa-2p16",
+  "compoundId": "niraparib",
+  "receptor": "2P16_receptor_factor-Xa.pdbqt",
+  "ligand": "4R6E_ligand_niraparib.pdbqt",
+  "center": [
+    7.48497143,
+    43.97488571,
+    62.17711429
+  ],
+  "size": [
+    20,
+    20,
+    20
+  ]
+}

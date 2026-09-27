@@ -1,0 +1,13 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 10182969,
+        "MolecularFormula": "C25H25N5O4",
+        "MolecularWeight": "459.5",
+        "ConnectivitySMILES": "COC1=CC=C(C=C1)N2C3=C(CCN(C3=O)C4=CC=C(C=C4)N5CCCCC5=O)C(=N2)C(=O)N"
+      }
+    ]
+  },
+  "sourceUrl": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/10182969/property/MolecularFormula,MolecularWeight,CanonicalSMILES/JSON"
+}

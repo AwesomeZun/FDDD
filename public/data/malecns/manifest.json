@@ -1,0 +1,126 @@
+{
+  "dataset": "male-cns:v1.0",
+  "neuronCount": 167122,
+  "edgeCount": 6241236,
+  "allNeuronPairCount": 25578815,
+  "allNeuronSynapses": 124162779,
+  "retainedSynapses": 89851287,
+  "sourceRows": 151856684,
+  "minimumSynapses": 5,
+  "weakEdgesExcluded": 19337579,
+  "groups": [
+    "ENS",
+    "ascending_neuron",
+    "cb_efferent",
+    "cb_endocrine",
+    "cb_intrinsic",
+    "cb_motor",
+    "cb_sensory",
+    "cb_sensory_tbc",
+    "descending_neuron",
+    "efferent_ascending",
+    "efferent_descending",
+    "ol_intrinsic",
+    "ol_sensory",
+    "sensory_ascending",
+    "sensory_ascending_tbc",
+    "sensory_descending",
+    "unclassified_traced",
+    "visual_centrifugal",
+    "visual_projection",
+    "visual_projection_tbc",
+    "vnc_efferent",
+    "vnc_endocrine",
+    "vnc_intrinsic",
+    "vnc_motor",
+    "vnc_sensory",
+    "vnc_sensory_tbc",
+    "vnc_tbc"
+  ],
+  "sensoryGroups": [
+    6,
+    7,
+    12,
+    13,
+    14,
+    15,
+    24,
+    25
+  ],
+  "motorGroups": [
+    5,
+    23
+  ],
+  "classes": {
+    "descending_neuron": 1314,
+    "visual_projection": 9201,
+    "visual_centrifugal": 563,
+    "cb_intrinsic": 32160,
+    "ol_intrinsic": 89399,
+    "cb_motor": 107,
+    "ascending_neuron": 1846,
+    "cb_endocrine": 72,
+    "cb_sensory": 4868,
+    "vnc_intrinsic": 13152,
+    "sensory_descending": 12,
+    "ol_sensory": 6097,
+    "efferent_descending": 4,
+    "sensory_ascending": 537,
+    "vnc_efferent": 94,
+    "cb_efferent": 4,
+    "ENS": 50,
+    "efferent_ascending": 8,
+    "unclassified_traced": 516,
+    "cb_sensory_tbc": 5,
+    "visual_projection_tbc": 2,
+    "vnc_motor": 708,
+    "sensory_ascending_tbc": 2,
+    "vnc_sensory": 6369,
+    "vnc_endocrine": 22,
+    "vnc_sensory_tbc": 9,
+    "vnc_tbc": 1
+  },
+  "displayCount": 28195,
+  "coordinateCount": 141001,
+  "license": "CC BY 4.0",
+  "source": "https://male-cns.janelia.org/download/",
+  "inclusion": "Expanded modeled population: all 165122 status=Traced rows plus2000 annotated non-tbc status=null rows. Of the latter,1991 are explicitly statusLabel=Out of scope (1982 R1-R6 ol_sensory and9 ol_intrinsic), and9 lack a statusLabel. These are intentionally included measured segments, not claimed officially traced. Excludes glia/orphans/anchors/assign/unimportant. Runtime is a selected, edge-thresholded CNS model, not the full unfiltered neuron graph.",
+  "dynamics": "Authored LIF; predicted GABA/glutamate negative, others/unknown positive; sensory superclass stimulation (8 channels, drive .02+.55·input, was .10+.40 before 2026-09-14); reward/feeding channel (input 8) into all 1,428 class=gustatory neurons (see gustatory.json); seeded initial membrane state per brain; cb_motor and vnc_motor output; not physiological validation",
+  "sha256": {
+    "annotations": "2177e246113e4cfbf1e7772ec37c6da1955ff22e8063d0b1f833101f99a9a3b2",
+    "weights": "e35da783d1c686b2b58b3b87cd6a403ae43bfcfba8bff28e08ef752c1a56afc1",
+    "neurotransmitters": "95c9289220663abeb3409f3ad9e5a7f8a53f8093f5139d15502cd08da8879621"
+  },
+  "selectionAudit": {
+    "traced": 165122,
+    "selectedNullStatus": 2000,
+    "nullStatusLabels": {
+      "Out of scope": 1991,
+      "(missing)": 9
+    },
+    "outOfScopeClasses": {
+      "ol_sensory": 1982,
+      "ol_intrinsic": 9
+    },
+    "outOfScopeTypes": {
+      "R1-R6": 1982,
+      "(missing)": 7,
+      "L4": 1,
+      "Lai": 1
+    }
+  },
+  "priorFlyWireWeightAudit": {
+    "edgeCount": 2698236,
+    "minimumAbsoluteWeight": 1,
+    "edgesBelow5": 28462,
+    "source": "public/data/flywire/connectome.bin.gz",
+    "note": "MaleCNS >=5 is not strictly the same retained-weight threshold as prior FlyWire. Prior builder aggregates signed neuropil weights, retaining nonzero weights; this audit measures the resulting binary."
+  },
+  "rewardChannel": {
+    "input": 8,
+    "neuronClass": "gustatory",
+    "cells": 1428,
+    "file": "gustatory.json",
+    "note": "Authored input mapping of a reward signal (Vina-derived, learned-preference-weighted) into annotated gustatory receptor neurons; not a physiological feeding model."
+  }
+}

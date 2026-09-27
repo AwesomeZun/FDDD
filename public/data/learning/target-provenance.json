@@ -1,0 +1,15 @@
+{
+  "repository": "https://github.com/dockstring/dockstring",
+  "commit": "b5398322da8864fc6ac54061582db0850483a309",
+  "observedAt": "2026-09-14T19:08:38.739Z",
+  "files": [
+    {
+      "file": "PARP1_conf.txt",
+      "url": "https://raw.githubusercontent.com/dockstring/dockstring/b5398322da8864fc6ac54061582db0850483a309/dockstring/resources/targets/PARP1_conf.txt"
+    },
+    {
+      "file": "PARP1_target.pdbqt",
+      "url": "https://raw.githubusercontent.com/dockstring/dockstring/b5398322da8864fc6ac54061582db0850483a309/dockstring/resources/targets/PARP1_target.pdbqt"
+    }
+  ]
+}

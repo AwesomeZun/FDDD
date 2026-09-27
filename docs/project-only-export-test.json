@@ -1,0 +1,8 @@
+{
+  "testKind": "unit with mocked IndexedDB and HTTP; browser/server verification remains separate",
+  "successfulProjectOnlySave": true,
+  "malformedAndUnavailableFailureCases": 4,
+  "downloadAttempted": false,
+  "sourceChunksRetained": true,
+  "readAttempts": 5
+}

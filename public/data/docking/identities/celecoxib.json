@@ -1,0 +1,13 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 2662,
+        "MolecularFormula": "C17H14F3N3O2S",
+        "MolecularWeight": "381.4",
+        "ConnectivitySMILES": "CC1=CC=C(C=C1)C2=CC(=NN2C3=CC=C(C=C3)S(=O)(=O)N)C(F)(F)F"
+      }
+    ]
+  },
+  "sourceUrl": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/2662/property/MolecularFormula,MolecularWeight,CanonicalSMILES/JSON"
+}

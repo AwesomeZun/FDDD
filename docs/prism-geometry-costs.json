@@ -1,0 +1,114 @@
+[
+  {
+    "name": "PRISM ORIGINAL",
+    "objects": 54,
+    "triangles": 5690,
+    "lines": 138,
+    "vertices": 4832,
+    "estimatedDrawCalls": 56,
+    "bounds": [
+      2.5018934752320376,
+      0.7138950756921262,
+      1.697999997138977
+    ],
+    "parts": {
+      "thorax": 1,
+      "abdomen": 1,
+      "abdominal-band": 4,
+      "head": 1,
+      "compound-eye": 2,
+      "short-mouthparts": 1,
+      "leg": 6,
+      "antenna": 2,
+      "haltere": 2,
+      "wing": 2
+    },
+    "finite": true
+  },
+  {
+    "name": "PRISM LOW",
+    "objects": 9,
+    "triangles": 1194,
+    "lines": 78,
+    "vertices": 3690,
+    "estimatedDrawCalls": 11,
+    "bounds": [
+      2.5006899477775173,
+      0.7065625488758087,
+      1.6980000138282776
+    ],
+    "parts": {
+      "leg": 6,
+      "haltere": 2,
+      "wing": 2,
+      "wing-outline-and-veins": 2,
+      "thorax": 1,
+      "abdomen": 1,
+      "abdominal-band": 4,
+      "head": 1,
+      "compound-eye": 2,
+      "short-mouthparts": 1,
+      "antenna": 2,
+      "body-material-batch": 4,
+      "body-line-batch": 1
+    },
+    "metadata": {
+      "radialSegments": 8,
+      "abdomenLengthSegments": 8,
+      "smallSphereSegments": [
+        8,
+        5
+      ],
+      "bodyIcosahedronDetail": 1,
+      "rodRadialSegments": 4,
+      "wingCurveSegments": 5,
+      "staticBodyBatched": true,
+      "wingLineStripsConvertedToSegments": true,
+      "materialsUnchanged": true
+    },
+    "finite": true
+  },
+  {
+    "name": "PRISM MIN",
+    "objects": 9,
+    "triangles": 634,
+    "lines": 60,
+    "vertices": 1998,
+    "estimatedDrawCalls": 11,
+    "bounds": [
+      2.5006899477775173,
+      0.6743973195552826,
+      1.6980000138282776
+    ],
+    "parts": {
+      "leg": 6,
+      "haltere": 2,
+      "wing": 2,
+      "wing-outline-and-veins": 2,
+      "thorax": 1,
+      "abdomen": 1,
+      "abdominal-band": 4,
+      "head": 1,
+      "compound-eye": 2,
+      "short-mouthparts": 1,
+      "antenna": 2,
+      "body-material-batch": 4,
+      "body-line-batch": 1
+    },
+    "metadata": {
+      "radialSegments": 6,
+      "abdomenLengthSegments": 5,
+      "smallSphereSegments": [
+        6,
+        4
+      ],
+      "bodyIcosahedronDetail": 0,
+      "rodRadialSegments": 3,
+      "wingCurveSegments": 3,
+      "staticBodyBatched": true,
+      "wingLineStripsConvertedToSegments": true,
+      "materialsUnchanged": true
+    },
+    "finite": true
+  }
+]

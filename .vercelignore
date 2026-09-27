@@ -1,0 +1,13 @@
+# Not deployed to drug.flybrain.kr (public static build)
+public/data/records/
+public/data/learning/training-spikes.bin
+public/data/flywire/
+backups/
+upstream/
+references/
+docs/
+dist/
+node_modules/
+scripts/docking/
+scripts/learning-data/
+.DS_Store

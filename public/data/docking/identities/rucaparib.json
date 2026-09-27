@@ -1,0 +1,13 @@
+{
+  "sourceUrl": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Rucaparib/property/MolecularFormula,MolecularWeight,CanonicalSMILES/JSON",
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 9931954,
+        "MolecularFormula": "C19H18FN3O",
+        "MolecularWeight": "323.4",
+        "ConnectivitySMILES": "CNCC1=CC=C(C=C1)C2=C3CCNC(=O)C4=C3C(=CC(=C4)F)N2"
+      }
+    ]
+  }
+}
