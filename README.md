@@ -1,7 +1,7 @@
 # FDDD · Fly-Driven Drug Development
 
 <p align="center">
-  <a href="https://flybrain.kr"><img src="docs/assets/fddd-showreel-15s.gif" alt="FDDD 15초 모션 쇼릴 — 커넥톰, 단백질 도킹, 초파리 군집" width="100%"></a>
+  <a href="https://flybrain.kr"><img src="docs/assets/fddd-showreel-15s.webp" alt="FDDD 15초 모션 쇼릴 — 커넥톰, 단백질 도킹, 초파리 군집" width="100%"></a>
 </p>
 
 **한국어** | [English](README.en.md)
