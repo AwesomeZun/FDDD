@@ -4,6 +4,12 @@
 
 **A browser-based research demo where fruit-fly neural models explore molecules and learn preferences from molecular docking scores.**
 
+![Molecular docking leads to reward, a fruit-fly neural model, and exploration and preference](docs/assets/fddd-overview.jpg)
+
+**Molecular docking → Reward → Fruit-fly neural model → Exploration & preference**
+
+*AI-generated 3D concept illustration for explanation only. It does not depict actual molecular structures, neural connectivity, or experimental results.*
+
 ## Try it live
 
 - **Main site: https://flybrain.kr/**

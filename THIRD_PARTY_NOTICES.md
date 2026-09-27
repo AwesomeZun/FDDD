@@ -30,3 +30,6 @@ The MaleCNS model intentionally adds2000 null-status rows to165122 Traced rows.1
 
 ## Fruit-fly design reference photograph
 `references/drosophila/top-andre-karwath.jpg`: André Karwath (Aka),2005, CC BY-SA2.5. Source https://commons.wikimedia.org/wiki/File:Drosophila_melanogaster_-_top_(aka).jpg . Unmodified photographic reference only; no photograph texture or imported fly mesh in the procedural Three.js candidates.
+
+## README concept illustration
+`docs/assets/fddd-overview.jpg` is an AI-generated explanatory illustration created for FDDD. The stylized protein, molecule, fly, network and bars are conceptual artwork, not measured anatomy, connectivity, docking poses or result plots. It contains no Toss logo or third-party brand asset.
