@@ -9,7 +9,7 @@ import {WORLD_UNITS_PER_ANGSTROM, type MolecularGeometry} from '../lib/molecular
 
 export type ColonyHabitatProps = { pairs: HabitatPair[]; flies: ColonyFly[]; paused: boolean; selected: number; onSelect: (i: number) => void; /** Camera tracks the selected fly (orbit offset preserved, zoom raised while following). */ follow?: boolean };
 const accents = FLY_ACCENTS.map(c => new T.Color(c).getHex());
-const proteins = [0x608997, 0x95827c, 0x7b83a5, 0x7e9686, 0x9b9077, 0x7b8b9d];
+const proteins = [0x77c2b1, 0xa3b8d7, 0xa4a0d2, 0x8ac49e, 0xc5b391, 0x7eafb4];
 
 function label(text: string, color = '#adc0cb', width = 2.5) {
   const canvas = document.createElement('canvas'); canvas.width = 768; canvas.height = 96;
@@ -77,12 +77,12 @@ export function ColonyHabitat(props: ColonyHabitatProps) {
     const el = host.current!; let renderer: T.WebGLRenderer;
     try { renderer = new T.WebGLRenderer({ antialias: true, alpha: false }); }
     catch { setError('This shared 3D habitat requires WebGL. Molecular detail remains available outside this view.'); return; }
-    renderer.setPixelRatio(Math.min(window.devicePixelRatio, 1.7)); renderer.setClearColor(0x080f18);
+    renderer.setPixelRatio(Math.min(window.devicePixelRatio, 1.7)); renderer.setClearColor(0x060e0c);
     renderer.outputColorSpace = T.SRGBColorSpace; renderer.toneMapping = T.ACESFilmicToneMapping; renderer.toneMappingExposure = 1.35;
     renderer.domElement.style.cssText = 'display:block;width:100%;height:100%;touch-action:none;';
     renderer.domElement.setAttribute('aria-label', 'Shared molecular habitat. Drag to orbit, scroll to zoom, right-drag to pan. Select a fly by clicking it.');
     el.appendChild(renderer.domElement);
-    const scene = new T.Scene(); scene.fog = new T.FogExp2(0x080f18, .018);
+    const scene = new T.Scene(); scene.fog = new T.FogExp2(0x060e0c, .018);
     scene.add(new T.HemisphereLight(0xc8e8ff, 0x23303d, 2.1));
     const key = new T.DirectionalLight(0xe1f0ff, 3.4); key.position.set(7, 12, 9); scene.add(key);
     const rim = new T.DirectionalLight(0x7d97c0, 2.4); rim.position.set(-9, 4, -7); scene.add(rim);
@@ -103,10 +103,14 @@ export function ColonyHabitat(props: ColonyHabitatProps) {
     renderer.domElement.addEventListener('pointerdown', pointerDown); renderer.domElement.addEventListener('pointerup', pointerUp);
     const resize = () => { const w = Math.max(1, el.clientWidth), h = Math.max(1, el.clientHeight); renderer.setSize(w, h, false); const live=runtime.current;if(live){live.aspect=w/h;if(live.fitted)fitMolecularScene(live);else{camera.left=-9*w/h;camera.right=9*w/h;camera.updateProjectionMatrix();}} };
     const observer = new ResizeObserver(resize); observer.observe(el); resize();
+    let visible = true;
+    const visibility = new IntersectionObserver(entries => { visible = entries[0].isIntersecting; }); visibility.observe(el);
     let raf = 0, last = performance.now(), wingTime = 0;
     const direction = new T.Vector3(), rotation = new T.Quaternion(), forward = new T.Vector3(0, 0, 1);
     let wasFollowing = false;
     const render = (now: number) => {
+      raf = requestAnimationFrame(render);
+      if (document.hidden || !visible) { last = now; return; }
       const dt = Math.min(.05, Math.max(0, (now - last) / 1000)); last = now;
       const current = latest.current; if (!current.paused) wingTime += dt;
       while (visuals.length > current.flies.length) { const v = visuals.pop()!; scene.remove(v.root, v.trail); disposeMolecularObject(v.root); disposeMolecularObject(v.trail); }
@@ -142,10 +146,10 @@ export function ColonyHabitat(props: ColonyHabitatProps) {
         const units=[1,2,5,10].map(v=>v*decade).reduce((a,b)=>Math.abs(a-desired)<Math.abs(b-desired)?a:b);
         scaleLine.current.style.width=(units*pixelsPerAngstrom)+'px';scaleText.current.textContent=units+' Å ('+(units/10)+' nm)';
       }
-      renderer.render(scene, camera); raf = requestAnimationFrame(render);
+      renderer.render(scene, camera);
     };
     raf = requestAnimationFrame(render);
-    return () => { cancelAnimationFrame(raf); observer.disconnect(); controls.dispose(); renderer.domElement.removeEventListener('pointerdown', pointerDown); renderer.domElement.removeEventListener('pointerup', pointerUp); runtime.current = null; disposeMolecularObject(scene); renderer.dispose(); renderer.domElement.remove(); };
+    return () => { cancelAnimationFrame(raf); observer.disconnect(); visibility.disconnect(); controls.dispose(); renderer.domElement.removeEventListener('pointerdown', pointerDown); renderer.domElement.removeEventListener('pointerup', pointerUp); runtime.current = null; disposeMolecularObject(scene); renderer.dispose(); renderer.domElement.remove(); };
   }, []);
 
   // Independent from initialization: late-arriving pair data always populates the live world.
@@ -177,7 +181,7 @@ export function ColonyHabitat(props: ColonyHabitatProps) {
     return () => { stopped = true; abort.abort(); };
   }, [pairKey]);
 
-  return <div className="colony-habitat" style={{ position: 'relative', width: '100%', height: '100%', minHeight: 560, overflow: 'hidden', background: '#080f18', borderRadius: 18 }}>
+  return <div className="colony-habitat" style={{ position: 'relative', width: '100%', height: '100%', minHeight: 560, overflow: 'hidden', background: '#060e0c', borderRadius: 18 }}>
     <div ref={host} style={{ position: 'absolute', inset: 0 }} />
     <div style={{ position: 'absolute', top: 44, left: 16, pointerEvents: 'none', color: '#9bafbf', fontSize: 10, letterSpacing: '.17em', textTransform: 'uppercase' }}>Shared molecular habitat <span style={{ color: '#577081', marginLeft: 12 }}>{loaded}/{props.pairs.length} complexes</span></div>
     <div style={{position:'absolute',left:16,bottom:40,pointerEvents:'none',color:'#8daeb4',font:'9px monospace',background:'#081018b8',padding:'7px 9px',borderRadius:4}}><div>ORTHOGRAPHIC 3D · SHARED Å SCALE</div><div ref={scaleLine} style={{height:5,borderLeft:'1px solid #9cc9c9',borderRight:'1px solid #9cc9c9',borderBottom:'1px solid #9cc9c9',margin:'6px 0 4px',width:100}}/><span ref={scaleText}>50 Å (5 nm)</span><div style={{marginTop:5,color:'#68878e'}}>Fly avatars are not to molecular scale.</div></div>

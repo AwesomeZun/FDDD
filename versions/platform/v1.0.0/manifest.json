@@ -1,0 +1,7 @@
+{
+  "version": "v1.0.0",
+  "commit": "bdee3c9a2c29fb4032416395ac12acf049a22aef",
+  "archive": "source.tar.gz",
+  "sha256": "0012cea27688f96b8d6391b52c9faf5a1546a0750ef7dc5b4be18f1a28f6df89",
+  "description": "Preserved platform source before the cinematic v2.0.0 redesign. Runtime datasets remain in public/data."
+}

@@ -12,4 +12,4 @@ scripts/docking/
 scripts/learning-data/
 .DS_Store
 # Motion-showreel source and local exports are separate from the app deployment.
-showreel/
+/showreel/

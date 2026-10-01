@@ -1,3 +1,4 @@
+import {resolveLanguage} from './language';
 import {createContext,useContext,useEffect,useState} from 'react';
 export type Lang='ko'|'en';
 export const LANG_STORAGE_KEY='fddd.lang';
@@ -18,7 +19,7 @@ export const T={
  actionsWarn:{ko:'표적 간 Vina 점수는 보정된 결합력 비교가 아닙니다.',en:'Vina scores across different targets are not a calibrated comparison of binding affinity.'},
 } as const;
 export type TKey=keyof typeof T;
-function initialLang():Lang{try{if(typeof location!=='undefined'&&/^\/en(\/|$)/.test(location.pathname))return 'en';const stored=localStorage.getItem(LANG_STORAGE_KEY);if(stored==='ko'||stored==='en')return stored;}catch{/* storage optional */}return typeof navigator!=='undefined'&&(navigator.language||'').toLowerCase().startsWith('ko')?'ko':'en';}
-export const LangContext=createContext<{lang:Lang;setLang:(l:Lang)=>void}>({lang:'ko',setLang:()=>{}});
-export function useLangState(){const [lang,setLangState]=useState<Lang>(initialLang);useEffect(()=>{document.documentElement.lang=lang;},[lang]);const setLang=(l:Lang)=>{setLangState(l);try{localStorage.setItem(LANG_STORAGE_KEY,l);}catch{/* storage optional */}try{const target=l==='en'?'/en':'/';if(location.pathname!==target)history.replaceState(null,'',target+location.search+location.hash);}catch{/* history optional */}};return {lang,setLang};}
+function initialLang():Lang{let stored:string|null=null;try{stored=localStorage.getItem(LANG_STORAGE_KEY);}catch{/* storage optional */}return resolveLanguage(typeof location==='undefined'?'/':location.pathname,stored);}
+export const LangContext=createContext<{lang:Lang;setLang:(l:Lang)=>void}>({lang:'en',setLang:()=>{}});
+export function useLangState(){const [lang,setLangState]=useState<Lang>(initialLang);useEffect(()=>{document.documentElement.lang=lang;},[lang]);const setLang=(l:Lang)=>{setLangState(l);try{localStorage.setItem(LANG_STORAGE_KEY,l);}catch{/* storage optional */}try{const target=l==='en'?'/en':'/ko';if(location.pathname!==target)history.replaceState(null,'',target+location.search+location.hash);}catch{/* history optional */}};return {lang,setLang};}
 export function useLang(){const {lang,setLang}=useContext(LangContext);const t=(k:TKey)=>T[k][lang];return {lang,t,setLang};}

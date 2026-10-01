@@ -7,7 +7,7 @@
   "trailingSlash": false,
   "headers": [
     {
-      "source": "/og-fddd-v4.jpg",
+      "source": "/og-fddd-v2.0.0.jpg",
       "headers": [
         {
           "key": "Cache-Control",
@@ -76,6 +76,14 @@
     },
     {
       "source": "/en/",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/ko",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/ko/",
       "destination": "/index.html"
     }
   ]

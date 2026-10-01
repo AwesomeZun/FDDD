@@ -1,6 +1,6 @@
 {
   "name": "fddd-laboratory",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
   "type": "module",
   "license": "SEE LICENSE IN LICENSE",
@@ -11,7 +11,8 @@
     "test": "node --experimental-strip-types --test tests/*.test.ts",
     "benchmark": "node --experimental-strip-types scripts/benchmark.ts",
     "preview": "node node_modules/vite/bin/vite.js preview --host 127.0.0.1",
-    "serve": "node scripts/assay-server.mjs"
+    "serve": "node scripts/assay-server.mjs",
+    "qa:platform": "node scripts/platform-qa-v2.0.0.mjs"
   },
   "dependencies": {
     "apache-arrow": "^21.2.0",

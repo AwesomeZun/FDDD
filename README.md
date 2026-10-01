@@ -32,13 +32,14 @@ Molecular docking is **a computational method for estimating how a small molecul
 
 ## A quick tour
 
-1. **Explore the central 3D scene.** Drag to rotate, scroll to zoom, and right-drag to pan.
-2. **Select a fly or a brain tile below the scene.** Inspect that individual's neural activity, motor output, and learned preferences. Use `Follow selected fly` to follow it with the camera.
-3. **Compare the molecule cards below.** `Vina kcal/mol` is the precomputed docking score. `residence · last 3 min` is the share of time actually recorded near each destination in the simulation during the last three minutes. These are different measures.
-4. **Toggle `Reward ON / OFF`.** OFF freezes preference updates, but flight and neural computation continue. Use `Pause colony` to pause the whole simulation.
-5. For a closer look at a protein and molecule, select its card and click **`Selected complex in Mol*`**.
+1. **Start in the Observatory.** The large brain uses measured neuron locations; its mint flashes follow the selected fly's computed spikes. Drag to rotate the view. The trace shows that individual's observed activity.
+2. **Follow the signal.** Walk through Dock → Reward → Compute → Explore → Learn. Each step explains what is calculated and what is an authored rule, alongside a live value.
+3. **Explore the experiment.** Filter by protein and select a candidate to see its actual docking pose. Use **`Inspect in Mol*`** for detailed inspection, or **`Living habitat`** to watch the flies. `Follow` tracks the selected individual.
+4. **Compare score, preference, and residence.** These are separate measures: executed Vina score, an individual's learned value, and the colony's observed near-candidate time over the last three minutes.
+5. **Control the experiment.** `Learning off` freezes preference updates while neural computation and movement continue. `Pause` stops the simulation. Click any colony tile to inspect that individual.
+6. **Open `Watch the film`** for the English 15-second and 30-second showreels, or **`Methods, sources & limits`** for data provenance and model boundaries.
 
-**If it runs slowly:** Set `BRAINS` to 4 and keep only one demo tab open. Options are 4, 8, 12, and 20 flies; the default is chosen for your device. Changing the count restarts the session. A desktop browser is recommended because several neural models run at once.
+**If it runs slowly:** Set `Brains` to 4 and keep only one demo tab open. Options are 4, 8, 12, and 20 flies; the default is chosen for your device. Changing the count opens a confirmation before replacing the session; pause and learning settings are retained. A desktop browser is recommended because several neural models run at once.
 
 ## How does it work?
 
@@ -96,13 +97,21 @@ npm run serve
 Open http://localhost:5177/. The repository includes the MaleCNS runtime data and completed docking results needed for the basic demo.
 
 ```sh
-npm test            # Run tests
+npm test            # Run tests (two legacy suites require excluded local fixtures)
 npm run typecheck   # Check types
 ```
 
-On the local server, `Save CNS records to project` saves current-session recordings under `public/data/records/`. Save before reloading if you want to keep them. The browser Downloads folder is not used. The local build does not have the public build's 500 MB cap, so watch disk usage.
+On the local server, open `Session` → `Save records to project` to save current-session recordings under `public/data/records/`. Save before reloading if you want to keep them. The browser Downloads folder is not used. The local build does not have the public build's 500 MB cap, so watch disk usage.
 
 Large raw data (`upstream/`), backups, session recordings, archived FlyWire data, raw training spikes, and local docking tools (`.tools/`) are not included on GitHub. **Running the demo is different from rerunning docking.** New docking runs require separate tool setup.
+
+## Interface v2.0.0
+
+The current interface is the **Neural Observatory**: a cinematic, English-first laboratory with live neural rendering, a five-step explanation, an integrated molecular workbench, and an independent-brain colony view. Korean remains available at `/ko`. Rendering pauses for offscreen 3D panels while the simulation continues.
+
+- [Interface release and validation](docs/platform-v2.0.0.md)
+- [Preserved v1.0.0 source](versions/platform/v1.0.0/manifest.json)
+- Browser QA: after `npm run build` and `npm run preview -- --port 4173`, run `npm run qa:platform`. Install Playwright Chromium or set `CHROME_PATH` to an installed browser. Results and screenshots are written to a new temporary directory.
 
 ## Showreel
 

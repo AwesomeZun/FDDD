@@ -44,8 +44,9 @@ export function BrainGrid({flies,pairs,selected,onSelect,names,count}:{flies:Col
     colors.setXYZ(k,base[0]*l*(1-fl)+fl*(.35+.65*base[0]),base[1]*l*(1-fl)+fl*(.35+.65*base[1]),base[2]*l*(1-fl)+fl*(.35+.65*base[2]));sizes.setX(k,.35+a*.45+fl*1.0);}
    if(frame)lastTicks[i]=frame.tick;glowActive[i]=maxGlow>.03?1:0;colors.needsUpdate=true;sizes.needsUpdate=true;return true;
   };
+  let visible=true;const visibility=new IntersectionObserver(entries=>{visible=entries[0].isIntersecting;});visibility.observe(host);
   const draw=(now:number)=>{
-   raf=requestAnimationFrame(draw);if(now-lastPaint<DRAW_INTERVAL_MS||document.hidden||!geometry||!material)return;lastPaint=now;
+   raf=requestAnimationFrame(draw);if(now-lastPaint<DRAW_INTERVAL_MS||document.hidden||!visible||!geometry||!material)return;lastPaint=now;
    const w=Math.max(1,host.clientWidth),h=Math.max(1,host.clientHeight);if(canvas.width!==Math.round(w*renderer.getPixelRatio())||canvas.height!==Math.round(h*renderer.getPixelRatio())){renderer.setSize(w,h,false);canvasPrimed=false;painted.length=0;}
    material.uniforms.pixelRatio.value=renderer.getPixelRatio();
    const hostRect=host.getBoundingClientRect();renderer.autoClear=false;if(!canvasPrimed){renderer.setScissor(0,0,w,h);renderer.setViewport(0,0,w,h);renderer.clear();canvasPrimed=true;}
@@ -58,7 +59,7 @@ export function BrainGrid({flies,pairs,selected,onSelect,names,count}:{flies:Col
     renderer.setViewport(x,y,vw,vh);renderer.setScissor(x,y,vw,vh);renderer.clear();renderer.render(scene,camera);}
   };
   raf=requestAnimationFrame(draw);
-  return()=>{disposed=true;abort.abort();cancelAnimationFrame(raf);geometry?.dispose();material?.dispose();renderer.dispose();canvas.remove();};
+  return()=>{disposed=true;abort.abort();cancelAnimationFrame(raf);visibility.disconnect();geometry?.dispose();material?.dispose();renderer.dispose();canvas.remove();};
  },[count]);
  const sizes=manifest?.classes??{},groupNames=manifest?.groups??[];
  const rates=useMemo(()=>Array.from({length:count},(_,i)=>regionRates(flies[i]?.frame?.groupSpikeCounts,groupNames,sizes)),[flies,groupNames,sizes,count]);

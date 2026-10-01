@@ -1,0 +1,50 @@
+{
+  "version": "v2.0.0",
+  "base": "http://127.0.0.1:4173",
+  "checks": [
+    "English default on a Korean browser",
+    "Real MaleCNS workers initialize and compute successive steps",
+    "Learning off freezes preferences while neural computation continues",
+    "Pause freezes computed steps",
+    "Signal tabs support keyboard navigation",
+    "Protein filters load the selected actual docking pose",
+    "Individual selection synchronizes neural and preference panels",
+    "Mol* loads real coordinates; Escape closes and restores focus",
+    "Living habitat follow and reset controls respond",
+    "Colony tiles select real independent individuals",
+    "Methods expose measured, computed, and authored boundaries",
+    "English showreel unpacks and both cut controls respond",
+    "Public session explains the cap and hides unavailable local export",
+    "Canceling a restart preserves the existing colony",
+    "English and Korean switch both content and route",
+    "No document overflow at 1024px",
+    "No document overflow at 768px",
+    "No document overflow at 390px",
+    "No document overflow at 320px",
+    "Confirmed restart initializes eight real brains and retains control settings"
+  ],
+  "errors": [],
+  "failedData": [],
+  "runtime": {
+    "computeMs": 12.5,
+    "persistMs": 1.399999976158142,
+    "workerComputeMsMax": 9.300000011920929,
+    "workerComputeMsMean": 8.550000004470348,
+    "flies": 8,
+    "at": 1790865924301,
+    "fly0": {
+      "dest": 0,
+      "distance": 0.9289445314517186,
+      "contactRadius": 2.4077761521339087,
+      "residence": 0.06670000000000073,
+      "age": 0.06670000000000073,
+      "contact": 0.06670000000000073,
+      "leaveDrive": 0.025841964678948885,
+      "speed": 0.20718423252016038,
+      "observed": 0
+    },
+    "gapSincePrevMs": 65
+  },
+  "browser": "154.0.8037.58",
+  "passed": true
+}

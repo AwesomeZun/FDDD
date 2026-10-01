@@ -33,12 +33,3 @@ The MaleCNS model intentionally adds2000 null-status rows to165122 Traced rows.1
 
 ## README concept illustration
 `docs/assets/fddd-overview.jpg` is an AI-generated explanatory illustration created for FDDD. The stylized protein, molecule, fly, network and bars are conceptual artwork, not measured anatomy, connectivity, docking poses or result plots. It contains no Toss logo or third-party brand asset.
-
-## Platform v2.0.0 fonts
-
-The cinematic interface serves local WOFF2 font subsets; it makes no Google Fonts request.
-
-- **FDDD Lab Sans** is a Latin/punctuation subset of Pretendard Variable by Kil Hyung-jin, based on Source, Inter, and M PLUS 1. The subset has been renamed because the upstream font declares Reserved Font Names. SIL Open Font License 1.1, copyright and complete terms preserved in `public/licenses/Pretendard-OFL.txt`. Upstream: https://github.com/orioncactus/pretendard.
-- **JetBrains Mono** Latin/punctuation subset: Copyright 2020 The JetBrains Mono Project Authors. SIL Open Font License 1.1, complete terms in `public/licenses/JetBrainsMono-OFL.txt`. Upstream: https://github.com/JetBrains/JetBrainsMono.
-
-The embedded English showreel retains its existing data attribution and scientific scope; see `showreel/README.md`.
