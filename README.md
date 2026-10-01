@@ -32,12 +32,12 @@ Molecular docking is **a computational method for estimating how a small molecul
 
 ## A quick tour
 
-1. **Start in the Observatory.** The large brain uses measured neuron locations; its mint flashes follow the selected fly's computed spikes. Drag to rotate the view. The trace shows that individual's observed activity.
-2. **Follow the signal.** Walk through Dock → Reward → Compute → Explore → Learn. Each step explains what is calculated and what is an authored rule, alongside a live value.
-3. **Explore the experiment.** Filter by protein and select a candidate to see its actual docking pose. Use **`Inspect in Mol*`** for detailed inspection, or **`Living habitat`** to watch the flies. `Follow` tracks the selected individual.
-4. **Compare score, preference, and residence.** These are separate measures: executed Vina score, an individual's learned value, and the colony's observed near-candidate time over the last three minutes.
-5. **Control the experiment.** `Learning off` freezes preference updates while neural computation and movement continue. `Pause` stops the simulation. Click any colony tile to inspect that individual.
-6. **Open `Watch the film`** for the English 15-second and 30-second showreels, or **`Methods, sources & limits`** for data provenance and model boundaries.
+1. **Watch the live brain.** The central view shows measured neuron locations and 7,000 actual sampled connections. Flashes follow the selected fly's live computation. Curved links and travelling light are viewing effects. Drag to rotate; toggle connections to inspect the cells alone.
+2. **Switch between `Brain`, `Docking`, and `Flight`.** The selected individual, activity trace, destination, and preference stay connected. Flight opens with a close camera following that individual; `Show all habitats` reveals the full colony.
+3. **Choose a molecular candidate.** Filter by protein and select a row to open its executed docking pose. `Inspect in Mol*` opens the detailed molecular inspector.
+4. **Read the signal path.** Destination → reward input → computed spikes → movement updates beneath the scene. Compare the candidate's docking score, the fly's learned preference, and the colony's recent residence separately.
+5. **Control the experiment.** `Learning off` freezes preference updates while neural computation and movement continue. `Pause` stops the simulation. Select an individual with the arrows or colony tiles.
+6. **Explore the explanation and evidence.** Expand the five-step guide beneath the colony, open `Methods & evidence`, or watch the English 15-second and 30-second film.
 
 **If it runs slowly:** Set `Brains` to 4 and keep only one demo tab open. Options are 4, 8, 12, and 20 flies; the default is chosen for your device. Changing the count opens a confirmation before replacing the session; pause and learning settings are retained. A desktop browser is recommended because several neural models run at once.
 
@@ -80,7 +80,7 @@ The policy favors higher-reward candidates without sending every fly to just one
 
 Both domains serve **the same static web demo**. The public site computes neural activity in the browser and displays completed docking results. It does not run new docking jobs or retrain models on a server.
 
-Neural recordings are not uploaded. They remain in that browser's IndexedDB. The public build records up to **500 MB of raw spike data**; after that, recording stops but computation and display continue. **Starting a new session automatically deletes previous-session recordings.** The public build cannot save recordings into a project folder.
+Neural recordings are not uploaded. They remain in that browser's IndexedDB. The public build records up to **500 MB of raw spike data**; after that, recording stops but computation and display continue. Inactive v3 session recordings can be cleaned up in the background; recordings owned by other open tabs are preserved. Legacy records without session ownership are retained. If browser storage is blocked, unavailable, or full, the interface explains the recording failure while neural computation and movement continue. The public build cannot save recordings into a project folder.
 
 ## Run locally
 
@@ -105,13 +105,14 @@ On the local server, open `Session` → `Save records to project` to save curren
 
 Large raw data (`upstream/`), backups, session recordings, archived FlyWire data, raw training spikes, and local docking tools (`.tools/`) are not included on GitHub. **Running the demo is different from rerunning docking.** New docking runs require separate tool setup.
 
-## Interface v2.0.0
+## Interface v3.0.0
 
-The current interface is the **Neural Observatory**: a cinematic, English-first laboratory with live neural rendering, a five-step explanation, an integrated molecular workbench, and an independent-brain colony view. Korean remains available at `/ko`. Rendering pauses for offscreen 3D panels while the simulation continues.
+The **Neural Discovery Lab** opens directly into a live, cinematic research dashboard. A large observation stage connects brain activity, actual docking poses, and individual flight, with candidates and measured readouts beside it. English is the default; Korean remains available at `/ko`.
 
-- [Interface release and validation](docs/platform-v2.0.0.md)
-- [Preserved v1.0.0 source](versions/platform/v1.0.0/manifest.json)
-- Browser QA: after `npm run build` and `npm run preview -- --port 4173`, run `npm run qa:platform`. Install Playwright Chromium or set `CHROME_PATH` to an installed browser. Results and screenshots are written to a new temporary directory.
+- [Interface, reliability changes, and validation](docs/platform-v3.0.0.md)
+- [Preserved v2.0.0 source](versions/platform/v2.0.0/manifest.json)
+- [Automatic team mirroring retired](docs/mirror-sync.v2.0.0.md)
+- Browser QA: after `npm run build` and `npm run preview -- --port 4173`, run `npm run qa:platform`. Set `CHROME_PATH` to an installed browser or install Playwright Chromium. The checks include concurrent tabs, blocked/denied recording storage, quota exhaustion, and failed graph download recovery. Results and screenshots go to a new temporary directory.
 
 ## Showreel
 

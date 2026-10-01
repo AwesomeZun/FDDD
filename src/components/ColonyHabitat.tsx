@@ -7,7 +7,7 @@ import { FLY_ACCENTS } from '../lib/flyAccents';
 import { disposeMolecularObject, makeProteinComplex } from './ProteinRibbon';
 import {WORLD_UNITS_PER_ANGSTROM, type MolecularGeometry} from '../lib/molecularScale.ts';
 
-export type ColonyHabitatProps = { pairs: HabitatPair[]; flies: ColonyFly[]; paused: boolean; selected: number; onSelect: (i: number) => void; /** Camera tracks the selected fly (orbit offset preserved, zoom raised while following). */ follow?: boolean };
+export type ColonyHabitatProps = { pairs: HabitatPair[]; flies: ColonyFly[]; paused: boolean; selected: number; onSelect: (i: number) => void; /** Camera tracks the selected fly (orbit offset preserved, zoom raised while following). */ follow?: boolean; onReset?:()=>void };
 const accents = FLY_ACCENTS.map(c => new T.Color(c).getHex());
 const proteins = [0x77c2b1, 0xa3b8d7, 0xa4a0d2, 0x8ac49e, 0xc5b391, 0x7eafb4];
 
@@ -101,18 +101,19 @@ export function ColonyHabitat(props: ColonyHabitatProps) {
       if (hit) latest.current.onSelect(hit.object.userData.flyIndex as number);
     };
     renderer.domElement.addEventListener('pointerdown', pointerDown); renderer.domElement.addEventListener('pointerup', pointerUp);
-    const resize = () => { const w = Math.max(1, el.clientWidth), h = Math.max(1, el.clientHeight); renderer.setSize(w, h, false); const live=runtime.current;if(live){live.aspect=w/h;if(live.fitted)fitMolecularScene(live);else{camera.left=-9*w/h;camera.right=9*w/h;camera.updateProjectionMatrix();}} };
+    let wasFollowing = false;
+    const resize = () => { wasFollowing=false; const w = Math.max(1, el.clientWidth), h = Math.max(1, el.clientHeight); renderer.setSize(w, h, false); const live=runtime.current;if(live){live.aspect=w/h;if(live.fitted)fitMolecularScene(live);else{camera.left=-9*w/h;camera.right=9*w/h;camera.updateProjectionMatrix();}} };
     const observer = new ResizeObserver(resize); observer.observe(el); resize();
     let visible = true;
     const visibility = new IntersectionObserver(entries => { visible = entries[0].isIntersecting; }); visibility.observe(el);
     let raf = 0, last = performance.now(), wingTime = 0;
     const direction = new T.Vector3(), rotation = new T.Quaternion(), forward = new T.Vector3(0, 0, 1);
-    let wasFollowing = false;
     const render = (now: number) => {
       raf = requestAnimationFrame(render);
       if (document.hidden || !visible) { last = now; return; }
       const dt = Math.min(.05, Math.max(0, (now - last) / 1000)); last = now;
       const current = latest.current; if (!current.paused) wingTime += dt;
+      stations.traverse(object=>{if(object instanceof T.Sprite)object.visible=!current.follow;});
       while (visuals.length > current.flies.length) { const v = visuals.pop()!; scene.remove(v.root, v.trail); disposeMolecularObject(v.root); disposeMolecularObject(v.trail); }
       current.flies.forEach((fly, index) => {
         if (!visuals[index]) {
@@ -136,9 +137,9 @@ export function ColonyHabitat(props: ColonyHabitatProps) {
         }
       });
       // Follow mode: move the orbit target with the selected avatar while keeping the user's current orbit offset.
-      const target = current.follow ? visuals[current.selected] : undefined;
-      if (target) { const offset = camera.position.clone().sub(controls.target); controls.target.lerp(target.root.position, 1 - Math.exp(-dt * 6)); camera.position.copy(controls.target).add(offset); if (!wasFollowing) { camera.zoom = Math.max(camera.zoom, 6); camera.updateProjectionMatrix(); } wasFollowing = true; }
-      else if (wasFollowing) { wasFollowing = false; }
+      const target = current.follow && runtime.current?.fitted ? visuals[current.selected] : undefined;
+      if (target) { const offset = camera.position.clone().sub(controls.target); controls.target.lerp(target.root.position, 1 - Math.exp(-dt * 6)); camera.position.copy(controls.target).add(offset); if (!wasFollowing) { camera.zoom = (camera.top-camera.bottom)/1.35; controls.maxZoom=Math.max(12,camera.zoom*2);camera.updateProjectionMatrix(); } wasFollowing = true; }
+      else if (wasFollowing) { wasFollowing = false;if(runtime.current)fitMolecularScene(runtime.current); }
       controls.update();
       if(scaleLine.current&&scaleText.current){
         const pixelsPerAngstrom=el.clientWidth/((camera.right-camera.left)/camera.zoom)*WORLD_UNITS_PER_ANGSTROM;
@@ -181,11 +182,11 @@ export function ColonyHabitat(props: ColonyHabitatProps) {
     return () => { stopped = true; abort.abort(); };
   }, [pairKey]);
 
-  return <div className="colony-habitat" style={{ position: 'relative', width: '100%', height: '100%', minHeight: 560, overflow: 'hidden', background: '#060e0c', borderRadius: 18 }}>
+  return <div className="colony-habitat" style={{ position: 'relative', width: '100%', height: '100%', minHeight: 0, overflow: 'hidden', background: '#060e0c' }}>
     <div ref={host} style={{ position: 'absolute', inset: 0 }} />
     <div style={{ position: 'absolute', top: 44, left: 16, pointerEvents: 'none', color: '#9bafbf', fontSize: 10, letterSpacing: '.17em', textTransform: 'uppercase' }}>Shared molecular habitat <span style={{ color: '#577081', marginLeft: 12 }}>{loaded}/{props.pairs.length} complexes</span></div>
     <div style={{position:'absolute',left:16,bottom:40,pointerEvents:'none',color:'#8daeb4',font:'9px monospace',background:'#081018b8',padding:'7px 9px',borderRadius:4}}><div>ORTHOGRAPHIC 3D · SHARED Å SCALE</div><div ref={scaleLine} style={{height:5,borderLeft:'1px solid #9cc9c9',borderRight:'1px solid #9cc9c9',borderBottom:'1px solid #9cc9c9',margin:'6px 0 4px',width:100}}/><span ref={scaleText}>50 Å (5 nm)</span><div style={{marginTop:5,color:'#68878e'}}>Fly avatars are not to molecular scale.</div></div>
-    <button onClick={()=>{if(runtime.current)fitMolecularScene(runtime.current);}} style={{position:'absolute',top:39,right:16,zIndex:3,padding:'5px 8px',fontSize:9,color:'#9bafbf',background:'#0a1720',border:'1px solid #29404a'}}>Reset view</button>
+    <button onClick={()=>{props.onReset?.();if(runtime.current)fitMolecularScene(runtime.current);}} style={{position:'absolute',top:39,right:16,zIndex:3,padding:'5px 8px',fontSize:9,color:'#9bafbf',background:'#0a1720',border:'1px solid #29404a'}}>Reset view</button>
     {error && <p role="status" style={{ position: 'absolute', top: 50, left: 24, right: 24, color: '#e5b3a6', fontSize: 12 }}>{error}</p>}
   </div>;
 }
