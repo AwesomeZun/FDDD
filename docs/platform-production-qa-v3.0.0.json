@@ -1,0 +1,128 @@
+{
+  "version": "v3.0.0",
+  "base": "https://flybrain.kr",
+  "checks": [
+    "English default on a Korean browser",
+    "Real MaleCNS workers initialize and compute successive steps",
+    "Learning off freezes preferences while neural computation continues",
+    "Pause freezes computed steps",
+    "Dragging the actual WebGL brain changes its rendered camera view",
+    "Live measured brain and sampled real connections render and toggle",
+    "Signal tabs support keyboard navigation",
+    "Protein filters load the selected actual docking pose",
+    "Individual selection synchronizes neural and preference panels",
+    "Mol* loads real coordinates; Escape closes and restores focus",
+    "Flight follow, overview, and reset controls synchronize the camera",
+    "Colony tiles select real independent individuals",
+    "Methods expose measured, computed, and authored boundaries",
+    "English showreel unpacks and both cut controls respond",
+    "Public session explains the cap and hides unavailable local export",
+    "Canceling a restart preserves the existing colony",
+    "English and Korean switch both content and route",
+    "No document overflow at 1024px",
+    "No document overflow at 768px",
+    "No document overflow at 390px",
+    "No document overflow at 320px",
+    "Confirmed restart initializes eight real brains and retains control settings",
+    "Two tabs and a reload compute concurrently without deleting the other live session",
+    "Storage denied: clear notice; actual computation and pause/resume remain functional",
+    "Storage blocked: clear notice; actual computation and pause/resume remain functional",
+    "Storage quota: clear notice; actual computation and pause/resume remain functional",
+    "A failed graph download exposes recovery and Restart successfully reloads the real graph",
+    "Failed candidate metadata reloads through Restart and restores a running experiment"
+  ],
+  "errors": [],
+  "failedData": [],
+  "runtime": {
+    "computeMs": 50,
+    "persistMs": 2.200000047683716,
+    "workerComputeMsMax": 19.599999964237213,
+    "workerComputeMsMean": 14.01249997317791,
+    "flies": 8,
+    "at": 1790878696442,
+    "fly0": {
+      "dest": 0,
+      "distance": 0.9239620610190474,
+      "contactRadius": 2.4077761521339087,
+      "residence": 0.016599999999998546,
+      "age": 0.016599999999998546,
+      "contact": 0.016599999999998546,
+      "leaveDrive": 0,
+      "speed": 0.26175798038983017,
+      "observed": 0
+    },
+    "gapSincePrevMs": 22781
+  },
+  "browser": "154.0.8037.58",
+  "passed": true,
+  "verifiedAt": "2026-10-01T18:26:40.309706+00:00",
+  "sourceCommit": "0918a04",
+  "deployment": "https://flybrain-drug-g1xfxo9jx-sjkang89-gmailcoms-projects.vercel.app",
+  "deploymentId": "dpl_CpcBtXBVkLxkhqUci4LHbqZ9WwdD",
+  "publicAssets": [
+    {
+      "url": "https://flybrain.kr/en",
+      "status": "200 text/html; charset=utf-8",
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://www.flybrain.kr/en",
+      "status": "200 text/html; charset=utf-8",
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://drug.flybrain.kr/en",
+      "status": "200 text/html; charset=utf-8",
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://flybrain.kr/showreel/v1.1.0/index.html",
+      "status": "200 text/html; charset=utf-8",
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://flybrain.kr/data/malecns/display-connections-v3.0.0.json",
+      "status": "200 application/json; charset=utf-8",
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "url": "https://flybrain.kr/og-fddd-v3.0.0.png",
+      "status": "200 image/png",
+      "exit": 0,
+      "error": ""
+    }
+  ],
+  "orcaLiveBrowser": {
+    "errors": [],
+    "flight": "TRACKING INDIVIDUAL\nION 01\n\nTravelling to 15R",
+    "paused": "false",
+    "ready": "true",
+    "step": "STEP 8,224\nLIVE",
+    "timing": {
+      "at": 1790879199523,
+      "computeMs": 5.300000011920929,
+      "flies": 8,
+      "fly0": {
+        "age": 22,
+        "contact": 0,
+        "contactRadius": 2.4077761521339087,
+        "dest": 0,
+        "distance": 1.8696547587269772,
+        "leaveDrive": 0.16355252740627163,
+        "observed": 8,
+        "residence": 22,
+        "speed": 3.0593490403807433
+      },
+      "gapSincePrevMs": 56,
+      "persistMs": 0,
+      "workerComputeMsMax": 2.699999988079071,
+      "workerComputeMsMean": 2.537500001490116
+    },
+    "version": "3.0.0"
+  }
+}

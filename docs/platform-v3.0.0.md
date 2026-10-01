@@ -39,7 +39,11 @@ Learning, steering, and reward rules retain their stated authored-model boundari
 
 Run the same checks against a built preview with `BASE_URL=http://127.0.0.1:4173 npm run qa:platform`. Set `CHROME_PATH` when using an installed browser. Reports and screenshots go to `QA_OUTPUT` or a fresh temporary directory.
 
-[Browser QA results](platform-qa-v3.0.0.json) · [Mobile view](assets/platform-mobile-v3.0.0.png)
+[Built-preview QA results](platform-qa-v3.0.0.json) · [Production QA results](platform-production-qa-v3.0.0.json) · [Mobile view](assets/platform-mobile-v3.0.0.png)
+
+## Production verification
+
+Deployed source `0918a04` to `dpl_CpcBtXBVkLxkhqUci4LHbqZ9WwdD`. All 28 scenarios passed again at **https://flybrain.kr**, including the additional candidate-metadata failure/restart scenario. The existing Orca browser also ran eight real brains with increasing steps, changing destinations, working docking/flight views, and no error notice. Main, www, and drug aliases return the new laboratory; the showreel, sampled-link asset, and new social preview return HTTP 200.
 
 ## Preservation
 
