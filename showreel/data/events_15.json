@@ -1,0 +1,431 @@
+{
+ "dur": 15,
+ "bpm": 128,
+ "beat": 0.46875,
+ "bar": 1.875,
+ "music": [
+  {
+   "from": 0,
+   "to": 1,
+   "part": "intro",
+   "t0": 0,
+   "t1": 1.875
+  },
+  {
+   "from": 1,
+   "to": 3,
+   "part": "dropA",
+   "t0": 1.875,
+   "t1": 5.625
+  },
+  {
+   "from": 3,
+   "to": 4,
+   "part": "lift",
+   "t0": 5.625,
+   "t1": 7.5
+  },
+  {
+   "from": 4,
+   "to": 6,
+   "part": "dropB",
+   "t0": 7.5,
+   "t1": 11.25
+  },
+  {
+   "from": 6,
+   "to": 7,
+   "part": "slam",
+   "t0": 11.25,
+   "t1": 13.125
+  },
+  {
+   "from": 7,
+   "to": 8,
+   "part": "outro",
+   "t0": 13.125,
+   "t1": 15
+  }
+ ],
+ "scenes": [
+  {
+   "id": "open",
+   "t0": 0,
+   "t1": 1.875,
+   "in": null
+  },
+  {
+   "id": "brain",
+   "t0": 1.875,
+   "t1": 3.75,
+   "in": "flash"
+  },
+  {
+   "id": "grid",
+   "t0": 3.75,
+   "t1": 5.625,
+   "in": "match"
+  },
+  {
+   "id": "dock",
+   "t0": 5.625,
+   "t1": 7.5,
+   "in": "whip"
+  },
+  {
+   "id": "score",
+   "t0": 7.5,
+   "t1": 9.375,
+   "in": "impact"
+  },
+  {
+   "id": "fly",
+   "t0": 9.375,
+   "t1": 11.25,
+   "in": "zoom"
+  },
+  {
+   "id": "slogan",
+   "t0": 11.25,
+   "t1": 13.125,
+   "in": "glitch"
+  },
+  {
+   "id": "end",
+   "t0": 13.125,
+   "t1": 15,
+   "in": "flash"
+  }
+ ],
+ "events": [
+  {
+   "t": 0,
+   "type": "poster",
+   "scene": "open"
+  },
+  {
+   "t": 0.3,
+   "type": "shatter",
+   "dur": 0.32,
+   "scene": "open"
+  },
+  {
+   "t": 0.62,
+   "type": "heartbeat",
+   "scene": "open"
+  },
+  {
+   "t": 0.94,
+   "type": "riser",
+   "dur": 0.935,
+   "scene": "open"
+  },
+  {
+   "t": 1.40625,
+   "type": "roll",
+   "dur": 0.440625,
+   "scene": "open"
+  },
+  {
+   "t": 1.81641,
+   "type": "suck",
+   "scene": "open"
+  },
+  {
+   "t": 1.875,
+   "type": "impact",
+   "scene": "brain"
+  },
+  {
+   "t": 2.8125,
+   "type": "hit",
+   "scene": "brain"
+  },
+  {
+   "t": 2.8125,
+   "type": "sweep",
+   "dur": 0.703125,
+   "scene": "brain"
+  },
+  {
+   "t": 3.898,
+   "type": "blip",
+   "pitch": 1,
+   "scene": "grid"
+  },
+  {
+   "t": 3.898,
+   "type": "blip",
+   "pitch": 1,
+   "scene": "grid"
+  },
+  {
+   "t": 3.926,
+   "type": "blip",
+   "pitch": 2,
+   "scene": "grid"
+  },
+  {
+   "t": 3.926,
+   "type": "blip",
+   "pitch": 2,
+   "scene": "grid"
+  },
+  {
+   "t": 3.926,
+   "type": "blip",
+   "pitch": 2,
+   "scene": "grid"
+  },
+  {
+   "t": 3.954,
+   "type": "blip",
+   "pitch": 3,
+   "scene": "grid"
+  },
+  {
+   "t": 3.954,
+   "type": "blip",
+   "pitch": 3,
+   "scene": "grid"
+  },
+  {
+   "t": 3.954,
+   "type": "blip",
+   "pitch": 3,
+   "scene": "grid"
+  },
+  {
+   "t": 3.954,
+   "type": "blip",
+   "pitch": 3,
+   "scene": "grid"
+  },
+  {
+   "t": 3.982,
+   "type": "blip",
+   "pitch": 4,
+   "scene": "grid"
+  },
+  {
+   "t": 3.982,
+   "type": "blip",
+   "pitch": 4,
+   "scene": "grid"
+  },
+  {
+   "t": 3.982,
+   "type": "blip",
+   "pitch": 4,
+   "scene": "grid"
+  },
+  {
+   "t": 3.982,
+   "type": "blip",
+   "pitch": 4,
+   "scene": "grid"
+  },
+  {
+   "t": 4.01,
+   "type": "blip",
+   "pitch": 5,
+   "scene": "grid"
+  },
+  {
+   "t": 4.01,
+   "type": "blip",
+   "pitch": 5,
+   "scene": "grid"
+  },
+  {
+   "t": 4.01,
+   "type": "blip",
+   "pitch": 5,
+   "scene": "grid"
+  },
+  {
+   "t": 4.038,
+   "type": "blip",
+   "pitch": 6,
+   "scene": "grid"
+  },
+  {
+   "t": 4.038,
+   "type": "blip",
+   "pitch": 6,
+   "scene": "grid"
+  },
+  {
+   "t": 4.066,
+   "type": "blip",
+   "pitch": 7,
+   "scene": "grid"
+  },
+  {
+   "t": 4.21875,
+   "type": "hit",
+   "scene": "grid"
+  },
+  {
+   "t": 5.465,
+   "type": "whoosh",
+   "dur": 0.36,
+   "scene": "grid"
+  },
+  {
+   "t": 5.625,
+   "type": "whooshIn",
+   "scene": "dock"
+  },
+  {
+   "t": 5.675,
+   "type": "drawon",
+   "dur": 0.6,
+   "scene": "dock"
+  },
+  {
+   "t": 5.925,
+   "type": "riser",
+   "dur": 1.575,
+   "scene": "dock"
+  },
+  {
+   "t": 6.09375,
+   "type": "type",
+   "scene": "dock"
+  },
+  {
+   "t": 7.03125,
+   "type": "roll",
+   "dur": 0.4453125,
+   "scene": "dock"
+  },
+  {
+   "t": 7.5,
+   "type": "impact",
+   "big": true,
+   "scene": "score"
+  },
+  {
+   "t": 7.96875,
+   "type": "blip",
+   "pitch": 7,
+   "scene": "score"
+  },
+  {
+   "t": 8.01875,
+   "type": "blip",
+   "pitch": 6,
+   "scene": "score"
+  },
+  {
+   "t": 8.06875,
+   "type": "blip",
+   "pitch": 5,
+   "scene": "score"
+  },
+  {
+   "t": 8.11875,
+   "type": "blip",
+   "pitch": 4,
+   "scene": "score"
+  },
+  {
+   "t": 8.16875,
+   "type": "blip",
+   "pitch": 3,
+   "scene": "score"
+  },
+  {
+   "t": 8.21875,
+   "type": "blip",
+   "pitch": 2,
+   "scene": "score"
+  },
+  {
+   "t": 8.26875,
+   "type": "blip",
+   "pitch": 1,
+   "scene": "score"
+  },
+  {
+   "t": 8.31875,
+   "type": "blip",
+   "pitch": 0,
+   "scene": "score"
+  },
+  {
+   "t": 9.155,
+   "type": "whoosh",
+   "dur": 0.4,
+   "scene": "score"
+  },
+  {
+   "t": 9.375,
+   "type": "whooshIn",
+   "scene": "fly"
+  },
+  {
+   "t": 9.375,
+   "type": "buzz",
+   "dur": 1.875,
+   "scene": "fly"
+  },
+  {
+   "t": 9.60938,
+   "type": "hit",
+   "scene": "fly"
+  },
+  {
+   "t": 10.07813,
+   "type": "hit",
+   "scene": "fly"
+  },
+  {
+   "t": 11.19,
+   "type": "glitch",
+   "scene": "fly"
+  },
+  {
+   "t": 11.25,
+   "type": "slam",
+   "big": true,
+   "scene": "slogan"
+  },
+  {
+   "t": 11.71875,
+   "type": "slam",
+   "big": true,
+   "scene": "slogan"
+  },
+  {
+   "t": 12.1875,
+   "type": "slam",
+   "big": true,
+   "last": true,
+   "scene": "slogan"
+  },
+  {
+   "t": 12.65625,
+   "type": "swell",
+   "dur": 0.46875,
+   "scene": "slogan"
+  },
+  {
+   "t": 13.125,
+   "type": "sting",
+   "scene": "end"
+  },
+  {
+   "t": 13.6875,
+   "type": "type",
+   "scene": "end"
+  },
+  {
+   "t": 14.0625,
+   "type": "blip",
+   "pitch": 7,
+   "scene": "end"
+  }
+ ]
+}

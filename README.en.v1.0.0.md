@@ -1,10 +1,10 @@
 # FDDD · Fly-Driven Drug Development
 
 <p align="center">
-  <a href="https://flybrain.kr/en"><img src="docs/assets/fddd-showreel-15s-en-v1.1.0.webp" alt="FDDD 15-second motion showreel — connectome, protein docking, fly swarm" width="100%"></a>
+  <a href="https://flybrain.kr"><img src="docs/assets/fddd-showreel-15s.webp" alt="FDDD 15-second motion showreel — connectome, protein docking, fly swarm" width="100%"></a>
 </p>
 
-**English** | [한국어](README.ko.md)
+[한국어](README.md) | **English**
 
 **A browser-based research demo where fruit-fly neural models explore molecules and learn preferences from molecular docking scores.**
 
@@ -16,9 +16,9 @@
 
 ## Try it live
 
-- **Main site (English): https://flybrain.kr/en**
-- **Alternative address for the same demo: https://drug.flybrain.kr/en**
-- **Korean:** Select `KO` in the language switcher at the top right.
+- **Main site: https://flybrain.kr/**
+- **Alternative address for the same demo: https://drug.flybrain.kr/**
+- **English page: https://flybrain.kr/en** · You can also switch with `KO | EN` at the top right.
 
 No installation or login is needed. The demo starts automatically after loading its data. Neural computation runs **in your browser**, not on a server.
 
@@ -28,7 +28,7 @@ The scene contains proteins, small molecules, and virtual fruit flies moving amo
 
 Molecular docking is **a computational method for estimating how a small molecule might fit into a protein**. FDDD loads results from completed AutoDock Vina runs, converts the scores into rewards, and updates each fly's preference for the candidates it visits. You can watch where the flies go, how long they stay, and how their neural activity and preferences change.
 
-> This is **an experimental space that turns docking results into virtual fly exploration and learning**. It is not an experiment that gives drugs to living flies, or a service that proves a drug works.
+> In short, this is **an experimental space that turns docking results into virtual fly exploration and learning**. It is not an experiment that gives drugs to living flies, or a service that proves a drug works.
 
 ## A quick tour
 
@@ -103,12 +103,6 @@ npm run typecheck   # Check types
 On the local server, `Save CNS records to project` saves current-session recordings under `public/data/records/`. Save before reloading if you want to keep them. The browser Downloads folder is not used. The local build does not have the public build's 500 MB cap, so watch disk usage.
 
 Large raw data (`upstream/`), backups, session recordings, archived FlyWire data, raw training spikes, and local docking tools (`.tools/`) are not included on GitHub. **Running the demo is different from rerunning docking.** New docking runs require separate tool setup.
-
-## Showreel
-
-The English motion showreel is available in **15-second and 30-second cuts**, with a self-contained HTML player, 1080p/60 fps MP4 masters, lightweight sharing copies, and cover images. The animated preview above uses the English 15-second cut.
-
-See [the showreel guide](showreel/README.md) for local playback, build instructions, data provenance, and the distinction between computed results and animation. The Korean v1.0.0 assets are preserved.
 
 ## Further reading
 

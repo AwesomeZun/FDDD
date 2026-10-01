@@ -1,0 +1,136 @@
+{
+  "scene_text": "English; no Korean drawn in sampled scenes",
+  "timing": "Both event lists exactly match v1.0.0",
+  "controls": "Play, pause, audio, scrubbing, cut switching, frame/second arrows, and 1/2 shortcuts pass",
+  "mobile_controls": {
+    "x": 24.4375,
+    "y": 751,
+    "width": 326.125,
+    "height": 51
+  },
+  "page_errors": [],
+  "preserved_original_assets": 27,
+  "readme_english_alias_matches": true,
+  "mobile_button_text": "No wrapping at 375px",
+  "version": "v1.1.0",
+  "language": "en",
+  "upstream_commit": "a1f51ad44946369f5080058c0799eaaee402af86",
+  "mp4": [
+    {
+      "path": "showreel/dist/fddd-showreel-15s-en-share-v1.1.0.mp4",
+      "bytes": 16954648,
+      "sha256": "d0824505d936b623bc47941ed5cd11e50d56f8aaf996feebc00c5bc3c16b1601",
+      "width": 1920,
+      "height": 1080,
+      "fps": 60,
+      "video_frames": 900,
+      "video_seconds": 15.0,
+      "container_seconds": 15.019,
+      "video_language": "eng",
+      "audio_codec": "aac",
+      "cover_embedded": true,
+      "decode": "passed"
+    },
+    {
+      "path": "showreel/dist/fddd-showreel-15s-en-v1.1.0.mp4",
+      "bytes": 55191326,
+      "sha256": "3ed948c87d2488f4abf461ed81eedd0d90d412fdbbccc1795da69969d2c81ed7",
+      "width": 1920,
+      "height": 1080,
+      "fps": 60,
+      "video_frames": 900,
+      "video_seconds": 15.0,
+      "container_seconds": 15.019,
+      "video_language": "eng",
+      "audio_codec": "aac",
+      "cover_embedded": true,
+      "decode": "passed"
+    },
+    {
+      "path": "showreel/dist/fddd-showreel-30s-en-share-v1.1.0.mp4",
+      "bytes": 29787700,
+      "sha256": "88673eb987b98ee645d9e142b3ed770313ba77b783c07fa56b0f17d27114dea9",
+      "width": 1920,
+      "height": 1080,
+      "fps": 60,
+      "video_frames": 1800,
+      "video_seconds": 30.0,
+      "container_seconds": 30.016,
+      "video_language": "eng",
+      "audio_codec": "aac",
+      "cover_embedded": true,
+      "decode": "passed"
+    },
+    {
+      "path": "showreel/dist/fddd-showreel-30s-en-v1.1.0.mp4",
+      "bytes": 102662365,
+      "sha256": "2a3dc023fa3dc95d9568d6726d95249ba4ce01269f66153adf4e40b4b38b7ee3",
+      "width": 1920,
+      "height": 1080,
+      "fps": 60,
+      "video_frames": 1800,
+      "video_seconds": 30.0,
+      "container_seconds": 30.016,
+      "video_language": "eng",
+      "audio_codec": "aac",
+      "cover_embedded": true,
+      "decode": "passed"
+    }
+  ],
+  "readme_originals": "Both upstream README files preserved byte-for-byte",
+  "documentation_links": "All local links in current README entry points resolve",
+  "syntax": "JavaScript, Python, Bash, and git diff whitespace checks passed",
+  "assets": {
+    "README.md": {
+      "bytes": 8995,
+      "sha256": "f4af9fafaedb0058936a352764b3d1ad1ac56554178030e6705ff435a37a1d64"
+    },
+    "showreel/dist/fddd-showreel-en-v1.1.0.html": {
+      "bytes": 5495410,
+      "sha256": "76d2ec94c7cb526cff091f29e43c165fb5bee8a8a550f0549ba0b135dbb00660"
+    },
+    "showreel/dist/thumbnails/fddd-showreel-15s-en-cover-1920x1080-v1.1.0.jpg": {
+      "bytes": 572799,
+      "sha256": "35e659922c60a299a3076e297c2ddb84de612d833a6368025dd38819133299c3"
+    },
+    "showreel/dist/thumbnails/fddd-showreel-15s-en-cover-1920x1080-v1.1.0.png": {
+      "bytes": 3175571,
+      "sha256": "02af41697c956b33f7e29c110c872c3938ed19cf81d125e52ab86cc8d97b21b8"
+    },
+    "showreel/dist/thumbnails/fddd-showreel-15s-en-share-1200x630-v1.1.0.jpg": {
+      "bytes": 242039,
+      "sha256": "05fd5636d234892739abf4e28f973525233aafb7ec64ba1d660d309bb7578097"
+    },
+    "showreel/dist/thumbnails/fddd-showreel-15s-en-share-1200x630-v1.1.0.png": {
+      "bytes": 1202938,
+      "sha256": "6b634bd9e243f7155bd9eb37bb4d1500e07e0077b71d033d5f2e8bde9d558286"
+    },
+    "showreel/dist/thumbnails/fddd-showreel-30s-en-cover-1920x1080-v1.1.0.jpg": {
+      "bytes": 573035,
+      "sha256": "b583523c7494bcadb669c5d375bc8ac0600ebe8fa85e2029cae3384d4e80000d"
+    },
+    "showreel/dist/thumbnails/fddd-showreel-30s-en-cover-1920x1080-v1.1.0.png": {
+      "bytes": 3175827,
+      "sha256": "1320412ca9c9a64f36c092d4e2d383b6e6c9c605294f6c8eb090bb122260b3ba"
+    },
+    "showreel/dist/thumbnails/fddd-showreel-30s-en-share-1200x630-v1.1.0.jpg": {
+      "bytes": 242149,
+      "sha256": "6361e732bd1eae9a99484a88b477621d20447beb55ecb16ab861ffa5f2a4dc44"
+    },
+    "showreel/dist/thumbnails/fddd-showreel-30s-en-share-1200x630-v1.1.0.png": {
+      "bytes": 1203172,
+      "sha256": "fe511c7051841e24adf6cc5192a0c1513e8405d5a3582b42d3746a405c73a4b3"
+    }
+  },
+  "readme_preview": {
+    "path": "docs/assets/fddd-showreel-15s-en-v1.1.0.webp",
+    "width": 960,
+    "height": 540,
+    "frames": 300,
+    "duration_ms": 15000,
+    "loop": "infinite",
+    "decode": "passed",
+    "bytes": 6374380,
+    "sha256": "11abe2a8b3eaa8a2852feb32666c341e960ea72ec00c5395c2dd5d85fe843b30"
+  }
+}

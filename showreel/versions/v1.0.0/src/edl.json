@@ -1,0 +1,53 @@
+{
+  "bpm": 128,
+  "fps": 60,
+  "width": 1920,
+  "height": 1080,
+  "stepRate": 12,
+  "cuts": {
+    "30": {
+      "bars": 16,
+      "scenes": [
+        { "id": "open", "from": 0, "to": 2, "label": "뉴런 하나" },
+        { "id": "brain", "from": 2, "to": 4, "label": "커넥톰", "in": "flash" },
+        { "id": "grid", "from": 4, "to": 6, "label": "20개의 뇌", "in": "match" },
+        { "id": "dock", "from": 6, "to": 8, "label": "실제 도킹", "in": "whip" },
+        { "id": "score", "from": 8, "to": 10, "label": "점수와 보상", "in": "impact" },
+        { "id": "fly", "from": 10, "to": 12, "label": "머물까요, 떠날까요", "in": "zoom" },
+        { "id": "pipeline", "from": 12, "to": 14, "label": "학습 루프", "in": "glitch" },
+        { "id": "slogan", "from": 14, "to": 15, "label": "원칙", "in": "strobe" },
+        { "id": "end", "from": 15, "to": 16, "label": "FDDD", "in": "flash" }
+      ],
+      "music": [
+        { "from": 0, "to": 2, "part": "intro" },
+        { "from": 2, "to": 6, "part": "dropA" },
+        { "from": 6, "to": 8, "part": "breakdown" },
+        { "from": 8, "to": 12, "part": "dropB" },
+        { "from": 12, "to": 14, "part": "build" },
+        { "from": 14, "to": 15, "part": "slam" },
+        { "from": 15, "to": 16, "part": "outro" }
+      ]
+    },
+    "15": {
+      "bars": 8,
+      "scenes": [
+        { "id": "open", "from": 0, "to": 1, "label": "뉴런 하나" },
+        { "id": "brain", "from": 1, "to": 2, "label": "커넥톰", "in": "flash" },
+        { "id": "grid", "from": 2, "to": 3, "label": "20개의 뇌", "in": "match" },
+        { "id": "dock", "from": 3, "to": 4, "label": "실제 도킹", "in": "whip" },
+        { "id": "score", "from": 4, "to": 5, "label": "점수와 보상", "in": "impact" },
+        { "id": "fly", "from": 5, "to": 6, "label": "머물까요, 떠날까요", "in": "zoom" },
+        { "id": "slogan", "from": 6, "to": 7, "label": "원칙", "in": "glitch" },
+        { "id": "end", "from": 7, "to": 8, "label": "FDDD", "in": "flash" }
+      ],
+      "music": [
+        { "from": 0, "to": 1, "part": "intro" },
+        { "from": 1, "to": 3, "part": "dropA" },
+        { "from": 3, "to": 4, "part": "lift" },
+        { "from": 4, "to": 6, "part": "dropB" },
+        { "from": 6, "to": 7, "part": "slam" },
+        { "from": 7, "to": 8, "part": "outro" }
+      ]
+    }
+  }
+}

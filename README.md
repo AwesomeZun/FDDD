@@ -1,89 +1,89 @@
 # FDDD · Fly-Driven Drug Development
 
 <p align="center">
-  <a href="https://flybrain.kr"><img src="docs/assets/fddd-showreel-15s.webp" alt="FDDD 15초 모션 쇼릴 — 커넥톰, 단백질 도킹, 초파리 군집" width="100%"></a>
+  <a href="https://flybrain.kr/en"><img src="docs/assets/fddd-showreel-15s-en-v1.1.0.webp" alt="FDDD 15-second motion showreel — connectome, protein docking, fly swarm" width="100%"></a>
 </p>
 
-**한국어** | [English](README.en.md)
+**English** | [한국어](README.ko.md)
 
-**초파리 신경망 모델이 분자들 사이를 탐색하며, 도킹 점수에 따른 선호를 학습하는 과정을 브라우저에서 관찰하는 연구 데모입니다.**
+**A browser-based research demo where fruit-fly neural models explore molecules and learn preferences from molecular docking scores.**
 
-![분자 도킹에서 보상을 만들고, 초파리 신경망 모델을 거쳐 탐색과 선호 분포로 이어지는 과정](docs/assets/fddd-overview.jpg)
+![Molecular docking leads to reward, a fruit-fly neural model, and exploration and preference](docs/assets/fddd-overview.jpg)
 
-**분자 도킹 → 보상 → 초파리 신경망 → 탐색·선호**
+**Molecular docking → Reward → Fruit-fly neural model → Exploration & preference**
 
-*이해를 돕기 위한 AI 생성 3D 개념도입니다. 실제 분자 구조, 신경 연결, 실험 결과를 나타내는 그림은 아닙니다.*
+*AI-generated 3D concept illustration for explanation only. It does not depict actual molecular structures, neural connectivity, or experimental results.*
 
-## 바로 체험하기
+## Try it live
 
-- **대표 사이트: https://flybrain.kr/**
-- **동일한 데모의 다른 주소: https://drug.flybrain.kr/**
-- **영어 페이지: https://flybrain.kr/en** · 화면 오른쪽 위 `KO | EN`으로도 전환할 수 있습니다.
+- **Main site (English): https://flybrain.kr/en**
+- **Alternative address for the same demo: https://drug.flybrain.kr/en**
+- **Korean:** Select `KO` in the language switcher at the top right.
 
-설치나 로그인 없이 열 수 있습니다. 초기 데이터 로딩이 끝나면 자동으로 시작합니다. 신경망 계산은 서버가 아니라 **방문자의 브라우저 안에서** 실행됩니다.
+No installation or login is needed. The demo starts automatically after loading its data. Neural computation runs **in your browser**, not on a server.
 
-## 어떤 페이지인가요?
+## What am I looking at?
 
-화면에는 단백질과 작은 분자, 그리고 그 사이를 날아다니는 가상 초파리들이 있습니다. 파리마다 실제 초파리의 신경 연결 지도인 **MaleCNS**를 바탕으로 만든 독립적인 신경망 모델이 하나씩 실행됩니다. 신경 연결 지도는 어떤 신경세포가 서로 연결되어 있는지를 기록한 데이터입니다.
+The scene contains proteins, small molecules, and virtual fruit flies moving among them. Each fly runs an independent neural model based on **MaleCNS**, a measured map of connections between fruit-fly neurons.
 
-분자 도킹은 **작은 분자가 단백질에 어떤 자세로 들어맞을지 계산하는 방법**입니다. FDDD는 미리 실행한 AutoDock Vina 도킹 결과를 읽고, 그 점수를 보상으로 바꾸어 파리의 후보별 선호를 갱신합니다. 방문자는 파리가 어디로 이동하고 얼마나 머무는지, 그동안 신경 활동과 선호가 어떻게 달라지는지 함께 볼 수 있습니다.
+Molecular docking is **a computational method for estimating how a small molecule might fit into a protein**. FDDD loads results from completed AutoDock Vina runs, converts the scores into rewards, and updates each fly's preference for the candidates it visits. You can watch where the flies go, how long they stay, and how their neural activity and preferences change.
 
-> 쉽게 말하면, **분자 도킹 결과를 가상 초파리의 탐색과 학습으로 표현한 실험 공간**입니다. 실제 초파리에게 약을 먹이는 실험이나, 신약의 효과를 입증하는 서비스는 아닙니다.
+> This is **an experimental space that turns docking results into virtual fly exploration and learning**. It is not an experiment that gives drugs to living flies, or a service that proves a drug works.
 
-## 처음에는 이렇게 보세요
+## A quick tour
 
-1. **중앙의 3D 공간**을 보세요. 드래그로 회전하고, 스크롤로 확대하며, 오른쪽 드래그로 화면을 이동할 수 있습니다.
-2. **파리나 아래 뇌 타일을 선택**해 보세요. 선택한 개체의 신경 활동, 운동 출력, 학습된 선호를 확인할 수 있습니다. `Follow selected fly`를 누르면 카메라가 따라갑니다.
-3. **아래 분자 카드**를 비교해 보세요. `Vina kcal/mol`은 미리 계산된 도킹 점수, `residence · last 3 min`은 최근 3분 동안 실제 시뮬레이션에서 기록된 체류 비율입니다. 두 값은 같은 지표가 아닙니다.
-4. **`Reward ON / OFF`**로 선호 학습을 켜거나 멈춰 보세요. OFF는 현재 선호값의 갱신을 멈추지만 비행과 신경망 계산은 계속합니다. 전체 실행을 멈추려면 `Pause colony`를 사용하세요.
-5. 단백질과 분자를 더 자세히 보려면 카드를 선택한 뒤 **`Selected complex in Mol*`**를 누르세요.
+1. **Explore the central 3D scene.** Drag to rotate, scroll to zoom, and right-drag to pan.
+2. **Select a fly or a brain tile below the scene.** Inspect that individual's neural activity, motor output, and learned preferences. Use `Follow selected fly` to follow it with the camera.
+3. **Compare the molecule cards below.** `Vina kcal/mol` is the precomputed docking score. `residence · last 3 min` is the share of time actually recorded near each destination in the simulation during the last three minutes. These are different measures.
+4. **Toggle `Reward ON / OFF`.** OFF freezes preference updates, but flight and neural computation continue. Use `Pause colony` to pause the whole simulation.
+5. For a closer look at a protein and molecule, select its card and click **`Selected complex in Mol*`**.
 
-**느리다면:** `BRAINS`를 4로 낮추고 탭 하나만 열어 두세요. 4·8·12·20마리 중 선택할 수 있으며, 기본값은 기기 성능에 따라 정해집니다. 마릿수를 바꾸면 세션이 다시 시작됩니다. 여러 신경망을 동시에 계산하므로 데스크톱 브라우저를 권장합니다.
+**If it runs slowly:** Set `BRAINS` to 4 and keep only one demo tab open. Options are 4, 8, 12, and 20 flies; the default is chosen for your device. Changing the count restarts the session. A desktop browser is recommended because several neural models run at once.
 
-## 어떻게 작동하나요?
+## How does it work?
 
 ```text
-미리 실행한 분자 도킹 결과
-           ↓
-점수를 보상으로 변환 → 접촉한 후보의 선호값 갱신
-           ↓
-미각 신경 입력에 보상 전달 + 개체별 신경망 계산
-           ↓
-계산된 운동 출력 + 설계된 이동·체류 규칙
-           ↓
-다음 후보 탐색, 신경 활동과 체류 분포 표시
+Previously executed molecular docking results
+                    ↓
+Convert scores into rewards → update preference for the contacted candidate
+                    ↓
+Send reward to gustatory inputs + compute each fly's neural model
+                    ↓
+Computed motor output + authored movement and residence rules
+                    ↓
+Explore the next candidate; display activity and residence distribution
 ```
 
-보상이 높은 후보를 더 선호하도록 설계했지만 한 후보에만 모이게 하지는 않습니다. 학습한 값에 비례해 다음 목적지를 선택하며 일부 탐색을 유지합니다. 짧은 실행에서 체류 순위가 도킹 점수 순위와 정확히 일치할 필요는 없습니다.
+The policy favors higher-reward candidates without sending every fly to just one candidate. It selects destinations in proportion to learned values while retaining some exploration. Residence rankings in a short run need not match the docking-score rankings exactly.
 
-## 실제 데이터와 설계된 규칙의 구분
+## What is measured, computed, or designed?
 
-| 구분 | 현재 구현 |
+| Component | Current implementation |
 | --- | --- |
-| **신경 연결 데이터** | MaleCNS v1.0의 한 수컷 초파리에서 얻은 뇌 + 복측신경삭(VNC) 연결 데이터 사용 |
-| **개체별 신경망 계산** | 선택된 **167,122개 뉴런**, **6,241,236개 방향성 연결**을 개체마다 독립적으로 계산. 연결당 시냅스가 5개 이상인 경우만 포함 |
-| **뇌 시각화** | 측정된 세포체 위치 **28,195개**로 활동을 표시. 그림은 표본이지만 계산은 선택된 전체 뉴런을 대상으로 수행 |
-| **분자 구조와 도킹** | 단백질 3종, 분자 6종의 **실제로 실행한 8개 조합**. 실험 구조와 계산된 결합 자세를 표시 |
-| **보상 입력** | 보상을 MaleCNS에서 미각으로 분류된 **1,428개 뉴런**에 입력. 입력 방식과 크기는 설계한 규칙 |
-| **학습과 움직임** | 도킹 점수의 보상 변환, 후보 선호 갱신, 비행·체류 규칙은 개발자가 설계. 신경망의 계산 결과가 움직임에 영향을 줌 |
+| **Connectivity data** | MaleCNS v1.0 brain and ventral nerve cord (VNC) connectivity from a single male fruit fly |
+| **Neural computation per fly** | **167,122 selected neurons** and **6,241,236 directed connections**, computed independently for each fly. Only connections with at least 5 synapses are retained |
+| **Brain visualization** | Activity displayed at **28,195 measured soma locations**. The picture uses a sample; computation covers the entire selected neuron population |
+| **Structures and docking** | **8 executed combinations** involving 3 proteins and 6 distinct molecules. Experimental structures and computed docking poses are shown |
+| **Reward input** | Reward is sent to **1,428 neurons** annotated as gustatory in MaleCNS. The input mapping and strength are authored rules |
+| **Learning and movement** | Score-to-reward conversion, candidate preference updates, and flight/residence rules are engineered. Computed neural output influences movement |
 
-**해석할 때 주의할 점**
+**Important limits**
 
-- 도킹 점수는 실험으로 측정한 결합 친화도나 약효가 아닙니다. 서로 다른 단백질의 원점수를 임상적 우열로 비교할 수 없습니다.
-- 파리는 이미 계산된 점수에서 만든 보상으로 학습합니다. 신경망이 결합력을 독립적으로 발견하거나 새 약물을 검증한 것이 아닙니다.
-- 실제 연결 데이터를 사용하지만 신경세포 동역학, 감각·운동 변환, 선호 학습은 단순화한 모델입니다. 생물학적 시냅스 가소성이나 실제 초파리 행동을 재현했다고 주장하지 않습니다.
-- **167,122는 공식적으로 추적 완료된 뉴런 수가 아닙니다.** `Traced` 165,122개에 추가 선택 2,000개를 포함한 모델 범위입니다. 추가분 중 1,991개는 원자료에서 `Out of scope`로 표시되어 있습니다. 전체 원본 그래프를 필터 없이 사용하는 것도 아닙니다. [선택 기준과 출처](public/data/malecns/NOTICE.md)
-- 파리 아바타는 시각적 표현이며 분자와 실제 물리적 축척이 같지 않습니다.
+- Docking scores are not experimentally measured binding affinities or drug efficacy. Raw scores across different proteins do not establish clinical superiority.
+- The flies learn from rewards derived from known docking results. The neural model does not independently discover binding strength or validate new drugs.
+- The connectivity is measured, but neural dynamics, sensory/motor mappings, and preference learning are simplified models. This is not a claim of biological synaptic plasticity or validated fruit-fly behavior.
+- **167,122 is not the officially traced neuron count.** It includes 165,122 `Traced` neurons plus 2,000 additional selected rows. Of those additions, 1,991 are labeled `Out of scope` in the source. This is a selected, filtered model, not the complete unfiltered source graph. [Selection and provenance](public/data/malecns/NOTICE.md)
+- Fly avatars are visual representations and are not on the same physical scale as the molecules.
 
-## 공개 사이트와 데이터 저장
+## Public sites and recording
 
-두 도메인은 **같은 정적 웹 데모**를 제공합니다. 공개 사이트는 신경망을 브라우저에서 계산하고, 이미 실행된 도킹 결과를 보여 줍니다. 서버에서 새 도킹을 실행하거나 모델을 재학습하지 않습니다.
+Both domains serve **the same static web demo**. The public site computes neural activity in the browser and displays completed docking results. It does not run new docking jobs or retrain models on a server.
 
-신경 활동 기록은 서버로 업로드되지 않고 해당 브라우저의 IndexedDB에 저장됩니다. 공개판은 원시 스파이크 데이터 **500 MB**까지 기록하며, 한도에 도달하면 기록만 멈추고 계산과 표시는 계속합니다. **새 세션이 시작되면 이전 세션의 기록은 자동 삭제됩니다.** 공개판에는 프로젝트 폴더로 기록을 저장하는 기능이 없습니다.
+Neural recordings are not uploaded. They remain in that browser's IndexedDB. The public build records up to **500 MB of raw spike data**; after that, recording stops but computation and display continue. **Starting a new session automatically deletes previous-session recordings.** The public build cannot save recordings into a project folder.
 
-## 내 컴퓨터에서 실행하기
+## Run locally
 
-Node.js 22 이상을 권장합니다.
+Node.js 22 or later is recommended.
 
 ```sh
 git clone https://github.com/AwesomeZun/FDDD.git
@@ -93,31 +93,37 @@ npm run build
 npm run serve
 ```
 
-http://localhost:5177/ 을 엽니다. 기본 데모에 필요한 MaleCNS 데이터와 실행된 도킹 결과는 저장소에 포함되어 있습니다.
+Open http://localhost:5177/. The repository includes the MaleCNS runtime data and completed docking results needed for the basic demo.
 
 ```sh
-npm test            # 테스트
-npm run typecheck   # 타입 검사
+npm test            # Run tests
+npm run typecheck   # Check types
 ```
 
-로컬 서버에서는 `Save CNS records to project`로 현재 세션 기록을 `public/data/records/`에 저장할 수 있습니다. 보관하려면 새로고침 전에 저장하세요. 브라우저 Downloads 폴더는 사용하지 않습니다. 로컬판은 공개판의 500 MB 제한이 없으므로 저장 공간에 주의하세요.
+On the local server, `Save CNS records to project` saves current-session recordings under `public/data/records/`. Save before reloading if you want to keep them. The browser Downloads folder is not used. The local build does not have the public build's 500 MB cap, so watch disk usage.
 
-원본 대용량 데이터(`upstream/`), 백업, 세션 기록, 과거 FlyWire 데이터, 원시 학습 스파이크 파일, 로컬 도킹 도구(`.tools/`)는 GitHub에 포함하지 않습니다. **데모 실행과 도킹 재실행은 다릅니다.** 도킹을 다시 실행하려면 별도 도구 준비가 필요합니다.
+Large raw data (`upstream/`), backups, session recordings, archived FlyWire data, raw training spikes, and local docking tools (`.tools/`) are not included on GitHub. **Running the demo is different from rerunning docking.** New docking runs require separate tool setup.
 
-## 더 알아보기
+## Showreel
 
-- [도킹 조합, 방법 및 재현](docs/multi-target-docking.md)
-- [보상 입력과 선호 학습: 변경 이력 포함](docs/brain-reward-loop.md)
-- [MaleCNS 출처·선택 범위·모델 한계](public/data/malecns/NOTICE.md)
-- [MaleCNS 데이터 명세](public/data/malecns/manifest.json)
-- [공개 배포 구성과 제약: 배포 이력 포함](docs/public-deploy.md)
+The English motion showreel is available in **15-second and 30-second cuts**, with a self-contained HTML player, 1080p/60 fps MP4 masters, lightweight sharing copies, and cover images. The animated preview above uses the English 15-second cut.
 
-세부 문서에는 이전 구현의 실험 기록도 포함되어 있습니다. 현재 데모의 개요는 이 README를 기준으로 보세요.
+See [the showreel guide](showreel/README.md) for local playback, build instructions, data provenance, and the distinction between computed results and animation. The Korean v1.0.0 assets are preserved.
 
-## 출처와 라이선스
+## Further reading
 
-MaleCNS 데이터는 FlyEM / HHMI Janelia, University of Cambridge, MRC Laboratory of Molecular Biology, Google Research의 자료이며 **CC BY 4.0** 조건을 따릅니다. 분자 도킹에는 AutoDock Vina / Webina, 구조 뷰어에는 Mol*를 사용합니다.
+- [Docking combinations, methods, and reproduction](docs/multi-target-docking.md)
+- [Reward input and preference learning, including change history](docs/brain-reward-loop.md)
+- [MaleCNS provenance, selection, and model limits](public/data/malecns/NOTICE.md)
+- [MaleCNS data manifest](public/data/malecns/manifest.json)
+- [Public deployment configuration and limits, including deployment history](docs/public-deploy.md)
 
-코드, 데이터, 도구의 라이선스는 각각 다릅니다. 재사용할 때 [LICENSE](LICENSE), [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md), 각 데이터의 출처·라이선스를 확인하고 유지해 주세요.
+Detailed documents also contain experiments from earlier implementations. Use this README for an overview of the current demo.
+
+## Credits and licenses
+
+MaleCNS data comes from FlyEM / HHMI Janelia, the University of Cambridge, the MRC Laboratory of Molecular Biology, and Google Research, under **CC BY 4.0**. Molecular docking uses AutoDock Vina / Webina; detailed structure viewing uses Mol*.
+
+Code, data, and tools have separate licenses. Before reuse, review and preserve [LICENSE](LICENSE), [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md), and the notices accompanying each dataset.
 
 Built with [fly-connectome-template](https://github.com/cobanov/fly-connectome-template) by [Mert Cobanov](https://github.com/cobanov).

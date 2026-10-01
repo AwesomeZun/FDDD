@@ -13,3 +13,14 @@ scripts/docking/bin/
 *.log
 # Webina (durrantlab/webina, Apache-2.0) is cloned locally for offline docking; see docs/multi-target-docking.md
 .tools/
+
+# Showreel exports: retain reproducible source, English HTML, and cover images.
+showreel/build/.tmp/
+showreel/**/__pycache__/
+!showreel/dist/
+showreel/dist/*
+!showreel/dist/fddd-showreel-en-v1.1.0.html
+!showreel/dist/thumbnails/
+showreel/dist/thumbnails/*
+!showreel/dist/thumbnails/*-en-*-v1.1.0.jpg
+!showreel/dist/thumbnails/*-en-*-v1.1.0.png
